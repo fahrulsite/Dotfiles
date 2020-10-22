@@ -1,0 +1,5 @@
+2020/09/29-19:19:29.786 195d Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_app.luminpdf.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/29-19:19:34.439 121e Level-0 table #5: started
+2020/09/29-19:19:34.595 121e Level-0 table #5: 809 bytes OK
+2020/09/29-19:19:34.818 121e Delete type=0 #3
+2020/09/29-19:19:34.818 121e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

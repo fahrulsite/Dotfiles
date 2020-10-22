@@ -1,0 +1,15 @@
+2020/07/25-21:35:30.542 f4b Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.nama-indonesia.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/25-21:35:30.542 f4b Recovering log #31
+2020/07/25-21:35:30.542 f4b Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.nama-indonesia.com_0.indexeddb.leveldb/000031.log 
+2020/07/25-21:36:27.304 d70 Level-0 table #36: started
+2020/07/25-21:36:27.338 d70 Level-0 table #36: 471 bytes OK
+2020/07/25-21:36:27.386 d70 Delete type=0 #31
+2020/07/25-21:36:27.386 d70 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/25-21:36:27.386 d70 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00_\x00_\x00s\x00a\x00k' @ 299 : 1
+2020/07/25-21:36:27.386 d70 Compacting 1@1 + 1@2 files
+2020/07/25-21:36:27.428 d70 Generated table #37@1: 18 keys, 571 bytes
+2020/07/25-21:36:27.428 d70 Compacted 1@1 + 1@2 files => 571 bytes
+2020/07/25-21:36:27.463 d70 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/25-21:36:27.464 d70 Delete type=2 #33
+2020/07/25-21:36:27.464 d70 Delete type=2 #36
+2020/07/25-21:36:27.464 d70 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00_\x00_\x00s\x00a\x00k' @ 299 : 1 .. (end); will stop at (end)

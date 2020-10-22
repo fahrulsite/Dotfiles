@@ -1,0 +1,15 @@
+2020/10/16-20:24:47.006 3790 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/16-20:24:47.006 3790 Recovering log #4
+2020/10/16-20:24:47.006 3790 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/000004.log 
+2020/10/16-20:24:59.457 3790 Level-0 table #8: started
+2020/10/16-20:24:59.963 3790 Level-0 table #8: 845 bytes OK
+2020/10/16-20:25:00.448 3790 Delete type=0 #4
+2020/10/16-20:25:00.449 3790 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/16-20:25:00.449 3790 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x00\xc8\x08\x00s\x00e\x00t\x00t\x00i\x00n\x00g\x00s' @ 100 : 1
+2020/10/16-20:25:00.449 3790 Compacting 1@1 + 1@2 files
+2020/10/16-20:25:00.637 3790 Generated table #9@1: 44 keys, 832 bytes
+2020/10/16-20:25:00.637 3790 Compacted 1@1 + 1@2 files => 832 bytes
+2020/10/16-20:25:00.806 3790 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/16-20:25:00.807 3790 Delete type=2 #8
+2020/10/16-20:25:00.807 3790 Delete type=2 #5
+2020/10/16-20:25:01.018 3790 Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x08\x00s\x00e\x00t\x00t\x00i\x00n\x00g\x00s' @ 100 : 1 .. (end); will stop at (end)

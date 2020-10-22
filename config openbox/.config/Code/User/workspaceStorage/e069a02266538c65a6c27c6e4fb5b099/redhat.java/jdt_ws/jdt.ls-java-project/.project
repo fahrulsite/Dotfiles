@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/Belajarfile (2).java</name>
+			<type>1</type>
+			<location>/home/fahrul/Downloads/Belajarfile (2).java</location>
+		</link>
+		<link>
+			<name>src/Belajarfile.java</name>
+			<type>1</type>
+			<location>//home/fahrul/Downloads/Belajarfile.java</location>
+		</link>
+		<link>
+			<name>src/Oke.java</name>
+			<type>1</type>
+			<location>//home/fahrul/Desktop/Oke.java</location>
+		</link>
+		<link>
+			<name>src/Replacecoba.java</name>
+			<type>1</type>
+			<location>/home/fahrul/Documents/Kuliah/Semester 2/Pemrograman 2/Praktik/Replacecoba.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

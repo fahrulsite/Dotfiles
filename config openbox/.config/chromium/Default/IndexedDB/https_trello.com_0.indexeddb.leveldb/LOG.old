@@ -1,0 +1,15 @@
+2020/08/26-19:12:12.491 868 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_trello.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/26-19:12:12.491 868 Recovering log #91
+2020/08/26-19:12:12.491 868 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_trello.com_0.indexeddb.leveldb/000091.log 
+2020/08/26-19:15:01.206 8f2 Level-0 table #96: started
+2020/08/26-19:15:01.254 8f2 Level-0 table #96: 1313 bytes OK
+2020/08/26-19:15:01.291 8f2 Delete type=0 #91
+2020/08/26-19:15:01.291 8f2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/26-19:15:01.291 8f2 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\x90\xb4\xec\xaaBwB\x00\x01Z\x00t\x00r\x00e\x00l\x00l\x00o\x00-\x00c\x00a\x00c\x00h\x00e\x00-\x00v\x004\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00a\x00.\x00t\x00r\x00e\x00l\x00l\x00o\x00c\x00d\x00n\x00.\x00c\x00o\x00m\x00/\x00p\x00r\x00g\x00b\x00/\x00d\x00i\x00s\x00t\x00/\x00c\x00a\x00r\x00d\x00-\x00d\x00e\x00t\x00a\x00i\x00l\x00-\x00v\x00i\x00e\x00w\x00.\x000\x00d\x00f\x003\x00f\x004\x007\x006\x000\x007\x008\x00d\x000\x000\x003\x005\x00c\x001\x006\x002\x00.\x00j\x00s' @ 8693 : 1
+2020/08/26-19:15:01.292 8f2 Compacting 1@1 + 1@2 files
+2020/08/26-19:15:01.355 8f2 Generated table #97@1: 455 keys, 42844 bytes
+2020/08/26-19:15:01.355 8f2 Compacted 1@1 + 1@2 files => 42844 bytes
+2020/08/26-19:15:01.457 8f2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/26-19:15:01.458 8f2 Delete type=2 #96
+2020/08/26-19:15:01.458 8f2 Delete type=2 #93
+2020/08/26-19:15:01.458 8f2 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\x90\xb4\xec\xaaBwB\x00\x01Z\x00t\x00r\x00e\x00l\x00l\x00o\x00-\x00c\x00a\x00c\x00h\x00e\x00-\x00v\x004\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00a\x00.\x00t\x00r\x00e\x00l\x00l\x00o\x00c\x00d\x00n\x00.\x00c\x00o\x00m\x00/\x00p\x00r\x00g\x00b\x00/\x00d\x00i\x00s\x00t\x00/\x00c\x00a\x00r\x00d\x00-\x00d\x00e\x00t\x00a\x00i\x00l\x00-\x00v\x00i\x00e\x00w\x00.\x000\x00d\x00f\x003\x00f\x004\x007\x006\x000\x007\x008\x00d\x000\x000\x003\x005\x00c\x001\x006\x002\x00.\x00j\x00s' @ 8693 : 1 .. (end); will stop at (end)

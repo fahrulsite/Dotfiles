@@ -1,0 +1,15 @@
+2020/10/02-08:04:41.153 4850 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_kabar24.bisnis.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/02-08:04:41.153 4850 Recovering log #4
+2020/10/02-08:04:41.153 4850 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_kabar24.bisnis.com_0.indexeddb.leveldb/000004.log 
+2020/10/02-08:27:34.780 149a Level-0 table #8: started
+2020/10/02-08:27:34.825 149a Level-0 table #8: 756 bytes OK
+2020/10/02-08:27:34.856 149a Delete type=0 #4
+2020/10/02-08:27:34.856 149a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/02-08:27:34.856 149a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00I\x00Z\x00C\x00I\x00D' @ 91 : 1
+2020/10/02-08:27:34.856 149a Compacting 1@1 + 1@2 files
+2020/10/02-08:27:34.892 149a Generated table #9@1: 28 keys, 697 bytes
+2020/10/02-08:27:34.892 149a Compacted 1@1 + 1@2 files => 697 bytes
+2020/10/02-08:27:34.922 149a compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/02-08:27:34.923 149a Delete type=2 #8
+2020/10/02-08:27:34.923 149a Delete type=2 #5
+2020/10/02-08:27:34.923 149a Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00I\x00Z\x00C\x00I\x00D' @ 91 : 1 .. (end); will stop at (end)

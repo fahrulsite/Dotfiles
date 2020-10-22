@@ -1,0 +1,5 @@
+2020/09/17-09:48:22.876 6b08 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/http_belajardasarvisualbasic.blogspot.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/17-09:49:45.216 6bb5 Level-0 table #5: started
+2020/09/17-09:49:45.269 6bb5 Level-0 table #5: 1785 bytes OK
+2020/09/17-09:49:45.299 6bb5 Delete type=0 #3
+2020/09/17-09:49:45.299 6bb5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

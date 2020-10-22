@@ -1,0 +1,16 @@
+[2020-10-14 00:20:49.343] [sharedprocess] [info] main {"machineId":"b5857937ae6387118d4f14e6c2b62243d4e54328b3683e5c43f566862c7f07e0","windowId":2}
+[2020-10-14 00:20:49.756] [sharedprocess] [info] Deleted from disk vscjava.vscode-java-debug /home/fahrul/.vscode/extensions/vscjava.vscode-java-debug-0.27.1
+[2020-10-14 00:20:49.758] [sharedprocess] [info] Deleted from disk dart-code.flutter /home/fahrul/.vscode/extensions/dart-code.flutter-3.12.2
+[2020-10-14 00:20:55.133] [sharedprocess] [info] Installing extension: dart-code.dart-code
+[2020-10-14 00:20:55.135] [sharedprocess] [info] Installing extension: redhat.java
+[2020-10-14 00:20:55.162] [sharedprocess] [info] Downloaded extension: dart-code.dart-code undefined
+[2020-10-14 00:21:07.047] [sharedprocess] [info] Downloaded extension: redhat.java undefined
+[2020-10-14 00:21:08.647] [sharedprocess] [info] Extracted extension to /home/fahrul/.vscode/extensions/.redhat.java-0.68.0: redhat.java
+[2020-10-14 00:21:08.647] [sharedprocess] [info] Renamed to /home/fahrul/.vscode/extensions/redhat.java-0.68.0
+[2020-10-14 00:21:08.651] [sharedprocess] [info] Installation completed. redhat.java
+[2020-10-14 00:21:08.779] [sharedprocess] [info] Extensions installed successfully: redhat.java
+[2020-10-14 00:21:13.202] [sharedprocess] [info] Extracted extension to /home/fahrul/.vscode/extensions/.dart-code.dart-code-3.15.0: dart-code.dart-code
+[2020-10-14 00:21:13.202] [sharedprocess] [info] Renamed to /home/fahrul/.vscode/extensions/dart-code.dart-code-3.15.0
+[2020-10-14 00:21:13.207] [sharedprocess] [info] Installation completed. dart-code.dart-code
+[2020-10-14 00:21:13.376] [sharedprocess] [info] Extensions installed successfully: dart-code.dart-code
+[2020-10-14 00:21:29.366] [sharedprocess] [info] Starting to clean up unused language packs.

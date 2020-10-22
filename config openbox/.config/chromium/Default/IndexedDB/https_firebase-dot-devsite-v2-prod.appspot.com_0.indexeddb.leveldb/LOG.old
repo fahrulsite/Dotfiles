@@ -1,0 +1,8 @@
+2020/08/11-15:44:42.166 2646 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_firebase-dot-devsite-v2-prod.appspot.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/11-15:44:42.167 2646 Recovering log #19
+2020/08/11-15:44:42.167 2646 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_firebase-dot-devsite-v2-prod.appspot.com_0.indexeddb.leveldb/000019.log 
+2020/08/11-15:45:15.882 76e Level-0 table #24: started
+2020/08/11-15:45:15.882 76e Level-0 table #24: 0 bytes OK
+2020/08/11-15:45:16.000 76e Delete type=0 #19
+2020/08/11-15:45:16.000 76e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/11-15:45:16.000 76e Manual compaction at level-1 from (begin) .. (end); will stop at (end)

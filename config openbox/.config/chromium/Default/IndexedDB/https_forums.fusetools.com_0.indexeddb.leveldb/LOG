@@ -1,0 +1,5 @@
+2020/06/21-21:37:37.383 9ae2 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_forums.fusetools.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/21-21:38:42.204 8668 Level-0 table #5: started
+2020/06/21-21:38:42.259 8668 Level-0 table #5: 53678 bytes OK
+2020/06/21-21:38:42.311 8668 Delete type=0 #3
+2020/06/21-21:38:42.312 8668 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

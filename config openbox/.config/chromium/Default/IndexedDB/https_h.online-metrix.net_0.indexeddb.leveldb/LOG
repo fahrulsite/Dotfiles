@@ -1,0 +1,5 @@
+2020/07/08-22:29:22.466 5e9 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/08-22:29:30.177 922 Level-0 table #5: started
+2020/07/08-22:29:30.210 922 Level-0 table #5: 1241 bytes OK
+2020/07/08-22:29:30.355 922 Delete type=0 #3
+2020/07/08-22:29:30.355 922 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

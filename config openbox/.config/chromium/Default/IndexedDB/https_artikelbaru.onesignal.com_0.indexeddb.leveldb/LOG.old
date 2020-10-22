@@ -1,0 +1,5 @@
+2020/09/08-14:42:31.288 e5fc Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_artikelbaru.onesignal.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/08-14:42:38.285 ef6 Level-0 table #5: started
+2020/09/08-14:42:38.401 ef6 Level-0 table #5: 6253 bytes OK
+2020/09/08-14:42:38.582 ef6 Delete type=0 #3
+2020/09/08-14:42:38.583 ef6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,20 @@
+{
+   "color_pick_btn": {
+      "message": "Pick color from web page"
+   },
+   "description": {
+      "message": "Wählen Sie Farbe ab Seite mit Pipette und bekommen Farbpalette von Seiten."
+   },
+   "dominant_color": {
+      "message": "Dominant color"
+   },
+   "name": {
+      "message": "Rainbow Color Picker"
+   },
+   "select_color": {
+      "message": "Select color"
+   },
+   "selected_color": {
+      "message": "Selected color"
+   }
+}

@@ -1,0 +1,27 @@
+2020/10/20-14:31:17.602 2125 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-003717
+2020/10/20-14:31:17.603 2125 Recovering log #3867
+2020/10/20-14:31:17.603 2125 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/003867.log 
+2020/10/20-14:37:06.296 2923 Level-0 table #3878: started
+2020/10/20-14:37:06.423 2923 Level-0 table #3878: 930297 bytes OK
+2020/10/20-14:37:06.501 2923 Delete type=0 #3867
+2020/10/20-14:37:06.502 2923 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/20-14:37:06.503 2923 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x02\x1f\x03\x00@\xfd\xf2NTwB\x00\x01,\x00s\x00x\x00c\x00B\x00Y\x00x\x00h\x00s\x00T\x00d\x00M\x00/\x00c\x00X\x00h\x006\x00w\x00F\x00B\x007\x00N\x00g\x00c\x00N\x00R\x00B\x00A\x000\x00X\x00y\x00W\x006\x00c\x00a\x006\x00y\x00D\x00f\x00M\x00d\x00B\x00x\x00E\x00=' @ 12793909 : 1
+2020/10/20-14:37:06.503 2923 Compacting 1@1 + 7@2 files
+2020/10/20-14:37:06.659 2923 Generated table #3879@1: 49009 keys, 2250065 bytes
+2020/10/20-14:37:06.846 2923 Generated table #3880@1: 3474 keys, 2834010 bytes
+2020/10/20-14:37:07.011 2923 Generated table #3881@1: 1767 keys, 2767753 bytes
+2020/10/20-14:37:07.171 2923 Generated table #3882@1: 1580 keys, 2870221 bytes
+2020/10/20-14:37:07.336 2923 Generated table #3883@1: 1842 keys, 2808321 bytes
+2020/10/20-14:37:07.492 2923 Generated table #3884@1: 1668 keys, 2836492 bytes
+2020/10/20-14:37:07.550 2923 Generated table #3885@1: 2266 keys, 372080 bytes
+2020/10/20-14:37:07.550 2923 Compacted 1@1 + 7@2 files => 16738942 bytes
+2020/10/20-14:37:07.640 2923 compacted to: files[ 0 0 7 0 0 0 0 ]
+2020/10/20-14:37:07.642 2923 Delete type=2 #3872
+2020/10/20-14:37:07.642 2923 Delete type=2 #3875
+2020/10/20-14:37:07.642 2923 Delete type=2 #3874
+2020/10/20-14:37:07.643 2923 Delete type=2 #3870
+2020/10/20-14:37:07.643 2923 Delete type=2 #3871
+2020/10/20-14:37:07.644 2923 Delete type=2 #3869
+2020/10/20-14:37:07.644 2923 Delete type=2 #3878
+2020/10/20-14:37:07.644 2923 Delete type=2 #3873
+2020/10/20-14:37:07.650 2923 Manual compaction at level-1 from '\x00\x05\x02\x1f\x03\x00@\xfd\xf2NTwB\x00\x01,\x00s\x00x\x00c\x00B\x00Y\x00x\x00h\x00s\x00T\x00d\x00M\x00/\x00c\x00X\x00h\x006\x00w\x00F\x00B\x007\x00N\x00g\x00c\x00N\x00R\x00B\x00A\x000\x00X\x00y\x00W\x006\x00c\x00a\x006\x00y\x00D\x00f\x00M\x00d\x00B\x00x\x00E\x00=' @ 12793909 : 1 .. (end); will stop at (end)

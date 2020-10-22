@@ -1,0 +1,39 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/coba_dart">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1d80C2PFDPJ0ZjyCo0NsdehBfA9">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-201.7223.91" />
+              <option name="buildTimestamp" value="1588874010358" />
+              <frame x="65" y="30" width="1281" height="708" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1600958846756" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/BelajarDart">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1hxmhLwM2ExvCPu6HjQocsSIdbf">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-201.7223.91" />
+              <option name="buildTimestamp" value="1588874010358" />
+              <frame x="53" y="8" width="1305" height="752" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1600961238005" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/IdeaProjects/BelajarDart" />
+        <option value="$USER_HOME$/IdeaProjects/coba_dart" />
+      </list>
+    </option>
+  </component>
+</application>

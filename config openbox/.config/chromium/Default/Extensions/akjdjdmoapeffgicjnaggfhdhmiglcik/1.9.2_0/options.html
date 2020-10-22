@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Options | App for Instagram</title>
+    <link rel="stylesheet" href="css/options.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-wrapper">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/options-logo.png" alt="logo">
+            </a>
+            <h1>App for Instagram</h1>
+        </div>
+        <div class="inner-container hidden">
+            <div class="option-item">
+                <div class="option-item-header">
+                    <h2>Photo Zoom</h2>
+                    <div class="toggle-button" id="zoom-button">
+                        <div class="inner-circle"></div>
+                    </div>
+                </div>
+                <p>
+                    Photo zoomer makes it possible to open a photo in the new tab and to see its real size. 
+                    Move the cursor on the photo and click Z button.
+                </p>
+
+            </div>
+            <div class="option-item">
+                <div class="option-item-header">
+                    <h2>Pin extension</h2>
+                    <div class="toggle-button" id="pin-button">
+                        <div class="inner-circle"></div>
+                    </div>
+                </div>
+                <p>
+                    You are able to fix the position of your extension over the other applications
+                </p>
+
+            </div>
+            <!-- <div class="option-item">
+                <div class="option-item-header">
+                    <h2>Dark Mode</h2>
+                    <div class="toggle-button" id="theme-button">
+                        <div class="inner-circle"></div>
+                    </div>
+                </div>
+                <p>
+                    Enable the dark theme to Instagram. This mode will reduce eyestrain and protect your eyes.
+                </p>
+            </div> -->
+            <div class="option-item">
+                <div class="option-item-header">
+                    <h2>Screenshot Image format</h2>
+                    <div class="radio-container">
+                        <div class="radio-item">
+                            <input type="radio" id="png" name="imageType" value="png">
+                            <label for="png">png</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="jpeg" name="imageType" value="jpeg">
+                            <label for="jpeg">jpg</label>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    PNG is loseless and should match exactly what is seen on the screen, but will usually have larger
+                    file size than JPG
+                    , which uses compression.
+                </p>
+
+            </div>
+            <!-- <div class="option-item">
+                <div class="option-item-header">
+                    <h2>Add Features</h2>
+                    <a id="install" href="https://addext.me/" target="_blank">Install</a>
+                </div>
+                <p>
+                    These free extensions allow you to access additional functionality.
+                </p>
+            </div> -->
+        </div>
+    </div>
+    <script src="js/options.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+2020/08/29-13:25:42.534 f433 Reusing MANIFEST /home/fahrul/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2020/08/29-13:25:42.534 f433 Recovering log #12
+2020/08/29-13:25:42.545 f433 Reusing old log /home/fahrul/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000012.log 
+2020/08/29-13:25:42.546 f433 Delete type=2 #10
+2020/08/29-13:25:50.678 f4e0 Level-0 table #17: started
+2020/08/29-13:25:50.743 f4e0 Level-0 table #17: 3033 bytes OK
+2020/08/29-13:25:50.779 f4e0 Delete type=0 #12
+2020/08/29-13:25:50.779 f4e0 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 2644 : 1
+2020/08/29-13:25:50.779 f4e0 Compacting 1@0 + 1@1 files
+2020/08/29-13:25:50.833 f4e0 Generated table #18@0: 1369 keys, 16197 bytes
+2020/08/29-13:25:50.833 f4e0 Compacted 1@0 + 1@1 files => 16197 bytes
+2020/08/29-13:25:50.878 f4e0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/29-13:25:50.879 f4e0 Delete type=2 #17
+2020/08/29-13:25:50.879 f4e0 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 2644 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

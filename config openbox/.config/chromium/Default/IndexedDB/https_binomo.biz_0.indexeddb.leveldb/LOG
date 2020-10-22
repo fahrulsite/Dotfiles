@@ -1,0 +1,15 @@
+2020/09/19-23:03:17.551 4429 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_binomo.biz_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/19-23:03:17.552 4429 Recovering log #11
+2020/09/19-23:03:17.552 4429 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_binomo.biz_0.indexeddb.leveldb/000011.log 
+2020/09/19-23:03:51.583 a08 Level-0 table #16: started
+2020/09/19-23:03:51.628 a08 Level-0 table #16: 15086 bytes OK
+2020/09/19-23:03:51.663 a08 Delete type=0 #11
+2020/09/19-23:03:51.663 a08 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/19-23:03:51.663 a08 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xa0\xec\xafqJwB\x00\x01]\x00a\x00s\x00s\x00e\x00t\x00s\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00b\x00i\x00n\x00o\x00m\x00o\x00.\x00b\x00i\x00z\x00/\x00p\x00-\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x00l\x002\x008\x00/\x00h\x00o\x00m\x00e\x00-\x000\x00d\x000\x000\x008\x005\x006\x00c\x001\x003\x009\x005\x001\x006\x008\x006\x00e\x006\x00d\x005\x000\x005\x005\x00b\x006\x00d\x000\x001\x00a\x00f\x001\x005\x00.\x00j\x00p\x00g' @ 1426 : 1
+2020/09/19-23:03:51.663 a08 Compacting 1@1 + 1@2 files
+2020/09/19-23:03:51.718 a08 Generated table #17@1: 154 keys, 16932 bytes
+2020/09/19-23:03:51.718 a08 Compacted 1@1 + 1@2 files => 16932 bytes
+2020/09/19-23:03:51.751 a08 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/19-23:03:51.752 a08 Delete type=2 #16
+2020/09/19-23:03:51.752 a08 Delete type=2 #13
+2020/09/19-23:03:51.753 a08 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xa0\xec\xafqJwB\x00\x01]\x00a\x00s\x00s\x00e\x00t\x00s\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00b\x00i\x00n\x00o\x00m\x00o\x00.\x00b\x00i\x00z\x00/\x00p\x00-\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x00l\x002\x008\x00/\x00h\x00o\x00m\x00e\x00-\x000\x00d\x000\x000\x008\x005\x006\x00c\x001\x003\x009\x005\x001\x006\x008\x006\x00e\x006\x00d\x005\x000\x005\x005\x00b\x006\x00d\x000\x001\x00a\x00f\x001\x005\x00.\x00j\x00p\x00g' @ 1426 : 1 .. (end); will stop at (end)

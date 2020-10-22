@@ -1,0 +1,45 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_ss_linux -data /home/fahrul/.config/Code/User/workspaceStorage/68293c9b45ed0e278c22a07a5d268ea8/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2020-05-25 14:00:38.248'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_linux -data /home/fahrul/.config/Code/User/workspaceStorage/68293c9b45ed0e278c22a07a5d268ea8/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2020-05-25 14:00:38.302'
+}
+{
+  message: '[Error - 2:00:57 PM] May 25, 2020, 2:00:57 PM Error occured while building workspace. Details: \n' +
+    ' message: The declared package "" does not match the expected package "TA"; code: 536871240; resource: /home/fahrul/Documents/pemrog2/TA/Atm.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "TA"; code: 536871240; resource: /home/fahrul/Documents/pemrog2/TA/Bank.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "TA"; code: 536871240; resource: /home/fahrul/Documents/pemrog2/TA/Filee.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "TA"; code: 536871240; resource: /home/fahrul/Documents/pemrog2/TA/Interface.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "TA"; code: 536871240; resource: /home/fahrul/Documents/pemrog2/TA/Main.java; line: 1',
+  level: 'info',
+  timestamp: '2020-05-25 14:00:57.170'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_ss_linux -data /home/fahrul/.config/Code/User/workspaceStorage/68293c9b45ed0e278c22a07a5d268ea8/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2020-05-25 16:57:08.192'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_linux -data /home/fahrul/.config/Code/User/workspaceStorage/68293c9b45ed0e278c22a07a5d268ea8/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2020-05-25 16:57:08.265'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_ss_linux -data /home/fahrul/.config/Code/User/workspaceStorage/68293c9b45ed0e278c22a07a5d268ea8/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2020-05-25 19:08:40.230'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_linux -data /home/fahrul/.config/Code/User/workspaceStorage/68293c9b45ed0e278c22a07a5d268ea8/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2020-05-25 19:08:40.292'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 54, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-25 19:17:16.741'
+}

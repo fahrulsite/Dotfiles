@@ -1,0 +1,45 @@
+2020/09/30-11:16:03.000 47a6 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_console.firebase.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/30-11:16:03.000 47a6 Recovering log #260
+2020/09/30-11:16:03.016 47a6 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_console.firebase.google.com_0.indexeddb.leveldb/000260.log 
+2020/09/30-11:16:03.016 47a6 Delete type=2 #259
+2020/09/30-11:16:03.308 921 Level-0 table #265: started
+2020/09/30-11:16:03.383 921 Level-0 table #265: 1721 bytes OK
+2020/09/30-11:16:03.473 921 Delete type=0 #260
+2020/09/30-11:16:03.473 921 Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 3747 : 1
+2020/09/30-11:16:03.473 921 Compacting 1@0 + 1@1 files
+2020/09/30-11:16:03.583 921 Generated table #266@0: 30 keys, 1441 bytes
+2020/09/30-11:16:03.583 921 Compacted 1@0 + 1@1 files => 1441 bytes
+2020/09/30-11:16:03.688 921 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/30-11:16:03.689 921 Delete type=2 #265
+2020/09/30-11:16:03.689 921 Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 3747 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/09/30-11:16:08.634 921 Level-0 table #268: started
+2020/09/30-11:16:08.667 921 Level-0 table #268: 4102 bytes OK
+2020/09/30-11:16:08.717 921 Delete type=0 #264
+2020/09/30-11:16:08.717 921 Delete type=2 #262
+2020/09/30-11:16:08.717 921 Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x00\x00\x05' @ 3850 : 1
+2020/09/30-11:16:08.718 921 Compacting 1@0 + 1@1 files
+2020/09/30-11:16:08.802 921 Generated table #269@0: 43 keys, 1557 bytes
+2020/09/30-11:16:08.802 921 Compacted 1@0 + 1@1 files => 1557 bytes
+2020/09/30-11:16:08.850 921 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/30-11:16:08.850 921 Delete type=2 #268
+2020/09/30-11:16:08.850 921 Manual compaction at level-0 from '\x00\x12\x00\x00\x05' @ 3850 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/09/30-11:16:37.420 921 Level-0 table #271: started
+2020/09/30-11:16:37.475 921 Level-0 table #271: 1392 bytes OK
+2020/09/30-11:16:37.517 921 Delete type=2 #266
+2020/09/30-11:16:37.517 921 Delete type=0 #267
+2020/09/30-11:16:37.517 921 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x000\x003\x005\x000\x006\x006\x001\x008\x007\x009\x009\x00:\x00w\x00e\x00b\x00:\x00b\x007\x008\x00d\x003\x001\x00c\x001\x00a\x00e\x005\x007\x000\x00d\x003\x00b\x005\x00c\x003\x007\x005\x00a' @ 3869 : 1
+2020/09/30-11:16:37.517 921 Compacting 1@0 + 1@1 files
+2020/09/30-11:16:37.575 921 Generated table #272@0: 51 keys, 1598 bytes
+2020/09/30-11:16:37.575 921 Compacted 1@0 + 1@1 files => 1598 bytes
+2020/09/30-11:16:37.616 921 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/30-11:16:37.617 921 Delete type=2 #271
+2020/09/30-11:16:37.617 921 Delete type=2 #269
+2020/09/30-11:16:37.617 921 Manual compaction at level-0 from '\x00\x01\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x000\x003\x005\x000\x006\x006\x001\x008\x007\x009\x009\x00:\x00w\x00e\x00b\x00:\x00b\x007\x008\x00d\x003\x001\x00c\x001\x00a\x00e\x005\x007\x000\x00d\x003\x00b\x005\x00c\x003\x007\x005\x00a' @ 3869 : 1 .. (end); will stop at (end)
+2020/09/30-11:16:37.618 921 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x000\x003\x005\x000\x006\x006\x001\x008\x007\x009\x009\x00:\x00w\x00e\x00b\x00:\x00b\x007\x008\x00d\x003\x001\x00c\x001\x00a\x00e\x005\x007\x000\x00d\x003\x00b\x005\x00c\x003\x007\x005\x00a' @ 3877 : 1
+2020/09/30-11:16:37.618 921 Compacting 1@1 + 1@2 files
+2020/09/30-11:16:37.676 921 Generated table #273@1: 20 keys, 1301 bytes
+2020/09/30-11:16:37.676 921 Compacted 1@1 + 1@2 files => 1301 bytes
+2020/09/30-11:16:37.765 921 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/30-11:16:37.766 921 Delete type=2 #256
+2020/09/30-11:16:37.766 921 Delete type=2 #272
+2020/09/30-11:16:37.766 921 Manual compaction at level-1 from '\x00\x01\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x000\x003\x005\x000\x006\x006\x001\x008\x007\x009\x009\x00:\x00w\x00e\x00b\x00:\x00b\x007\x008\x00d\x003\x001\x00c\x001\x00a\x00e\x005\x007\x000\x00d\x003\x00b\x005\x00c\x003\x007\x005\x00a' @ 3877 : 1 .. (end); will stop at (end)

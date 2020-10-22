@@ -1,0 +1,253 @@
+{
+   "checksum": "43f53e80878e4be0f15a067176867e95",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13234426657018650",
+               "guid": "7b59df02-515b-432f-acc9-0ef9ccd9bc22",
+               "id": "5",
+               "name": "6.gif (1366×768)",
+               "type": "url",
+               "url": "https://raw.githubusercontent.com/adi1090x/files/master/plymouth-themes/previews/6.gif"
+            }, {
+               "date_added": "13234426668845660",
+               "guid": "4a488ec5-a250-495c-b571-e361db88b9e5",
+               "id": "7",
+               "name": "11.gif (1366×768)",
+               "type": "url",
+               "url": "https://raw.githubusercontent.com/adi1090x/files/master/plymouth-themes/previews/11.gif"
+            }, {
+               "date_added": "13234426671474413",
+               "guid": "f07978a5-983f-475d-8e20-412eaa92d31a",
+               "id": "8",
+               "name": "34.gif (1366×768)",
+               "type": "url",
+               "url": "https://raw.githubusercontent.com/adi1090x/files/master/plymouth-themes/previews/34.gif"
+            }, {
+               "date_added": "13234426673746350",
+               "guid": "1b167ef5-2b9a-4531-890f-33b584004b21",
+               "id": "9",
+               "name": "38.gif (1366×768)",
+               "type": "url",
+               "url": "https://raw.githubusercontent.com/adi1090x/files/master/plymouth-themes/previews/38.gif"
+            }, {
+               "date_added": "13234426676043338",
+               "guid": "37e61d12-bf9b-46d4-8755-c703c1105e1d",
+               "id": "10",
+               "name": "39.gif (1366×768)",
+               "type": "url",
+               "url": "https://raw.githubusercontent.com/adi1090x/files/master/plymouth-themes/previews/39.gif"
+            }, {
+               "date_added": "13234426679496744",
+               "guid": "2b3cb0dc-14a3-4f25-bd75-5267208adf50",
+               "id": "11",
+               "name": "56.gif (1366×768)",
+               "type": "url",
+               "url": "https://raw.githubusercontent.com/adi1090x/files/master/plymouth-themes/previews/56.gif"
+            } ],
+            "date_added": "13234426666369636",
+            "date_modified": "13234438581646272",
+            "guid": "e04fe988-6db8-41e5-bbd2-d737e589818a",
+            "id": "6",
+            "name": "boot linux",
+            "type": "folder"
+         }, {
+            "date_added": "13234438581646272",
+            "guid": "3ed77d2e-1a23-4df0-a478-827173cb0982",
+            "id": "14",
+            "name": "Fkam Sleman",
+            "type": "url",
+            "url": "https://www.facebook.com/pg/fkamsleman/posts/?ref=page_internal"
+         }, {
+            "date_added": "13234438594049725",
+            "guid": "1deab7f1-7b0d-4f46-b0a3-83e0d630d02b",
+            "id": "15",
+            "name": "FKAM Indonesia",
+            "type": "url",
+            "url": "https://www.facebook.com/pg/fkamindonesia/posts/?ref=page_internal"
+         }, {
+            "date_added": "13235989072883697",
+            "guid": "19d90d67-e529-4bd5-8223-714130657b9b",
+            "id": "52",
+            "name": "Dart packages",
+            "type": "url",
+            "url": "https://pub.dev/"
+         }, {
+            "date_added": "13235989105676319",
+            "guid": "27414895-e10c-46a0-80d4-c099eb233b59",
+            "id": "53",
+            "name": "Flutter - Beautiful native apps in record time",
+            "type": "url",
+            "url": "https://flutter.dev/docs"
+         }, {
+            "date_added": "13236761194364334",
+            "guid": "ed9cebb3-d6d0-4d7f-93d2-feb081131c1f",
+            "id": "55",
+            "name": "Flutter Awesome",
+            "type": "url",
+            "url": "https://flutterawesome.com/"
+         }, {
+            "date_added": "13239018135918641",
+            "guid": "bef0250e-2da5-4d20-aada-dbf58789dfae",
+            "id": "65",
+            "name": "intro Dart - Infinite - Google Slide",
+            "type": "url",
+            "url": "https://docs.google.com/presentation/d/1pkfWHxZUqPqFZMaviuJ2snKxVEqi1gndHm7RR_MfL80/edit"
+         }, {
+            "children": [ {
+               "date_added": "13242485038550183",
+               "guid": "b985364a-2e54-4949-ab4e-f4f6f8240ea9",
+               "id": "67",
+               "name": "Flutter + Firestore: You may be using it wrong. | by Michel Feinstein | Flutter Community | Aug, 2020 | Medium",
+               "type": "url",
+               "url": "https://medium.com/flutter-community/flutter-firestore-you-may-be-using-it-wrong-b56fa689e489"
+            } ],
+            "date_added": "13242485048837478",
+            "date_modified": "13243394653522844",
+            "guid": "5923f999-7505-47a9-8f5f-269cb430fa32",
+            "id": "68",
+            "name": "flutter",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13243394653522844",
+               "guid": "5e563b9b-cb8e-47f3-9975-6b5f152b562e",
+               "id": "70",
+               "name": "Course: Komunikasi Data (ekoaji2020)",
+               "type": "url",
+               "url": "http://besmart.uny.ac.id/v2/course/view.php?id=6086"
+            }, {
+               "date_added": "13243394686596746",
+               "guid": "ae94bdd1-c3f7-4964-b479-28b52baf761d",
+               "id": "72",
+               "name": "Course: BASIS DATA (S1-PTI)",
+               "type": "url",
+               "url": "http://besmart.uny.ac.id/v2/course/view.php?id=3449"
+            }, {
+               "date_added": "13243394692058548",
+               "guid": "88ccd00c-d872-4dab-a45c-b0aef68fa7de",
+               "id": "73",
+               "name": "Course: Praktik Komunikasi Data (ekoaji2020)",
+               "type": "url",
+               "url": "http://besmart.uny.ac.id/v2/course/view.php?id=6087"
+            }, {
+               "date_added": "13243394701473247",
+               "guid": "ff6f6363-d6b6-44d4-9508-dcca9412521c",
+               "id": "74",
+               "name": "Course: Pemrograman Visual 1 (SGT)",
+               "type": "url",
+               "url": "http://besmart.uny.ac.id/v2/course/view.php?id=674"
+            }, {
+               "date_added": "13243531304703509",
+               "guid": "04d773bb-66b2-46b5-be96-d0741529b3d9",
+               "id": "77",
+               "name": "Course: Pembelajaran Berbasis Multimedia (her-2020)",
+               "type": "url",
+               "url": "http://besmart.uny.ac.id/v2/course/view.php?id=6138"
+            }, {
+               "date_added": "13243531650869510",
+               "guid": "5950c528-ec61-427a-976b-ed97eef1d9ef",
+               "id": "78",
+               "name": "Struktur Data PTI 2019",
+               "type": "url",
+               "url": "https://classroom.google.com/u/1/c/MTUzNjY2Mzc3MjY3"
+            }, {
+               "date_added": "13244352125659565",
+               "guid": "3d1e7420-76f6-4e6c-b946-ab0d160f6a54",
+               "id": "87",
+               "name": "E1 - Praktikum Basis Data PTI 2019",
+               "type": "url",
+               "url": "https://classroom.google.com/u/1/c/MTQwNDc3MDM1NDMy"
+            }, {
+               "date_added": "13245301737368899",
+               "guid": "d05b0095-4d1d-4a9e-948c-a8b5435d1c2a",
+               "id": "89",
+               "name": "Course: Praktik Struktur Data",
+               "type": "url",
+               "url": "http://besmart.uny.ac.id/v2/course/view.php?id=1421"
+            } ],
+            "date_added": "13243394668398188",
+            "date_modified": "13245325701489306",
+            "guid": "35df19b1-b9a9-4158-83b3-1ce4b917a5e1",
+            "id": "71",
+            "name": "kuliah sm 3",
+            "type": "folder"
+         }, {
+            "date_added": "13243916804278427",
+            "guid": "8f0ecffe-0de7-4a43-a208-9553e8b6da61",
+            "id": "80",
+            "name": "Login - Single Sign On UNY",
+            "type": "url",
+            "url": "https://sso.uny.ac.id/login?service=http%3A%2F%2Fbesmart.uny.ac.id%2Fv2%2Flogin%2Findex.php%3FauthCAS%3DCAS"
+         }, {
+            "date_added": "13244049343658265",
+            "guid": "1b55c979-d4d4-4332-9a07-adb7d6b0761e",
+            "id": "82",
+            "name": "31:55 Praktikum Sistem Basis Data - Referential Integrity & Transaction Control Language (TCL) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=f8hI-orWJvY"
+         }, {
+            "date_added": "13244269568739219",
+            "guid": "7564c681-86e8-441d-aec8-c93c3d516fd7",
+            "id": "84",
+            "name": "Basis Data(TCL) - Google Drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/1/folders/0ADwvUvQVFj0JUk9PVA"
+         }, {
+            "date_added": "13245325701489306",
+            "guid": "2b0f1566-6aa6-415c-9b91-17753ac2f0b6",
+            "id": "91",
+            "name": "Aku Generasi Unggul Kebanggaan Bangsa Indonesia | by Alvi Mohamad | Medium",
+            "type": "url",
+            "url": "https://medium.com/@mohamadalvin/aku-generasi-unggul-kebanggaan-bangsa-indonesia-83007f5ac5eb"
+         }, {
+            "date_added": "13247061830731009",
+            "guid": "909bafa2-5189-487b-a682-371ced139f2d",
+            "id": "93",
+            "name": "BuanaNet - Jasa Setting Mikrotik 100% Terpercaya - Postingan | Facebook",
+            "type": "url",
+            "url": "https://www.facebook.com/buananetmikrotik/posts/2406349809670071"
+         }, {
+            "date_added": "13247159498577665",
+            "guid": "7cfcf689-97ae-4b77-bb16-e6d73d88ab7d",
+            "id": "95",
+            "name": "💻 Oracle 18.4 XE on a Docker Container! | by Ido Montekyo | idomongo | Medium",
+            "type": "url",
+            "url": "https://medium.com/idomongodb/oracle-18-4-xe-on-a-docker-container-5fe8e434a34e"
+         }, {
+            "date_added": "13247459237414976",
+            "guid": "8baaad9f-f7f2-4c29-bdd4-f266f38f2580",
+            "id": "97",
+            "name": "Pertemuan 07 - Google Drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1Z6vEsU1tlRKmEUCd45RUnXTTYYAGCO7-"
+         } ],
+         "date_added": "13234426299627405",
+         "date_modified": "13247459237414976",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13234426299627411",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13234426299627412",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

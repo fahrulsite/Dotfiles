@@ -1,0 +1,5 @@
+2020/08/03-16:43:47.616 4cb0 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_kumparan.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/03-16:44:30.381 75f Level-0 table #5: started
+2020/08/03-16:44:30.426 75f Level-0 table #5: 5705 bytes OK
+2020/08/03-16:44:30.460 75f Delete type=0 #3
+2020/08/03-16:44:30.460 75f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

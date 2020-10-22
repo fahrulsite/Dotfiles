@@ -1,0 +1,5 @@
+2020/10/15-22:42:57.268 24a8 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_nym1-ib.adnxs.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/15-22:43:05.271 2397 Level-0 table #5: started
+2020/10/15-22:43:05.350 2397 Level-0 table #5: 344 bytes OK
+2020/10/15-22:43:05.440 2397 Delete type=0 #3
+2020/10/15-22:43:05.440 2397 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

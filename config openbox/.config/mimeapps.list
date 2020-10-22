@@ -1,0 +1,24 @@
+[Added Associations]
+application/x-tint2-theme=visual-studio-code.desktop;
+image/png=org.gnome.gThumb.desktop;viewnior.desktop;
+application/xml=org.gnome.gedit.desktop;
+image/jpeg=org.gnome.gThumb.desktop;viewnior.desktop;org.kde.kphotoalbum-import.desktop;
+audio/mpeg=audacious.desktop;mpv.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=wps-office-wpp.desktop;wps-office-pdf.desktop;chromium.desktop;
+image/webp=org.gnome.gThumb.desktop;viewnior.desktop;chromium.desktop;
+video/x-matroska=mpv.desktop;chromium.desktop;vlc.desktop;
+application/x-executable=wine-extension-ini.desktop;
+application/xhtml+xml=visual-studio-code.desktop;
+video/mp4=mpv.desktop;
+application/rtf=wps-office-wps.desktop;
+text/plain=org.gnome.gedit.desktop;
+application/x-shellscript=org.gnome.gedit.desktop;
+text/x-csrc=wine-extension-txt.desktop;
+
+[Default Applications]
+x-scheme-handler/postman=Postman.desktop
+x-scheme-handler/rdp=org.remmina.Remmina.desktop
+x-scheme-handler/spice=org.remmina.Remmina.desktop
+x-scheme-handler/vnc=org.remmina.Remmina.desktop
+x-scheme-handler/remmina=org.remmina.Remmina.desktop
+application/x-remmina=org.remmina.Remmina.desktop

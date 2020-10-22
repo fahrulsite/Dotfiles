@@ -1,0 +1,20 @@
+{
+   "color_pick_btn": {
+      "message": "Pick color from web page"
+   },
+   "description": {
+      "message": "ఐడ్రాపర్ సాధనం పేజీ నుండి రంగు ఎంచుకోండి మరియు పేజీల నుండి రంగుల పొందండి."
+   },
+   "dominant_color": {
+      "message": "Dominant color"
+   },
+   "name": {
+      "message": "Rainbow Color Picker"
+   },
+   "select_color": {
+      "message": "Select color"
+   },
+   "selected_color": {
+      "message": "Selected color"
+   }
+}

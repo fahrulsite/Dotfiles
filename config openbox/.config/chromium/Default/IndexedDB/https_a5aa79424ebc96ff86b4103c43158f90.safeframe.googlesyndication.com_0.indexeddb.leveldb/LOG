@@ -1,0 +1,5 @@
+2020/10/02-16:40:58.826 4b51 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_a5aa79424ebc96ff86b4103c43158f90.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/02-16:41:04.299 4094 Level-0 table #5: started
+2020/10/02-16:41:04.343 4094 Level-0 table #5: 460 bytes OK
+2020/10/02-16:41:04.399 4094 Delete type=0 #3
+2020/10/02-16:41:04.399 4094 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

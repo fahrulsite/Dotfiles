@@ -1,0 +1,20 @@
+{
+   "color_pick_btn": {
+      "message": "Pick color from web page"
+   },
+   "description": {
+      "message": "스포이드 도구를 사용하여 페이지에서 색상을 선택하고 페이지에서 색상 표를 얻을."
+   },
+   "dominant_color": {
+      "message": "Dominant color"
+   },
+   "name": {
+      "message": "Rainbow Color Picker"
+   },
+   "select_color": {
+      "message": "Select color"
+   },
+   "selected_color": {
+      "message": "Selected color"
+   }
+}

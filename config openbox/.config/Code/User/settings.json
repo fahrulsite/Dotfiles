@@ -1,0 +1,8 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": true,
+    "window.zoomLevel": 0
+}

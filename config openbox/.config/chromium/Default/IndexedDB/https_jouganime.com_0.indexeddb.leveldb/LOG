@@ -1,0 +1,15 @@
+2020/07/28-06:40:18.598 f2b Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_jouganime.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/28-06:40:18.598 f2b Recovering log #63
+2020/07/28-06:40:18.598 f2b Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_jouganime.com_0.indexeddb.leveldb/000063.log 
+2020/07/28-06:40:29.592 d2e Level-0 table #68: started
+2020/07/28-06:40:29.731 d2e Level-0 table #68: 3534 bytes OK
+2020/07/28-06:40:29.765 d2e Delete type=0 #63
+2020/07/28-06:40:29.765 d2e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/28-06:40:29.765 d2e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 8100 : 1
+2020/07/28-06:40:29.765 d2e Compacting 1@1 + 1@2 files
+2020/07/28-06:40:29.799 d2e Generated table #69@1: 98 keys, 2316 bytes
+2020/07/28-06:40:29.799 d2e Compacted 1@1 + 1@2 files => 2316 bytes
+2020/07/28-06:40:29.831 d2e compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/28-06:40:29.831 d2e Delete type=2 #65
+2020/07/28-06:40:29.831 d2e Delete type=2 #68
+2020/07/28-06:40:29.832 d2e Manual compaction at level-1 from '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 8100 : 1 .. (end); will stop at (end)

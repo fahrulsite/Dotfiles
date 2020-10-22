@@ -1,0 +1,48 @@
+2020/10/20-16:10:57.387 3e05 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-003717
+2020/10/20-16:10:57.388 3e05 Recovering log #3877
+2020/10/20-16:10:57.388 3e05 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/003877.log 
+2020/10/20-16:17:24.122 4ae0 Level-0 table #3888: started
+2020/10/20-16:17:24.298 4ae0 Level-0 table #3888: 1441320 bytes OK
+2020/10/20-16:17:24.340 4ae0 Delete type=0 #3877
+2020/10/20-16:17:27.044 4bd0 Compacting 1@1 + 7@2 files
+2020/10/20-16:17:27.291 4bd0 Generated table #3889@1: 45248 keys, 2255656 bytes
+2020/10/20-16:17:27.477 4bd0 Generated table #3890@1: 11249 keys, 2811513 bytes
+2020/10/20-16:17:27.648 4bd0 Generated table #3891@1: 1772 keys, 2768072 bytes
+2020/10/20-16:17:27.837 4bd0 Generated table #3892@1: 1547 keys, 2852644 bytes
+2020/10/20-16:17:28.001 4bd0 Generated table #3893@1: 1873 keys, 2806184 bytes
+2020/10/20-16:17:28.172 4bd0 Generated table #3894@1: 1663 keys, 2825949 bytes
+2020/10/20-16:17:28.242 4bd0 Generated table #3895@1: 2728 keys, 793184 bytes
+2020/10/20-16:17:28.242 4bd0 Compacted 1@1 + 7@2 files => 17113202 bytes
+2020/10/20-16:17:28.318 4bd0 compacted to: files[ 0 0 7 0 0 0 0 ]
+2020/10/20-16:17:28.319 4bd0 Delete type=2 #3885
+2020/10/20-16:17:28.320 4bd0 Delete type=2 #3883
+2020/10/20-16:17:28.320 4bd0 Delete type=2 #3888
+2020/10/20-16:17:28.320 4bd0 Delete type=2 #3879
+2020/10/20-16:17:28.320 4bd0 Delete type=2 #3881
+2020/10/20-16:17:28.321 4bd0 Delete type=2 #3884
+2020/10/20-16:17:28.321 4bd0 Delete type=2 #3882
+2020/10/20-16:17:28.322 4bd0 Delete type=2 #3880
+2020/10/20-16:45:25.800 54cf Level-0 table #3897: started
+2020/10/20-16:45:25.881 54cf Level-0 table #3897: 1024164 bytes OK
+2020/10/20-16:45:25.921 54cf Delete type=0 #3887
+2020/10/20-16:45:25.922 54cf Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/20-16:45:25.922 54cf Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x02\x1f\x03\x00`\x95\x15UTwB\x00\x01,\x00J\x00o\x00C\x00b\x00G\x00H\x00H\x00f\x00R\x00S\x007\x000\x00a\x00i\x00K\x00D\x007\x00s\x00J\x00E\x00g\x00d\x00b\x00B\x00S\x005\x007\x00F\x00P\x00r\x00M\x00m\x00W\x000\x00v\x00m\x00/\x007\x00y\x004\x00G\x00x\x00Y\x00=' @ 12846988 : 1
+2020/10/20-16:45:25.922 54cf Compacting 1@1 + 7@2 files
+2020/10/20-16:45:26.105 54cf Generated table #3898@1: 43068 keys, 2256546 bytes
+2020/10/20-16:45:26.291 54cf Generated table #3899@1: 16447 keys, 2772530 bytes
+2020/10/20-16:45:26.468 54cf Generated table #3900@1: 1729 keys, 2773889 bytes
+2020/10/20-16:45:26.648 54cf Generated table #3901@1: 1514 keys, 2863416 bytes
+2020/10/20-16:45:26.814 54cf Generated table #3902@1: 1915 keys, 2798638 bytes
+2020/10/20-16:45:26.993 54cf Generated table #3903@1: 1681 keys, 2825870 bytes
+2020/10/20-16:45:27.099 54cf Generated table #3904@1: 2882 keys, 1038298 bytes
+2020/10/20-16:45:27.099 54cf Compacted 1@1 + 7@2 files => 17329187 bytes
+2020/10/20-16:45:27.174 54cf compacted to: files[ 0 0 7 0 0 0 0 ]
+2020/10/20-16:45:27.175 54cf Delete type=2 #3891
+2020/10/20-16:45:27.175 54cf Delete type=2 #3893
+2020/10/20-16:45:27.176 54cf Delete type=2 #3890
+2020/10/20-16:45:27.176 54cf Delete type=2 #3892
+2020/10/20-16:45:27.176 54cf Delete type=2 #3889
+2020/10/20-16:45:27.176 54cf Delete type=2 #3897
+2020/10/20-16:45:27.176 54cf Delete type=2 #3895
+2020/10/20-16:45:27.177 54cf Delete type=2 #3894
+2020/10/20-16:45:27.182 54cf Manual compaction at level-1 from '\x00\x05\x02\x1f\x03\x00`\x95\x15UTwB\x00\x01,\x00J\x00o\x00C\x00b\x00G\x00H\x00H\x00f\x00R\x00S\x007\x000\x00a\x00i\x00K\x00D\x007\x00s\x00J\x00E\x00g\x00d\x00b\x00B\x00S\x005\x007\x00F\x00P\x00r\x00M\x00m\x00W\x000\x00v\x00m\x00/\x007\x00y\x004\x00G\x00x\x00Y\x00=' @ 12846988 : 1 .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2020/10/20-09:29:55.923 1d58 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/20-09:29:55.924 1d58 Recovering log #1057
+2020/10/20-09:29:55.924 1d58 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/001057.log 
+2020/10/20-10:14:12.560 3b88 Level-0 table #1061: started
+2020/10/20-10:14:12.605 3b88 Level-0 table #1061: 11697 bytes OK
+2020/10/20-10:14:12.642 3b88 Delete type=0 #1057
+2020/10/20-10:14:12.642 3b88 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/20-10:14:12.642 3b88 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x0f\x002\x008\x004\x005\x009\x001\x002\x003\x009\x003\x006\x008\x004\x002\x000' @ 25248 : 0
+2020/10/20-10:14:12.642 3b88 Compacting 1@1 + 1@2 files
+2020/10/20-10:14:12.684 3b88 Generated table #1062@1: 32 keys, 858 bytes
+2020/10/20-10:14:12.684 3b88 Compacted 1@1 + 1@2 files => 858 bytes
+2020/10/20-10:14:12.719 3b88 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/20-10:14:12.720 3b88 Delete type=2 #1055
+2020/10/20-10:14:12.720 3b88 Delete type=2 #1061
+2020/10/20-10:14:12.720 3b88 Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x0f\x002\x008\x004\x005\x009\x001\x002\x003\x009\x003\x006\x008\x004\x002\x000' @ 25248 : 0 .. (end); will stop at (end)

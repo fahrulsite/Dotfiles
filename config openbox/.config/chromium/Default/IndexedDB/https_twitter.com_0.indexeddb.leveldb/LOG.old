@@ -1,0 +1,15 @@
+2020/06/16-19:54:07.922 25e9 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/16-19:54:07.922 25e9 Recovering log #4
+2020/06/16-19:54:07.922 25e9 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000004.log 
+2020/06/16-19:55:12.045 909 Level-0 table #8: started
+2020/06/16-19:55:12.078 909 Level-0 table #8: 190 bytes OK
+2020/06/16-19:55:12.122 909 Delete type=0 #4
+2020/06/16-19:55:12.122 909 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/16-19:55:12.122 909 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 256 : 1
+2020/06/16-19:55:12.122 909 Compacting 1@1 + 1@2 files
+2020/06/16-19:55:12.190 909 Generated table #9@1: 52 keys, 242092 bytes
+2020/06/16-19:55:12.190 909 Compacted 1@1 + 1@2 files => 242092 bytes
+2020/06/16-19:55:12.232 909 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/16-19:55:12.233 909 Delete type=2 #8
+2020/06/16-19:55:12.233 909 Delete type=2 #5
+2020/06/16-19:55:12.243 909 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 256 : 1 .. (end); will stop at (end)

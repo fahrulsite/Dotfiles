@@ -1,0 +1,20 @@
+{
+   "color_pick_btn": {
+      "message": "Pick color from web page"
+   },
+   "description": {
+      "message": "ಅಯ್ಡ್ರಾಪರ್ ಸಲಕರಣೆ ಪುಟದಿಂದ ಬಣ್ಣವನ್ನು ಆರಿಸಿ ಮತ್ತು ಪುಟಗಳಿಂದ ಬಣ್ಣದ ಪ್ಯಾಲೆಟ್ ಪಡೆಯಿರಿ."
+   },
+   "dominant_color": {
+      "message": "Dominant color"
+   },
+   "name": {
+      "message": "Rainbow Color Picker"
+   },
+   "select_color": {
+      "message": "Select color"
+   },
+   "selected_color": {
+      "message": "Selected color"
+   }
+}

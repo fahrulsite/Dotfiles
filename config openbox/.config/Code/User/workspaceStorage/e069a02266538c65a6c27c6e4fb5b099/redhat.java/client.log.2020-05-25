@@ -1,0 +1,1208 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_ss_linux -data /home/fahrul/.config/Code/User/workspaceStorage/e069a02266538c65a6c27c6e4fb5b099/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2020-05-25 12:21:23.209'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_linux -data /home/fahrul/.config/Code/User/workspaceStorage/e069a02266538c65a6c27c6e4fb5b099/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2020-05-25 12:21:23.271'
+}
+{
+  message: '[Error - 12:21:53 PM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2020-05-25 12:21:53.888'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Invalid identifier : >var<\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:645)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n' +
+    'Caused by: java.lang.IllegalArgumentException: Invalid identifier : >var<\n' +
+    '\tat org.eclipse.jdt.core.dom.SimpleName.setIdentifier(SimpleName.java:247)\n' +
+    '\tat org.eclipse.jdt.core.dom.AST.newSimpleName(AST.java:2638)\n' +
+    '\tat org.eclipse.jdt.core.dom.AST.newName(AST.java:2326)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.TypeChangeCorrectionProposal.getRewrite(TypeChangeCorrectionProposal.java:157)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:89)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:109)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.CUCorrectionProposal.createChange(CUCorrectionProposal.java:115)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.ChangeCorrectionProposalCore.getChange(ChangeCorrectionProposalCore.java:150)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionFromProposal(CodeActionHandler.java:170)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:141)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:620)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\t... 6 more\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:21:53.894'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 17, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-25 12:23:21.743'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 82, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-25 12:29:53.619'
+}
+{
+  message: '[Error - 12:30:34 PM] May 25, 2020, 12:30:34 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:30:34.341'
+}
+{
+  message: '[Error - 12:30:34 PM] May 25, 2020, 12:30:34 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:30:34.521'
+}
+{
+  message: '[Error - 12:30:37 PM] May 25, 2020, 12:30:37 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:30:37.202'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 782, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-25 12:36:45.501'
+}
+{
+  message: '[Error - 12:43:54 PM] May 25, 2020, 12:43:54 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:43:54.637'
+}
+{
+  message: '[Error - 12:44:09 PM] May 25, 2020, 12:44:09 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:44:09.102'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1309, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-25 12:44:40.900'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1399, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-25 12:45:03.628'
+}
+{
+  message: '[Error - 12:50:00 PM] May 25, 2020, 12:50:00 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:50:00.718'
+}
+{
+  message: '[Error - 12:50:00 PM] May 25, 2020, 12:50:00 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:50:00.999'
+}
+{
+  message: '[Error - 12:51:02 PM] May 25, 2020, 12:51:02 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:51:02.641'
+}
+{
+  message: '[Error - 12:52:35 PM] May 25, 2020, 12:52:35 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:52:35.771'
+}
+{
+  message: '[Error - 12:56:43 PM] May 25, 2020, 12:56:43 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:56:43.003'
+}
+{
+  message: '[Error - 12:59:32 PM] May 25, 2020, 12:59:32 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:59:32.374'
+}
+{
+  message: '[Error - 12:59:32 PM] May 25, 2020, 12:59:32 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:59:32.447'
+}
+{
+  message: '[Error - 12:59:33 PM] May 25, 2020, 12:59:33 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 12:59:33.059'
+}
+{
+  message: '[Error - 1:00:38 PM] May 25, 2020, 1:00:38 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:00:38.090'
+}
+{
+  message: '[Error - 1:00:38 PM] May 25, 2020, 1:00:38 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:00:38.683'
+}
+{
+  message: '[Error - 1:02:21 PM] May 25, 2020, 1:02:21 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:02:21.725'
+}
+{
+  message: '[Error - 1:02:21 PM] May 25, 2020, 1:02:21 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:02:21.968'
+}
+{
+  message: '[Error - 1:02:23 PM] May 25, 2020, 1:02:23 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:02:23.117'
+}
+{
+  message: '[Error - 1:02:33 PM] May 25, 2020, 1:02:33 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:02:33.462'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 3163, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-25 13:03:41.729'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 3165, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-25 13:04:37.221'
+}
+{
+  message: '[Error - 1:05:08 PM] May 25, 2020, 1:05:08 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:05:08.543'
+}
+{
+  message: '[Error - 1:05:35 PM] May 25, 2020, 1:05:35 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:05:35.892'
+}
+{
+  message: '[Error - 1:06:58 PM] May 25, 2020, 1:06:58 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:06:58.353'
+}
+{
+  message: '[Error - 1:07:12 PM] May 25, 2020, 1:07:12 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:07:12.380'
+}
+{
+  message: '[Error - 1:07:12 PM] May 25, 2020, 1:07:12 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:07:12.929'
+}
+{
+  message: '[Error - 1:07:13 PM] May 25, 2020, 1:07:13 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:07:13.527'
+}
+{
+  message: '[Error - 1:07:13 PM] May 25, 2020, 1:07:13 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:07:13.648'
+}
+{
+  message: '[Error - 1:09:11 PM] May 25, 2020, 1:09:11 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:09:11.660'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 3871, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-25 13:09:19.770'
+}
+{
+  message: '[Error - 1:09:48 PM] May 25, 2020, 1:09:48 PM \n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:871)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:635)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:534)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:480)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:180)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:154)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:133)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:133)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:78)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$13(JDTLanguageServer.java:607)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:09:48.644'
+}
+{
+  message: '[Error - 1:09:59 PM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2020-05-25 13:09:59.237'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Document does not match the AST\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:645)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n' +
+    'Caused by: java.lang.IllegalArgumentException: Document does not match the AST\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4538)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2288)\n' +
+    '\tat org.eclipse.jdt.core.dom.ReturnStatement.accept0(ReturnStatement.java:126)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2971)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisit(ASTRewriteAnalyzer.java:427)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisitList(ASTRewriteAnalyzer.java:465)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:459)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:472)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2226)\n' +
+    '\tat org.eclipse.jdt.core.dom.Block.accept0(Block.java:126)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2971)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:451)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:457)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:472)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2132)\n' +
+    '\tat org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:674)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2971)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisit(ASTRewriteAnalyzer.java:427)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisitList(ASTRewriteAnalyzer.java:465)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:459)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:472)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:1823)\n' +
+    '\tat org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:430)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2971)\n' +
+    '\tat org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:305)\n' +
+    '\tat org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:294)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.structure.CompilationUnitRewrite.attachChange(CompilationUnitRewrite.java:290)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.structure.CompilationUnitRewrite.createChange(CompilationUnitRewrite.java:252)\n' +
+    '\tat org.eclipse.jdt.internal.corext.fix.CompilationUnitRewriteOperationsFixCore.createChange(CompilationUnitRewriteOperationsFixCore.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.FixCorrectionProposal.createTextChange(FixCorrectionProposal.java:99)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.CUCorrectionProposal.createChange(CUCorrectionProposal.java:115)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.ChangeCorrectionProposalCore.getChange(ChangeCorrectionProposalCore.java:150)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionFromProposal(CodeActionHandler.java:170)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:141)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:620)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\t... 6 more\n' +
+    'Caused by: org.eclipse.core.runtime.CoreException: End Of File\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:152)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:165)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:190)\n' +
+    '\tat org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2278)\n' +
+    '\t... 41 more\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:09:59.237'
+}
+{
+  message: '[Error - 1:11:43 PM] May 25, 2020, 1:11:43 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:11:43.059'
+}
+{
+  message: '[Error - 1:11:47 PM] May 25, 2020, 1:11:47 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:11:47.963'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 4810, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-25 13:16:16.900'
+}
+{
+  message: '[Error - 1:41:47 PM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2020-05-25 13:41:47.161'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.ClassCastException: class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType cannot be cast to class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType (org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType and org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @53124723)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:645)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n' +
+    'Caused by: java.lang.ClassCastException: class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType cannot be cast to class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType (org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType and org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @53124723)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.ParameterizedType.initialize(ParameterizedType.java:37)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.createParameterizedType(TypeEnvironment.java:405)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.create(TypeEnvironment.java:199)\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.TypeRules.canAssign(TypeRules.java:42)\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.ASTNodes.getExplicitCast(ASTNodes.java:860)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.getModifiedInitializerSource(InlineTempRefactoring.java:402)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.getInitializerSource(InlineTempRefactoring.java:368)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.inlineTemp(InlineTempRefactoring.java:346)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.checkFinalConditions(InlineTempRefactoring.java:291)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.RefactoringCorrectionProposal.createTextChange(RefactoringCorrectionProposal.java:53)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.CUCorrectionProposal.createChange(CUCorrectionProposal.java:115)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.ChangeCorrectionProposalCore.getChange(ChangeCorrectionProposalCore.java:150)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionFromProposal(CodeActionHandler.java:170)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:141)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:620)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\t... 6 more\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:41:47.163'
+}
+{
+  message: '[Error - 1:41:47 PM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2020-05-25 13:41:47.320'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.ClassCastException: class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType cannot be cast to class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType (org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType and org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @53124723)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:645)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n' +
+    'Caused by: java.lang.ClassCastException: class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType cannot be cast to class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType (org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType and org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @53124723)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.ParameterizedType.initialize(ParameterizedType.java:37)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.createParameterizedType(TypeEnvironment.java:405)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.create(TypeEnvironment.java:199)\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.TypeRules.canAssign(TypeRules.java:42)\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.ASTNodes.getExplicitCast(ASTNodes.java:860)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.getModifiedInitializerSource(InlineTempRefactoring.java:402)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.getInitializerSource(InlineTempRefactoring.java:368)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.inlineTemp(InlineTempRefactoring.java:346)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.checkFinalConditions(InlineTempRefactoring.java:291)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.RefactoringCorrectionProposal.createTextChange(RefactoringCorrectionProposal.java:53)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.CUCorrectionProposal.createChange(CUCorrectionProposal.java:115)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.ChangeCorrectionProposalCore.getChange(ChangeCorrectionProposalCore.java:150)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionFromProposal(CodeActionHandler.java:170)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:141)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:620)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\t... 6 more\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:41:47.321'
+}
+{
+  message: '[Error - 1:41:48 PM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2020-05-25 13:41:48.020'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.ClassCastException: class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType cannot be cast to class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType (org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType and org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @53124723)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:645)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n' +
+    'Caused by: java.lang.ClassCastException: class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType cannot be cast to class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType (org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType and org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @53124723)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.ParameterizedType.initialize(ParameterizedType.java:37)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.createParameterizedType(TypeEnvironment.java:405)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.create(TypeEnvironment.java:199)\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.TypeRules.canAssign(TypeRules.java:42)\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.ASTNodes.getExplicitCast(ASTNodes.java:860)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.getModifiedInitializerSource(InlineTempRefactoring.java:402)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.getInitializerSource(InlineTempRefactoring.java:368)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.inlineTemp(InlineTempRefactoring.java:346)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.checkFinalConditions(InlineTempRefactoring.java:291)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.RefactoringCorrectionProposal.createTextChange(RefactoringCorrectionProposal.java:53)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.CUCorrectionProposal.createChange(CUCorrectionProposal.java:115)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.ChangeCorrectionProposalCore.getChange(ChangeCorrectionProposalCore.java:150)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionFromProposal(CodeActionHandler.java:170)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:141)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:620)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\t... 6 more\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:41:48.020'
+}
+{
+  message: '[Error - 1:41:54 PM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2020-05-25 13:41:54.861'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.ClassCastException: class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType cannot be cast to class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType (org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType and org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @53124723)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:645)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n' +
+    'Caused by: java.lang.ClassCastException: class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType cannot be cast to class org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType (org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.StandardType and org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.GenericType are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @53124723)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.ParameterizedType.initialize(ParameterizedType.java:37)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.createParameterizedType(TypeEnvironment.java:405)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.create(TypeEnvironment.java:199)\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.TypeRules.canAssign(TypeRules.java:42)\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.ASTNodes.getExplicitCast(ASTNodes.java:860)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.getModifiedInitializerSource(InlineTempRefactoring.java:402)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.getInitializerSource(InlineTempRefactoring.java:368)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.inlineTemp(InlineTempRefactoring.java:346)\n' +
+    '\tat org.eclipse.jdt.internal.corext.refactoring.code.InlineTempRefactoring.checkFinalConditions(InlineTempRefactoring.java:291)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.RefactoringCorrectionProposal.createTextChange(RefactoringCorrectionProposal.java:53)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.CUCorrectionProposal.createChange(CUCorrectionProposal.java:115)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.ChangeCorrectionProposalCore.getChange(ChangeCorrectionProposalCore.java:150)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionFromProposal(CodeActionHandler.java:170)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:141)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:620)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\t... 6 more\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:41:54.862'
+}
+{
+  message: '[Error - 1:43:13 PM] May 25, 2020, 1:43:13 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:43:13.165'
+}
+{
+  message: '[Error - 1:43:14 PM] May 25, 2020, 1:43:14 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:43:14.244'
+}
+{
+  message: '[Error - 1:45:18 PM] May 25, 2020, 1:45:18 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:45:18.369'
+}
+{
+  message: '[Error - 1:45:18 PM] May 25, 2020, 1:45:18 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:45:18.609'
+}
+{
+  message: '[Error - 1:45:19 PM] May 25, 2020, 1:45:19 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:45:19.112'
+}
+{
+  message: '[Error - 1:45:19 PM] May 25, 2020, 1:45:19 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:45:19.789'
+}
+{
+  message: '[Error - 1:50:45 PM] May 25, 2020, 1:50:45 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:50:45.372'
+}
+{
+  message: '[Error - 1:51:20 PM] May 25, 2020, 1:51:20 PM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:477)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-25 13:51:20.378'
+}

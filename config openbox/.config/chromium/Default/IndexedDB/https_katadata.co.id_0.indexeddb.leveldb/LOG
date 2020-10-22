@@ -1,0 +1,5 @@
+2020/08/10-13:37:25.032 10d0 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_katadata.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/10-16:38:47.111 f0c Level-0 table #5: started
+2020/08/10-16:38:47.144 f0c Level-0 table #5: 2968 bytes OK
+2020/08/10-16:38:47.184 f0c Delete type=0 #3
+2020/08/10-16:38:47.184 f0c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

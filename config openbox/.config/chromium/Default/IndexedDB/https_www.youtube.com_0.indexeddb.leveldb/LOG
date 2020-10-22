@@ -1,0 +1,8 @@
+2020/10/20-16:20:33.799 4bd0 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/20-16:20:33.800 4bd0 Recovering log #829
+2020/10/20-16:20:33.800 4bd0 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000829.log 
+2020/10/20-17:33:32.251 62b3 Level-0 table #834: started
+2020/10/20-17:33:32.251 62b3 Level-0 table #834: 0 bytes OK
+2020/10/20-17:33:32.304 62b3 Delete type=0 #829
+2020/10/20-17:33:32.304 62b3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/20-17:33:32.304 62b3 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

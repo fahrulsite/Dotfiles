@@ -1,0 +1,5 @@
+2020/05/24-21:27:43.947 23ef Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.pinterest.co.uk_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/24-21:29:00.876 3b8c Level-0 table #5: started
+2020/05/24-21:29:01.363 3b8c Level-0 table #5: 2106 bytes OK
+2020/05/24-21:29:01.779 3b8c Delete type=0 #3
+2020/05/24-21:29:01.780 3b8c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

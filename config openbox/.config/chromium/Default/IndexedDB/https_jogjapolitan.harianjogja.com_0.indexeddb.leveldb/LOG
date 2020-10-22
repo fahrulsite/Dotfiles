@@ -1,0 +1,5 @@
+2020/08/03-14:43:40.723 1711 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_jogjapolitan.harianjogja.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/03-15:06:18.364 75f Level-0 table #5: started
+2020/08/03-15:06:18.419 75f Level-0 table #5: 1379 bytes OK
+2020/08/03-15:06:18.458 75f Delete type=0 #3
+2020/08/03-15:06:18.458 75f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

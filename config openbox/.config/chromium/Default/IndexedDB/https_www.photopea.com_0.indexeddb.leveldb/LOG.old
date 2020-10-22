@@ -1,0 +1,15 @@
+2020/09/13-11:46:38.342 36b7 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.photopea.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/13-11:46:38.342 36b7 Recovering log #85
+2020/09/13-11:46:38.343 36b7 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.photopea.com_0.indexeddb.leveldb/000085.log 
+2020/09/13-12:29:11.896 a51 Level-0 table #89: started
+2020/09/13-12:29:12.092 a51 Level-0 table #89: 190 bytes OK
+2020/09/13-12:29:12.559 a51 Delete type=0 #85
+2020/09/13-12:29:12.559 a51 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/13-12:29:12.559 a51 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 56 : 1
+2020/09/13-12:29:12.559 a51 Compacting 1@1 + 1@2 files
+2020/09/13-12:29:12.986 a51 Generated table #90@1: 21 keys, 493 bytes
+2020/09/13-12:29:12.986 a51 Compacted 1@1 + 1@2 files => 493 bytes
+2020/09/13-12:29:13.407 a51 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/13-12:29:13.408 a51 Delete type=2 #83
+2020/09/13-12:29:13.408 a51 Delete type=2 #89
+2020/09/13-12:29:13.408 a51 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 56 : 1 .. (end); will stop at (end)

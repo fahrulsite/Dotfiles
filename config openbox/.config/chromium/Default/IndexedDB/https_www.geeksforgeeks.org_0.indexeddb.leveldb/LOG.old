@@ -1,0 +1,5 @@
+2020/05/25-13:06:15.617 1cd8 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.geeksforgeeks.org_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/25-13:07:00.998 b7c Level-0 table #5: started
+2020/05/25-13:07:01.064 b7c Level-0 table #5: 323 bytes OK
+2020/05/25-13:07:01.099 b7c Delete type=0 #3
+2020/05/25-13:07:01.100 b7c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2020/06/09-07:38:22.200 47e9 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_app.super-productivity.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/09-07:42:02.237 1b26 Level-0 table #5: started
+2020/06/09-07:42:02.270 1b26 Level-0 table #5: 6082 bytes OK
+2020/06/09-07:42:02.309 1b26 Delete type=0 #3
+2020/06/09-07:42:02.310 1b26 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

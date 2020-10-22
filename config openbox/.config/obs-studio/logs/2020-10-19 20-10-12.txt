@@ -1,0 +1,117 @@
+08:10:12 PM.875: CPU Name: Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+08:10:12 PM.875: CPU Speed: 1583.705MHz
+08:10:12 PM.876: Physical Cores: 2, Logical Cores: 4
+08:10:12 PM.876: Physical Memory: 9859MB Total, 7591MB Free
+08:10:12 PM.876: Kernel Version: Linux 5.6.13-arch1-1
+08:10:12 PM.876: Distribution: "Arch Linux" Unknown
+08:10:12 PM.876: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+08:10:12 PM.900: Portable mode: false
+08:10:13 PM.199: OBS 26.0.2-2 (linux)
+08:10:13 PM.199: ---------------------------------
+08:10:13 PM.200: ---------------------------------
+08:10:13 PM.200: audio settings reset:
+08:10:13 PM.200: 	samples per sec: 48000
+08:10:13 PM.200: 	speakers:        2
+08:10:13 PM.234: ---------------------------------
+08:10:13 PM.234: Initializing OpenGL...
+08:10:13 PM.287: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)
+08:10:13 PM.288: OpenGL loaded successfully, version 4.2 (Core Profile) Mesa 20.2.0, shading language 4.20
+08:10:13 PM.833: ---------------------------------
+08:10:13 PM.833: video settings reset:
+08:10:13 PM.833: 	base resolution:   1366x768
+08:10:13 PM.833: 	output resolution: 1364x768
+08:10:13 PM.833: 	downscale filter:  Bicubic
+08:10:13 PM.833: 	fps:               30/1
+08:10:13 PM.833: 	format:            NV12
+08:10:13 PM.833: 	YUV mode:          709/Partial
+08:10:13 PM.834: NV12 texture support not available
+08:10:13 PM.852: Audio monitoring device:
+08:10:13 PM.852: 	name: Default
+08:10:13 PM.852: 	id: default
+08:10:13 PM.852: ---------------------------------
+08:10:13 PM.886: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+08:10:13 PM.905: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+08:10:13 PM.905: 
+08:10:13 PM.905: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+08:10:13 PM.957: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+08:10:13 PM.957: No blackmagic support
+08:10:14 PM.337: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+08:10:14 PM.337: 
+08:10:14 PM.337: FFMPEG VAAPI supported
+08:10:14 PM.375: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+08:10:14 PM.375: 
+08:10:14 PM.375: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+08:10:14 PM.710: VLC found, VLC video source enabled
+08:10:14 PM.710: ---------------------------------
+08:10:14 PM.710:   Loaded Modules:
+08:10:14 PM.710:     vlc-video.so
+08:10:14 PM.710:     text-freetype2.so
+08:10:14 PM.710:     rtmp-services.so
+08:10:14 PM.710:     obs-x264.so
+08:10:14 PM.710:     obs-transitions.so
+08:10:14 PM.710:     obs-outputs.so
+08:10:14 PM.710:     obs-filters.so
+08:10:14 PM.710:     obs-ffmpeg.so
+08:10:14 PM.711:     linux-v4l2.so
+08:10:14 PM.711:     linux-pulseaudio.so
+08:10:14 PM.711:     linux-jack.so
+08:10:14 PM.711:     linux-decklink.so
+08:10:14 PM.711:     linux-capture.so
+08:10:14 PM.711:     linux-alsa.so
+08:10:14 PM.711:     image-source.so
+08:10:14 PM.711:     decklink-ouput-ui.so
+08:10:14 PM.711: ---------------------------------
+08:10:14 PM.717: ==== Startup complete ===============================================
+08:10:14 PM.785: All scene data cleared
+08:10:14 PM.785: ------------------------------------------------
+08:10:14 PM.829: pulse-input: Server name: 'pulseaudio 13.99.2-13-g7f4d7'
+08:10:14 PM.829: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+08:10:14 PM.829: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+08:10:14 PM.829: [Loaded global audio device]: 'Desktop Audio'
+08:10:14 PM.830: pulse-input: Server name: 'pulseaudio 13.99.2-13-g7f4d7'
+08:10:14 PM.830: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+08:10:14 PM.830: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+08:10:14 PM.832: pulse-am: Server name: 'pulseaudio 13.99.2-13-g7f4d7'
+08:10:14 PM.832: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+08:10:14 PM.833: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+08:10:14 PM.849: [Loaded global audio device]: 'Mic/Aux'
+08:10:14 PM.849:     - filter: 'Gain' (gain_filter)
+08:10:14 PM.849:     - filter: 'Noise Gate' (noise_gate_filter)
+08:10:14 PM.849:     - filter: 'Noise Suppression' (noise_suppress_filter)
+08:10:14 PM.849:     - filter: 'Compressor' (compressor_filter)
+08:10:14 PM.849:     - monitoring: monitor only
+08:10:14 PM.877: xcompcap: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+08:10:14 PM.877: 	title: Meet - ozt-jonb-vbw - Chromium
+08:10:14 PM.877: 	class: chromium
+08:10:14 PM.877: 	Bit depth: 24
+08:10:14 PM.877: 	Found proper GLXFBConfig (in 24): yes
+08:10:14 PM.877: 
+08:10:14 PM.878: Switched to scene 'Scene'
+08:10:14 PM.878: ------------------------------------------------
+08:10:14 PM.878: Loaded scenes:
+08:10:14 PM.878: - scene 'Scene':
+08:10:14 PM.878:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+08:10:14 PM.878:     - source: 'Window Capture (Xcomposite) 2' (xcomposite_input)
+08:10:14 PM.878:     - source: 'Window Capture (Xcomposite) 3' (xcomposite_input)
+08:10:14 PM.878: ------------------------------------------------
+08:10:15 PM.378: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+08:10:15 PM.378: 
+08:10:19 PM.552: ---------------------------------
+08:10:19 PM.552: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:10:19 PM.552: [x264 encoder: 'simple_h264_recording'] profile: high
+08:10:19 PM.571: [x264 encoder: 'simple_h264_recording'] settings:
+08:10:19 PM.571: 	rate_control: CRF
+08:10:19 PM.571: 	bitrate:      0
+08:10:19 PM.571: 	buffer size:  0
+08:10:19 PM.571: 	crf:          21
+08:10:19 PM.571: 	fps_num:      30
+08:10:19 PM.571: 	fps_den:      1
+08:10:19 PM.571: 	width:        1364
+08:10:19 PM.571: 	height:       768
+08:10:19 PM.571: 	keyint:       250
+08:10:19 PM.571: 
+08:10:19 PM.606: ---------------------------------
+08:10:19 PM.607: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+08:10:19 PM.607: 
+08:10:19 PM.654: ==== Recording Start ===============================================
+08:10:19 PM.654: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/fahrul/2020-10-19 20-10-19.mkv'...

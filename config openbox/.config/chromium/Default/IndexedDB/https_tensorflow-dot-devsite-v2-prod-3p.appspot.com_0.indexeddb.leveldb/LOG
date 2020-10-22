@@ -1,0 +1,5 @@
+2020/08/25-13:52:55.546 4081 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_tensorflow-dot-devsite-v2-prod-3p.appspot.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/25-13:53:28.381 ba2 Level-0 table #5: started
+2020/08/25-13:53:28.465 ba2 Level-0 table #5: 1259 bytes OK
+2020/08/25-13:53:28.504 ba2 Delete type=0 #3
+2020/08/25-13:53:28.504 ba2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

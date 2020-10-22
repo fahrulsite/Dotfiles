@@ -1,0 +1,5 @@
+2020/10/02-07:54:29.352 3ca6 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_kabar24.bisnis.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/02-08:04:38.917 149a Level-0 table #5: started
+2020/10/02-08:04:38.979 149a Level-0 table #5: 1366 bytes OK
+2020/10/02-08:04:39.062 149a Delete type=0 #3
+2020/10/02-08:04:39.064 149a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

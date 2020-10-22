@@ -1,0 +1,5 @@
+2020/08/02-11:30:39.526 1dab Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.sehatq.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/02-12:09:30.511 eb8 Level-0 table #5: started
+2020/08/02-12:09:30.566 eb8 Level-0 table #5: 7291 bytes OK
+2020/08/02-12:09:30.607 eb8 Delete type=0 #3
+2020/08/02-12:09:30.607 eb8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

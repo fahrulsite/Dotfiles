@@ -1,0 +1,5 @@
+2020/05/30-05:51:43.949 5e17 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.merdeka.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/30-05:51:51.091 5edd Level-0 table #5: started
+2020/05/30-05:51:51.203 5edd Level-0 table #5: 5450 bytes OK
+2020/05/30-05:51:51.270 5edd Delete type=0 #3
+2020/05/30-05:51:51.271 5edd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

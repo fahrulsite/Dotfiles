@@ -1,0 +1,15 @@
+2020/06/26-08:34:23.379 341d Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_id-eduanswers.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/26-08:34:23.379 341d Recovering log #23
+2020/06/26-08:34:23.379 341d Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_id-eduanswers.com_0.indexeddb.leveldb/000023.log 
+2020/06/26-08:34:55.428 2b29 Level-0 table #28: started
+2020/06/26-08:34:55.463 2b29 Level-0 table #28: 466 bytes OK
+2020/06/26-08:34:55.509 2b29 Delete type=0 #23
+2020/06/26-08:34:55.509 2b29 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/26-08:34:55.509 2b29 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x07\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 328 : 1
+2020/06/26-08:34:55.509 2b29 Compacting 1@1 + 1@2 files
+2020/06/26-08:34:55.553 2b29 Generated table #29@1: 60 keys, 1689 bytes
+2020/06/26-08:34:55.553 2b29 Compacted 1@1 + 1@2 files => 1689 bytes
+2020/06/26-08:34:55.586 2b29 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/26-08:34:55.586 2b29 Delete type=2 #25
+2020/06/26-08:34:55.586 2b29 Delete type=2 #28
+2020/06/26-08:34:55.587 2b29 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x07\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 328 : 1 .. (end); will stop at (end)

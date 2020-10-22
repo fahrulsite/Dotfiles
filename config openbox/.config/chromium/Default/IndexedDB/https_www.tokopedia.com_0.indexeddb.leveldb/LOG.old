@@ -1,0 +1,15 @@
+2020/10/16-17:03:51.019 16cc Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.tokopedia.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/16-17:03:51.020 16cc Recovering log #99
+2020/10/16-17:03:51.020 16cc Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.tokopedia.com_0.indexeddb.leveldb/000099.log 
+2020/10/16-17:04:46.363 150c Level-0 table #104: started
+2020/10/16-17:04:46.488 150c Level-0 table #104: 11781 bytes OK
+2020/10/16-17:04:46.519 150c Delete type=0 #99
+2020/10/16-17:04:46.519 150c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/16-17:04:46.519 150c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01 \x03\x000A\xdf\x0dSwB\x00\x01c\x00z\x00e\x00u\x00s\x00-\x00s\x00t\x00a\x00t\x00i\x00c\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00n\x00t\x00s\x00.\x00g\x00s\x00t\x00a\x00t\x00i\x00c\x00.\x00c\x00o\x00m\x00/\x00s\x00/\x00o\x00p\x00e\x00n\x00s\x00a\x00n\x00s\x00/\x00v\x001\x007\x00/\x00m\x00e\x00m\x005\x00Y\x00a\x00G\x00s\x001\x002\x006\x00M\x00i\x00Z\x00p\x00B\x00A\x00-\x00U\x00N\x007\x00r\x00g\x00O\x00U\x00u\x00h\x00p\x00K\x00K\x00S\x00T\x00j\x00w\x00.\x00w\x00o\x00f\x00f\x002' @ 10625 : 1
+2020/10/16-17:04:46.519 150c Compacting 1@1 + 1@2 files
+2020/10/16-17:04:46.556 150c Generated table #105@1: 235 keys, 11803 bytes
+2020/10/16-17:04:46.556 150c Compacted 1@1 + 1@2 files => 11803 bytes
+2020/10/16-17:04:46.585 150c compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/16-17:04:46.585 150c Delete type=2 #104
+2020/10/16-17:04:46.585 150c Delete type=2 #101
+2020/10/16-17:04:46.586 150c Manual compaction at level-1 from '\x00\x02\x01 \x03\x000A\xdf\x0dSwB\x00\x01c\x00z\x00e\x00u\x00s\x00-\x00s\x00t\x00a\x00t\x00i\x00c\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00n\x00t\x00s\x00.\x00g\x00s\x00t\x00a\x00t\x00i\x00c\x00.\x00c\x00o\x00m\x00/\x00s\x00/\x00o\x00p\x00e\x00n\x00s\x00a\x00n\x00s\x00/\x00v\x001\x007\x00/\x00m\x00e\x00m\x005\x00Y\x00a\x00G\x00s\x001\x002\x006\x00M\x00i\x00Z\x00p\x00B\x00A\x00-\x00U\x00N\x007\x00r\x00g\x00O\x00U\x00u\x00h\x00p\x00K\x00K\x00S\x00T\x00j\x00w\x00.\x00w\x00o\x00f\x00f\x002' @ 10625 : 1 .. (end); will stop at (end)

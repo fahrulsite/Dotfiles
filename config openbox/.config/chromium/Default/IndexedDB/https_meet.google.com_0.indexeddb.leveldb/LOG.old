@@ -1,0 +1,8 @@
+2020/10/20-13:28:34.637 fce Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/20-13:28:34.637 fce Recovering log #144
+2020/10/20-13:28:34.637 fce Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000144.log 
+2020/10/20-13:29:43.503 123a Level-0 table #149: started
+2020/10/20-13:29:43.503 123a Level-0 table #149: 0 bytes OK
+2020/10/20-13:29:43.625 123a Delete type=0 #144
+2020/10/20-13:29:43.626 123a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/20-13:29:43.626 123a Manual compaction at level-1 from (begin) .. (end); will stop at (end)

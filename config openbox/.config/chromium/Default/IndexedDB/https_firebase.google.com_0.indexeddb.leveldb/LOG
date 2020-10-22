@@ -1,0 +1,15 @@
+2020/09/30-11:15:47.716 46d8 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_firebase.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/30-11:15:47.717 46d8 Recovering log #58
+2020/09/30-11:15:47.717 46d8 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_firebase.google.com_0.indexeddb.leveldb/000058.log 
+2020/09/30-11:16:23.984 921 Level-0 table #63: started
+2020/09/30-11:16:24.028 921 Level-0 table #63: 190 bytes OK
+2020/09/30-11:16:24.061 921 Delete type=0 #58
+2020/09/30-11:16:24.061 921 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/30-11:16:24.061 921 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 742 : 1
+2020/09/30-11:16:24.061 921 Compacting 1@1 + 1@2 files
+2020/09/30-11:16:24.095 921 Generated table #64@1: 30 keys, 806 bytes
+2020/09/30-11:16:24.095 921 Compacted 1@1 + 1@2 files => 806 bytes
+2020/09/30-11:16:24.127 921 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/30-11:16:24.127 921 Delete type=2 #63
+2020/09/30-11:16:24.127 921 Delete type=2 #60
+2020/09/30-11:16:24.141 921 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 742 : 1 .. (end); will stop at (end)

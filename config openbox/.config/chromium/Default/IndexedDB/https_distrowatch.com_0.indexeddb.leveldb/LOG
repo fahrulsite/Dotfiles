@@ -1,0 +1,15 @@
+2020/08/08-20:43:38.955 1c38 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_distrowatch.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/08-20:43:38.955 1c38 Recovering log #4
+2020/08/08-20:43:38.956 1c38 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_distrowatch.com_0.indexeddb.leveldb/000004.log 
+2020/08/08-20:43:42.637 10d6 Level-0 table #8: started
+2020/08/08-20:43:42.693 10d6 Level-0 table #8: 469 bytes OK
+2020/08/08-20:43:42.733 10d6 Delete type=0 #4
+2020/08/08-20:43:42.735 10d6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/08-20:43:42.735 10d6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x04\x00b\x00a\x00f\x00p' @ 61 : 1
+2020/08/08-20:43:42.735 10d6 Compacting 1@1 + 1@2 files
+2020/08/08-20:43:42.771 10d6 Generated table #9@1: 19 keys, 565 bytes
+2020/08/08-20:43:42.771 10d6 Compacted 1@1 + 1@2 files => 565 bytes
+2020/08/08-20:43:42.799 10d6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/08-20:43:42.800 10d6 Delete type=2 #8
+2020/08/08-20:43:42.800 10d6 Delete type=2 #5
+2020/08/08-20:43:42.800 10d6 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x04\x00b\x00a\x00f\x00p' @ 61 : 1 .. (end); will stop at (end)

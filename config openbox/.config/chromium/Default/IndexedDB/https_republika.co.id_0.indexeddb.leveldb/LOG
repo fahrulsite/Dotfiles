@@ -1,0 +1,15 @@
+2020/10/02-07:54:28.370 4423 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_republika.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/02-07:54:28.371 4423 Recovering log #4
+2020/10/02-07:54:28.371 4423 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_republika.co.id_0.indexeddb.leveldb/000004.log 
+2020/10/02-08:49:41.613 149a Level-0 table #8: started
+2020/10/02-08:49:41.656 149a Level-0 table #8: 473 bytes OK
+2020/10/02-08:49:41.689 149a Delete type=0 #4
+2020/10/02-08:49:41.689 149a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/02-08:49:41.689 149a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00I\x00Z\x00C\x00I\x00D' @ 91 : 1
+2020/10/02-08:49:41.689 149a Compacting 1@1 + 1@2 files
+2020/10/02-08:49:41.735 149a Generated table #9@1: 28 keys, 696 bytes
+2020/10/02-08:49:41.735 149a Compacted 1@1 + 1@2 files => 696 bytes
+2020/10/02-08:49:41.777 149a compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/02-08:49:41.777 149a Delete type=2 #8
+2020/10/02-08:49:41.777 149a Delete type=2 #5
+2020/10/02-08:49:41.778 149a Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00I\x00Z\x00C\x00I\x00D' @ 91 : 1 .. (end); will stop at (end)

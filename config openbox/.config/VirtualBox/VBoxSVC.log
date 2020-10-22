@@ -1,0 +1,67 @@
+00:00:00.031805 main     VirtualBox XPCOM Server 6.1.14 r140239 linux.amd64 (Oct 12 2020 20:50:47) release log
+00:00:00.031811 main     Log opened 2020-10-20T08:00:20.167661000Z
+00:00:00.031813 main     Build Type: release
+00:00:00.031826 main     OS Product: Linux
+00:00:00.031831 main     OS Release: 5.6.13-arch1-1
+00:00:00.031835 main     OS Version: #1 SMP PREEMPT Thu, 14 May 2020 06:52:53 +0000
+00:00:00.031926 main     DMI Product Name: HP 14 Notebook PC
+00:00:00.031969 main     DMI Product Version: 0975100000005F10000600087
+00:00:00.031984 main     Firmware type: UEFI
+00:00:00.033196 main     Secure Boot: Disabled
+00:00:00.033320 main     Host RAM: 9859MB (9.6GB) total, 8557MB (8.3GB) available
+00:00:00.033329 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.033330 main     Process ID: 13760
+00:00:00.033332 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.037286 main     IPC socket path: /tmp/.vbox-fahrul-ipc/ipcd
+00:00:00.190677 nspr-2   VirtualBox: object creation starts
+00:00:00.190836 nspr-2   Home directory: '/home/fahrul/.config/VirtualBox'
+00:00:00.214009 nspr-2   Loading settings file "/home/fahrul/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.328777 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20u2: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.336655 nspr-2   HostDnsMonitor: initializing
+00:00:00.337089 nspr-2   NAT: resolv.conf: nameserver 1.1.1.1
+00:00:00.337121 nspr-2   NAT: resolv.conf: nameserver 118.98.44.100
+00:00:00.337133 nspr-2   NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlp0s20u2
+00:00:00.337140 nspr-2   NAT: resolv.conf: nameserver fe80::1
+00:00:00.337164 nspr-2   HostDnsMonitor: updating information
+00:00:00.337192 nspr-2   HostDnsMonitor: old information
+00:00:00.337200 nspr-2     no server entries
+00:00:00.337207 nspr-2     no domain set
+00:00:00.337212 nspr-2     no search string entries
+00:00:00.337219 nspr-2   HostDnsMonitor: new information
+00:00:00.337224 nspr-2     server 1: 1.1.1.1
+00:00:00.337231 nspr-2     server 2: 118.98.44.100
+00:00:00.337237 nspr-2     server 3: fe80::1%wlp0s20u2
+00:00:00.337243 nspr-2     no domain set
+00:00:00.337249 nspr-2     no search string entries
+00:00:00.346013 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.367238 nspr-2   failed to create vboxnet0, error (0x80004005)
+00:00:00.415569 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.423711 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.498209 nspr-2   Loading settings file "/home/fahrul/.Genymobile/Genymotion/deployed/Google Nexus 4_1/Google Nexus 4_1.vbox" with version "1.12-linux"
+00:00:00.567887 nspr-2   Loading settings file "/home/fahrul/Documents/win7/win7.vbox" with version "1.15-linux"
+00:00:00.569689 nspr-2   VirtualBox: object created
+00:00:04.830583 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:04.870167 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:05.171209 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:05.174603 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:06.131899 nspr-2   Launched VM: 3758501376 pid: 13801 (0x35e9) frontend: GUI/Qt name: win7
+00:00:06.179836 nspr-6   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:06.219848 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:06.221458 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:06.632660 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The virtual machine 'win7' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:00:07.260449 nspr-6   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:07.298773 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:07.305624 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:01:16.282768 nspr-5   Saving settings file "/home/fahrul/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:16.378181 nspr-2   Saving settings file "/home/fahrul/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:21.961203 main     VirtualBox: object deletion starts
+00:01:21.961394 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/fahrul/.Genymobile/Genymotion/deployed/Google Nexus 4_1/Snapshots/{1df0893d-61a6-4698-9cbe-fac44bc8f8ed}.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:21.961477 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/fahrul/.Genymobile/Genymotion/deployed/Google Nexus 4_1/android_system_disk.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:21.961509 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/fahrul/.Genymobile/Genymotion/deployed/Google Nexus 4_1/Snapshots/{4f415af3-0845-40a1-ae4b-b5cb34fd430e}.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:21.961536 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/fahrul/.Genymobile/Genymotion/deployed/Google Nexus 4_1/android_data_disk.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:21.962066 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/fahrul/Documents/win7/win7.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:21.962785 main     HostDnsMonitor: shutting down ...
+00:01:21.969531 main     HostDnsMonitor: shut down
+00:01:22.149213 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:26.969676 main     {00007f56e0017ef0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:01:26.971530 main     VirtualBox: object deleted

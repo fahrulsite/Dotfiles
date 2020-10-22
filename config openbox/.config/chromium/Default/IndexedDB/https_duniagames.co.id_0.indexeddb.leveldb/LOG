@@ -1,0 +1,5 @@
+2020/10/13-23:29:54.208 264b Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_duniagames.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/13-23:34:33.725 2271 Level-0 table #5: started
+2020/10/13-23:34:33.764 2271 Level-0 table #5: 1117 bytes OK
+2020/10/13-23:34:33.806 2271 Delete type=0 #3
+2020/10/13-23:34:33.807 2271 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

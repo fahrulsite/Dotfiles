@@ -1,0 +1,8 @@
+2020/09/19-20:24:09.357 ee0 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_itsfoss.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/19-20:24:09.357 ee0 Recovering log #77
+2020/09/19-20:24:09.357 ee0 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_itsfoss.com_0.indexeddb.leveldb/000077.log 
+2020/09/19-20:27:51.397 92f Level-0 table #81: started
+2020/09/19-20:27:51.397 92f Level-0 table #81: 0 bytes OK
+2020/09/19-20:27:51.462 92f Delete type=0 #77
+2020/09/19-20:27:51.463 92f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/19-20:27:51.463 92f Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,58 @@
+2020/10/20-13:01:35.631 7de Reusing MANIFEST /home/fahrul/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/10/20-13:01:35.727 7de Recovering log #3948
+2020/10/20-13:01:35.797 7de Reusing old log /home/fahrul/.config/chromium/Default/Local Storage/leveldb/003948.log 
+2020/10/20-13:27:35.096 fce Level-0 table #3952: started
+2020/10/20-13:27:35.131 fce Level-0 table #3952: 25758 bytes OK
+2020/10/20-13:27:35.184 fce Delete type=0 #3948
+2020/10/20-13:27:35.184 1131 Compacting 4@0 + 5@1 files
+2020/10/20-13:27:35.507 1131 Generated table #3953@0: 6056 keys, 2121245 bytes
+2020/10/20-13:27:36.134 1131 Generated table #3954@0: 9678 keys, 2219475 bytes
+2020/10/20-13:27:36.356 1131 Generated table #3955@0: 3092 keys, 2208427 bytes
+2020/10/20-13:27:36.613 1131 Generated table #3956@0: 26171 keys, 2109746 bytes
+2020/10/20-13:27:36.762 1131 Generated table #3957@0: 1332 keys, 374203 bytes
+2020/10/20-13:27:36.762 1131 Compacted 4@0 + 5@1 files => 9033096 bytes
+2020/10/20-13:27:36.839 1131 compacted to: files[ 0 5 1 0 0 0 0 ]
+2020/10/20-13:27:36.839 1131 Delete type=2 #3941
+2020/10/20-13:27:36.839 1131 Delete type=2 #3938
+2020/10/20-13:27:36.839 1131 Delete type=2 #3949
+2020/10/20-13:27:36.839 1131 Delete type=2 #3946
+2020/10/20-13:27:36.839 1131 Delete type=2 #3942
+2020/10/20-13:27:36.839 1131 Delete type=2 #3940
+2020/10/20-13:27:36.839 1131 Delete type=2 #3944
+2020/10/20-13:27:36.839 1131 Delete type=2 #3952
+2020/10/20-13:27:36.839 1131 Delete type=2 #3939
+2020/10/20-14:21:22.195 2683 Level-0 table #3959: started
+2020/10/20-14:21:22.232 2683 Level-0 table #3959: 38249 bytes OK
+2020/10/20-14:21:22.277 2683 Delete type=0 #3951
+2020/10/20-16:11:36.050 3e05 Level-0 table #3961: started
+2020/10/20-16:11:36.089 3e05 Level-0 table #3961: 35330 bytes OK
+2020/10/20-16:11:36.130 3e05 Delete type=0 #3958
+2020/10/20-16:16:52.243 4bcd Level-0 table #3963: started
+2020/10/20-16:16:52.302 4bcd Level-0 table #3963: 48089 bytes OK
+2020/10/20-16:16:52.370 4bcd Delete type=0 #3960
+2020/10/20-16:18:26.641 4bcd Level-0 table #3965: started
+2020/10/20-16:18:26.679 4bcd Level-0 table #3965: 41516 bytes OK
+2020/10/20-16:18:26.791 4bcd Delete type=0 #3962
+2020/10/20-16:18:26.791 4bd0 Compacting 4@0 + 5@1 files
+2020/10/20-16:18:26.958 4bd0 Generated table #3966@0: 6062 keys, 2121347 bytes
+2020/10/20-16:18:27.103 4bd0 Generated table #3967@0: 9680 keys, 2219679 bytes
+2020/10/20-16:18:27.259 4bd0 Generated table #3968@0: 3101 keys, 2214519 bytes
+2020/10/20-16:18:27.415 4bd0 Generated table #3969@0: 26189 keys, 2110037 bytes
+2020/10/20-16:18:27.504 4bd0 Generated table #3970@0: 1332 keys, 373721 bytes
+2020/10/20-16:18:27.504 4bd0 Compacted 4@0 + 5@1 files => 9039303 bytes
+2020/10/20-16:18:27.546 4bd0 compacted to: files[ 0 5 1 0 0 0 0 ]
+2020/10/20-16:18:27.547 4bd0 Delete type=2 #3956
+2020/10/20-16:18:27.547 4bd0 Delete type=2 #3965
+2020/10/20-16:18:27.547 4bd0 Delete type=2 #3959
+2020/10/20-16:18:27.547 4bd0 Delete type=2 #3955
+2020/10/20-16:18:27.547 4bd0 Delete type=2 #3954
+2020/10/20-16:18:27.547 4bd0 Delete type=2 #3961
+2020/10/20-16:18:27.547 4bd0 Delete type=2 #3953
+2020/10/20-16:18:27.547 4bd0 Delete type=2 #3963
+2020/10/20-16:18:27.547 4bd0 Delete type=2 #3957
+2020/10/20-16:26:41.307 4bd0 Level-0 table #3972: started
+2020/10/20-16:26:41.348 4bd0 Level-0 table #3972: 28127 bytes OK
+2020/10/20-16:26:41.385 4bd0 Delete type=0 #3964
+2020/10/20-16:43:09.542 4e89 Level-0 table #3974: started
+2020/10/20-16:43:09.583 4e89 Level-0 table #3974: 21110 bytes OK
+2020/10/20-16:43:09.629 4e89 Delete type=0 #3971

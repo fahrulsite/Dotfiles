@@ -1,0 +1,8 @@
+2020/07/20-22:16:52.949 3980 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_7b125ef79fb4b314b1a9be5629d9f2d8.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/20-22:16:52.950 3980 Recovering log #31
+2020/07/20-22:16:52.950 3980 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_7b125ef79fb4b314b1a9be5629d9f2d8.safeframe.googlesyndication.com_0.indexeddb.leveldb/000031.log 
+2020/07/20-22:17:49.010 ad2 Level-0 table #35: started
+2020/07/20-22:17:49.010 ad2 Level-0 table #35: 0 bytes OK
+2020/07/20-22:17:49.055 ad2 Delete type=0 #31
+2020/07/20-22:17:49.055 ad2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/20-22:17:49.055 ad2 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

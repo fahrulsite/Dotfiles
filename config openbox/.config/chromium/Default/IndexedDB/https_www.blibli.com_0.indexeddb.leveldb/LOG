@@ -1,0 +1,5 @@
+2020/08/25-07:51:50.807 1fb9 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.blibli.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/25-07:52:03.297 11e9 Level-0 table #5: started
+2020/08/25-07:52:03.358 11e9 Level-0 table #5: 1738 bytes OK
+2020/08/25-07:52:03.414 11e9 Delete type=0 #3
+2020/08/25-07:52:03.414 11e9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

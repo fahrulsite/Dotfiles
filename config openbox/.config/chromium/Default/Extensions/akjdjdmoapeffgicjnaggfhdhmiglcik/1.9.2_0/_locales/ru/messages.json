@@ -1,0 +1,47 @@
+{
+   "accept": {
+      "message": "I Agree"
+   },
+   "day": {
+      "message": "day"
+   },
+   "description": {
+      "message": "Первый клиент с рабочим Директом! Установи полноценный Клиент для Инстаграм в свой браузер"
+   },
+   "does_not_allowed": {
+      "message": "Not supported"
+   },
+   "empty_inbox": {
+      "message": "Your Inbox is empty"
+   },
+   "hour": {
+      "message": "hour"
+   },
+   "just_now": {
+      "message": "a moment ago"
+   },
+   "lang": {
+      "message": "en"
+   },
+   "min": {
+      "message": "min"
+   },
+   "name": {
+      "message": "Клиент для Инстаграм с Директом"
+   },
+   "notAuthorizedMsg": {
+      "message": "You need to Log In into Instagram™ first"
+   },
+   "today": {
+      "message": "Today"
+   },
+   "week": {
+      "message": "week"
+   },
+   "year": {
+      "message": "year"
+   },
+   "yesterday": {
+      "message": "Yesterday"
+   }
+}

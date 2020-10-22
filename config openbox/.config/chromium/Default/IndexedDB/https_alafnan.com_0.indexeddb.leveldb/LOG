@@ -1,0 +1,5 @@
+2020/10/15-08:26:52.537 6f74 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_alafnan.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/15-08:27:11.373 6f74 Level-0 table #5: started
+2020/10/15-08:27:11.725 6f74 Level-0 table #5: 5757 bytes OK
+2020/10/15-08:27:12.190 6f74 Delete type=0 #3
+2020/10/15-08:27:12.190 6f74 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

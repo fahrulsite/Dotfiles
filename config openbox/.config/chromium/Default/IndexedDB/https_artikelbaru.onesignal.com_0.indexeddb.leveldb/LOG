@@ -1,0 +1,15 @@
+2020/09/10-15:58:25.647 bc0 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_artikelbaru.onesignal.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/10-15:58:25.647 bc0 Recovering log #4
+2020/09/10-15:58:25.647 bc0 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_artikelbaru.onesignal.com_0.indexeddb.leveldb/000004.log 
+2020/09/10-15:58:28.702 b4b Level-0 table #8: started
+2020/09/10-15:58:28.755 b4b Level-0 table #8: 3649 bytes OK
+2020/09/10-15:58:28.792 b4b Delete type=0 #4
+2020/09/10-15:58:28.792 b4b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/10-15:58:28.792 b4b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 482 : 1
+2020/09/10-15:58:28.792 b4b Compacting 1@1 + 1@2 files
+2020/09/10-15:58:28.833 b4b Generated table #9@1: 100 keys, 2390 bytes
+2020/09/10-15:58:28.833 b4b Compacted 1@1 + 1@2 files => 2390 bytes
+2020/09/10-15:58:28.869 b4b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/10-15:58:28.869 b4b Delete type=2 #8
+2020/09/10-15:58:28.869 b4b Delete type=2 #5
+2020/09/10-15:58:28.890 b4b Manual compaction at level-1 from '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 482 : 1 .. (end); will stop at (end)

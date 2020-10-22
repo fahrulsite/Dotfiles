@@ -1,0 +1,8 @@
+2020/05/28-09:36:58.293 32db Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.cermati.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/28-09:36:58.293 32db Recovering log #4
+2020/05/28-09:36:58.293 32db Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.cermati.com_0.indexeddb.leveldb/000004.log 
+2020/05/28-09:39:29.386 8ab Level-0 table #8: started
+2020/05/28-09:39:29.386 8ab Level-0 table #8: 0 bytes OK
+2020/05/28-09:39:29.488 8ab Delete type=0 #4
+2020/05/28-09:39:29.488 8ab Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/28-09:39:29.488 8ab Manual compaction at level-1 from (begin) .. (end); will stop at (end)

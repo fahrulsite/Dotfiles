@@ -1,0 +1,5 @@
+2020/09/08-11:28:26.203 9b61 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/http_iyfsearch.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/08-11:28:29.389 ef6 Level-0 table #5: started
+2020/09/08-11:28:29.466 ef6 Level-0 table #5: 1022 bytes OK
+2020/09/08-11:28:29.638 ef6 Delete type=0 #3
+2020/09/08-11:28:29.638 ef6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

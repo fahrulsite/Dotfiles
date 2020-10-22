@@ -1,0 +1,5 @@
+2020/08/11-14:38:27.078 8db Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.niagahoster.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/11-14:40:55.855 76e Level-0 table #5: started
+2020/08/11-14:40:55.896 76e Level-0 table #5: 6665 bytes OK
+2020/08/11-14:40:55.933 76e Delete type=0 #3
+2020/08/11-14:40:55.933 76e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

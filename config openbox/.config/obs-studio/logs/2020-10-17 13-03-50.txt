@@ -1,0 +1,176 @@
+01:03:50 PM.357: CPU Name: Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+01:03:50 PM.357: CPU Speed: 2228.668MHz
+01:03:50 PM.357: Physical Cores: 2, Logical Cores: 4
+01:03:50 PM.357: Physical Memory: 9859MB Total, 4632MB Free
+01:03:50 PM.357: Kernel Version: Linux 5.6.13-arch1-1
+01:03:50 PM.357: Distribution: "Arch Linux" Unknown
+01:03:50 PM.358: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+01:03:50 PM.389: Portable mode: false
+01:03:50 PM.567: OBS 26.0.2-2 (linux)
+01:03:50 PM.567: ---------------------------------
+01:03:50 PM.569: ---------------------------------
+01:03:50 PM.569: audio settings reset:
+01:03:50 PM.569: 	samples per sec: 48000
+01:03:50 PM.569: 	speakers:        2
+01:03:50 PM.599: ---------------------------------
+01:03:50 PM.599: Initializing OpenGL...
+01:03:50 PM.674: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)
+01:03:50 PM.674: OpenGL loaded successfully, version 4.2 (Core Profile) Mesa 20.2.0, shading language 4.20
+01:03:50 PM.893: ---------------------------------
+01:03:50 PM.893: video settings reset:
+01:03:50 PM.893: 	base resolution:   1366x768
+01:03:50 PM.893: 	output resolution: 1364x768
+01:03:50 PM.893: 	downscale filter:  Bicubic
+01:03:50 PM.893: 	fps:               30/1
+01:03:50 PM.893: 	format:            NV12
+01:03:50 PM.893: 	YUV mode:          709/Partial
+01:03:50 PM.894: NV12 texture support not available
+01:03:50 PM.915: Audio monitoring device:
+01:03:50 PM.915: 	name: Default
+01:03:50 PM.915: 	id: default
+01:03:50 PM.915: ---------------------------------
+01:03:50 PM.945: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+01:03:50 PM.960: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+01:03:50 PM.960: 
+01:03:50 PM.961: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+01:03:51 PM.057: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:03:51 PM.057: No blackmagic support
+01:03:51 PM.325: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+01:03:51 PM.325: 
+01:03:51 PM.326: FFMPEG VAAPI supported
+01:03:51 PM.364: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+01:03:51 PM.364: 
+01:03:51 PM.364: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+01:03:51 PM.688: VLC found, VLC video source enabled
+01:03:51 PM.688: ---------------------------------
+01:03:51 PM.688:   Loaded Modules:
+01:03:51 PM.688:     vlc-video.so
+01:03:51 PM.688:     text-freetype2.so
+01:03:51 PM.688:     rtmp-services.so
+01:03:51 PM.688:     obs-x264.so
+01:03:51 PM.688:     obs-transitions.so
+01:03:51 PM.688:     obs-outputs.so
+01:03:51 PM.688:     obs-filters.so
+01:03:51 PM.688:     obs-ffmpeg.so
+01:03:51 PM.688:     linux-v4l2.so
+01:03:51 PM.688:     linux-pulseaudio.so
+01:03:51 PM.688:     linux-jack.so
+01:03:51 PM.688:     linux-decklink.so
+01:03:51 PM.688:     linux-capture.so
+01:03:51 PM.688:     linux-alsa.so
+01:03:51 PM.688:     image-source.so
+01:03:51 PM.688:     decklink-ouput-ui.so
+01:03:51 PM.688: ---------------------------------
+01:03:51 PM.695: ==== Startup complete ===============================================
+01:03:51 PM.741: All scene data cleared
+01:03:51 PM.741: ------------------------------------------------
+01:03:51 PM.795: pulse-input: Server name: 'pulseaudio 13.99.2-13-g7f4d7'
+01:03:51 PM.796: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+01:03:51 PM.804: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+01:03:51 PM.804: [Loaded global audio device]: 'Desktop Audio'
+01:03:51 PM.805: pulse-input: Server name: 'pulseaudio 13.99.2-13-g7f4d7'
+01:03:51 PM.806: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+01:03:51 PM.807: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+01:03:51 PM.810: pulse-am: Server name: 'pulseaudio 13.99.2-13-g7f4d7'
+01:03:51 PM.810: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+01:03:51 PM.811: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+01:03:51 PM.826: [Loaded global audio device]: 'Mic/Aux'
+01:03:51 PM.826:     - filter: 'Gain' (gain_filter)
+01:03:51 PM.826:     - filter: 'Noise Gate' (noise_gate_filter)
+01:03:51 PM.826:     - filter: 'Noise Suppression' (noise_suppress_filter)
+01:03:51 PM.826:     - filter: 'Compressor' (compressor_filter)
+01:03:51 PM.826:     - monitoring: monitor only
+01:03:51 PM.830: Switched to scene 'Scene'
+01:03:51 PM.830: ------------------------------------------------
+01:03:51 PM.830: Loaded scenes:
+01:03:51 PM.830: - scene 'Scene':
+01:03:51 PM.830:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+01:03:51 PM.830:     - source: 'Window Capture (Xcomposite) 2' (xcomposite_input)
+01:03:51 PM.830: ------------------------------------------------
+01:03:52 PM.333: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+01:03:52 PM.333: 
+01:04:08 PM.530: User added source 'Window Capture (Xcomposite) 3' (xcomposite_input) to scene 'Scene'
+01:04:08 PM.592: xcompcap: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+01:04:08 PM.592: 	title: Meet - zfj-xnbe-qau - Chromium
+01:04:08 PM.592: 	class: chromium
+01:04:08 PM.592: 	Bit depth: 24
+01:04:08 PM.592: 	Found proper GLXFBConfig (in 24): yes
+01:04:08 PM.592: 
+01:04:25 PM.390: ---------------------------------
+01:04:25 PM.390: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+01:04:25 PM.390: [x264 encoder: 'simple_h264_recording'] profile: high
+01:04:25 PM.404: [x264 encoder: 'simple_h264_recording'] settings:
+01:04:25 PM.404: 	rate_control: CRF
+01:04:25 PM.404: 	bitrate:      0
+01:04:25 PM.404: 	buffer size:  0
+01:04:25 PM.404: 	crf:          21
+01:04:25 PM.404: 	fps_num:      30
+01:04:25 PM.404: 	fps_den:      1
+01:04:25 PM.404: 	width:        1364
+01:04:25 PM.404: 	height:       768
+01:04:25 PM.404: 	keyint:       250
+01:04:25 PM.404: 
+01:04:25 PM.493: ---------------------------------
+01:04:25 PM.495: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+01:04:25 PM.495: 
+01:04:25 PM.613: ==== Recording Start ===============================================
+01:04:25 PM.613: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/fahrul/2020-10-17 13-04-25.mkv'...
+01:04:31 PM.784: xcompcap: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+01:04:31 PM.784: 	title: Meet - zfj-xnbe-qau - Chromium
+01:04:31 PM.784: 	class: chromium
+01:04:31 PM.784: 	Bit depth: 24
+01:04:31 PM.784: 	Found proper GLXFBConfig (in 24): yes
+01:04:31 PM.784: 
+01:04:34 PM.083: xcompcap: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+01:04:34 PM.083: 	title: Meet - zfj-xnbe-qau - Chromium
+01:04:34 PM.083: 	class: chromium
+01:04:34 PM.083: 	Bit depth: 24
+01:04:34 PM.083: 	Found proper GLXFBConfig (in 24): yes
+01:04:34 PM.083: 
+01:04:39 PM.381: xcompcap: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+01:04:39 PM.381: 	title: Meet - zfj-xnbe-qau - Chromium
+01:04:39 PM.381: 	class: chromium
+01:04:39 PM.381: 	Bit depth: 24
+01:04:39 PM.381: 	Found proper GLXFBConfig (in 24): yes
+01:04:39 PM.381: 
+01:04:40 PM.677: xcompcap: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+01:04:40 PM.677: 	title: Meet - zfj-xnbe-qau - Chromium
+01:04:40 PM.677: 	class: chromium
+01:04:40 PM.677: 	Bit depth: 24
+01:04:40 PM.677: 	Found proper GLXFBConfig (in 24): yes
+01:04:40 PM.677: 
+01:05:14 PM.385: xcompcap: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+01:05:14 PM.385: 	title: Meet - zfj-xnbe-qau - Chromium
+01:05:14 PM.385: 	class: chromium
+01:05:14 PM.385: 	Bit depth: 24
+01:05:14 PM.385: 	Found proper GLXFBConfig (in 24): yes
+01:05:14 PM.385: 
+01:05:14 PM.415: xcompcap: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+01:05:14 PM.415: 	title: Meet - zfj-xnbe-qau - Chromium
+01:05:14 PM.415: 	class: chromium
+01:05:14 PM.415: 	Bit depth: 24
+01:05:14 PM.415: 	Found proper GLXFBConfig (in 24): yes
+01:05:14 PM.415: 
+02:00:11 PM.201: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+02:00:11 PM.201: 
+02:04:52 PM.742: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Desktop Audio)
+02:04:52 PM.742: 
+02:28:12 PM.010: xcompcap: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+02:28:12 PM.010: 	title: Meet - zfj-xnbe-qau - Chromium
+02:28:12 PM.010: 	class: chromium
+02:28:12 PM.010: 	Bit depth: 24
+02:28:12 PM.010: 	Found proper GLXFBConfig (in 24): yes
+02:28:12 PM.010: 
+02:28:12 PM.048: xcompcap: [window-capture: 'Window Capture (Xcomposite) 3'] update settings:
+02:28:12 PM.048: 	title: Meet - zfj-xnbe-qau - Chromium
+02:28:12 PM.048: 	class: chromium
+02:28:12 PM.048: 	Bit depth: 24
+02:28:12 PM.048: 	Found proper GLXFBConfig (in 24): yes
+02:28:12 PM.048: 
+02:30:02 PM.417: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/fahrul/2020-10-17 13-04-25.mkv' stopped
+02:30:02 PM.418: Output 'simple_file_output': stopping
+02:30:02 PM.418: Output 'simple_file_output': Total frames output: 140078
+02:30:02 PM.418: Output 'simple_file_output': Total drawn frames: 153304 (154104 attempted)
+02:30:02 PM.418: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 800 (0.5%)
+02:30:02 PM.418: ==== Recording Stop ================================================
+02:30:02 PM.647: Video stopped, number of skipped frames due to encoding lag: 115792/142573 (81.2%)

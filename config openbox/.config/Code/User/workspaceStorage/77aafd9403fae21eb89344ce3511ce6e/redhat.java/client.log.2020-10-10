@@ -1,0 +1,1117 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.64.1/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.64.1/config_ss_linux -data /home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2020-10-10 08:30:24.673'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.64.1/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.64.1/config_linux -data /home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2020-10-10 08:30:24.773'
+}
+{
+  message: '[Error - 8:32:11 AM] Oct 10, 2020, 8:32:11 AM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:162)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:495)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:32:11.610'
+}
+{
+  message: '[Error - 8:32:11 AM] Oct 10, 2020, 8:32:11 AM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:162)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:495)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:32:11.626'
+}
+{
+  message: '[Error - 8:32:11 AM] Oct 10, 2020, 8:32:11 AM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:162)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:495)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:32:11.630'
+}
+{
+  message: '[Error - 8:37:42 AM] Oct 10, 2020, 8:37:42 AM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:162)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:495)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:37:42.462'
+}
+{
+  message: '[Error - 8:37:55 AM] Oct 10, 2020, 8:37:55 AM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:162)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:495)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:37:55.175'
+}
+{
+  message: '[Error - 8:37:55 AM] Oct 10, 2020, 8:37:55 AM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:162)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:495)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:37:55.212'
+}
+{
+  message: '[Error - 8:37:55 AM] Oct 10, 2020, 8:37:55 AM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:162)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:495)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:37:55.619'
+}
+{
+  message: '[Error - 8:38:31 AM] Oct 10, 2020, 8:38:31 AM \n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:635)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:139)\n' +
+    '\tat org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)\n' +
+    '\tat org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:63)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEdit(SourceAssistProcessor.java:419)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEditAction(SourceAssistProcessor.java:384)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getGenerateConstructorsAction(SourceAssistProcessor.java:344)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:159)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:164)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:638)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:38:31.997'
+}
+{
+  message: '[Error - 8:38:32 AM] Oct 10, 2020, 8:38:31 AM \n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:139)\n' +
+    '\tat org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)\n' +
+    '\tat org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:63)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEdit(SourceAssistProcessor.java:419)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEditAction(SourceAssistProcessor.java:384)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getGenerateConstructorsAction(SourceAssistProcessor.java:344)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:159)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:164)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:638)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:38:32.004'
+}
+{
+  message: '[Error - 8:38:32 AM] Oct 10, 2020, 8:38:32 AM Error converting TextEdits\n' +
+    'End position lies outside document range\n' +
+    'org.eclipse.text.edits.MalformedTreeException: End position lies outside document range\n' +
+    '\tat org.eclipse.text.edits.TextEditProcessor.checkIntegrityDo(TextEditProcessor.java:180)\n' +
+    '\tat org.eclipse.text.edits.TextEdit.dispatchCheckIntegrity(TextEdit.java:746)\n' +
+    '\tat org.eclipse.text.edits.TextEditProcessor.performEdits(TextEditProcessor.java:153)\n' +
+    '\tat org.eclipse.text.edits.TextEdit.apply(TextEdit.java:714)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:141)\n' +
+    '\tat org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)\n' +
+    '\tat org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:63)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEdit(SourceAssistProcessor.java:419)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEditAction(SourceAssistProcessor.java:384)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getGenerateConstructorsAction(SourceAssistProcessor.java:344)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:159)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:164)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:638)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:38:32.007'
+}
+{
+  message: '[Error - 8:50:33 AM] Oct 10, 2020, 8:50:33 AM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:162)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:495)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 08:50:33.536'
+}
+{
+  message: '[Error - 9:03:29 AM] Oct 10, 2020, 9:03:29 AM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:162)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:495)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 09:03:29.733'
+}
+{
+  message: '[Error - 10:14:07 AM] Oct 10, 2020, 10:14:07 AM Unable to read documentation\n' +
+    'null\n' +
+    'java.util.concurrent.TimeoutException\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\n' +
+    '\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:162)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:495)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:14:07.798'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.64.1/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.64.1/config_ss_linux -data /home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2020-10-10 10:22:10.530'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.64.1/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.64.1/config_linux -data /home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2020-10-10 10:22:10.606'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 11, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-10-10 10:24:06.832'
+}
+{
+  message: '[Error - 10:29:08 AM] Oct 10, 2020, 10:29:08 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:29:08.474'
+}
+{
+  message: '[Error - 10:29:26 AM] Oct 10, 2020, 10:29:26 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:29:26.590'
+}
+{
+  message: '[Error - 10:29:32 AM] Oct 10, 2020, 10:29:32 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:29:32.517'
+}
+{
+  message: '[Error - 10:30:09 AM] Oct 10, 2020, 10:30:09 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:09.279'
+}
+{
+  message: '[Error - 10:30:11 AM] Oct 10, 2020, 10:30:11 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:11.143'
+}
+{
+  message: '[Error - 10:30:14 AM] Oct 10, 2020, 10:30:14 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:14.354'
+}
+{
+  message: '[Error - 10:30:15 AM] Oct 10, 2020, 10:30:15 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:15.345'
+}
+{
+  message: '[Error - 10:30:16 AM] Oct 10, 2020, 10:30:16 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:16.804'
+}
+{
+  message: '[Error - 10:30:18 AM] Oct 10, 2020, 10:30:18 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:18.546'
+}
+{
+  message: '[Error - 10:30:23 AM] Oct 10, 2020, 10:30:23 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:23.621'
+}
+{
+  message: '[Error - 10:30:27 AM] Oct 10, 2020, 10:30:27 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:27.292'
+}
+{
+  message: '[Error - 10:30:38 AM] Oct 10, 2020, 10:30:38 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:38.248'
+}
+{
+  message: '[Error - 10:30:45 AM] Oct 10, 2020, 10:30:45 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:45.234'
+}
+{
+  message: '[Error - 10:30:54 AM] Oct 10, 2020, 10:30:54 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:54.981'
+}
+{
+  message: '[Error - 10:30:56 AM] Oct 10, 2020, 10:30:56 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:30:56.140'
+}
+{
+  message: '[Error - 10:31:12 AM] Oct 10, 2020, 10:31:12 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:12.778'
+}
+{
+  message: '[Error - 10:31:14 AM] Oct 10, 2020, 10:31:14 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:14.360'
+}
+{
+  message: '[Error - 10:31:20 AM] Oct 10, 2020, 10:31:20 AM \n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:139)\n' +
+    '\tat org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)\n' +
+    '\tat org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:63)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ChangeUtil.convertTextEdit(ChangeUtil.java:281)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ChangeUtil.convertTextChange(ChangeUtil.java:263)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ChangeUtil.convertSingleChange(ChangeUtil.java:105)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ChangeUtil.convertToWorkspaceEdit(ChangeUtil.java:94)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionFromProposal(CodeActionHandler.java:186)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:152)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:638)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:20.403'
+}
+{
+  message: '[Error - 10:31:20 AM] Oct 10, 2020, 10:31:20 AM Error converting TextEdits\n' +
+    'End position lies outside document range\n' +
+    'org.eclipse.text.edits.MalformedTreeException: End position lies outside document range\n' +
+    '\tat org.eclipse.text.edits.TextEditProcessor.checkIntegrityDo(TextEditProcessor.java:180)\n' +
+    '\tat org.eclipse.text.edits.TextEdit.dispatchCheckIntegrity(TextEdit.java:746)\n' +
+    '\tat org.eclipse.text.edits.TextEditProcessor.performEdits(TextEditProcessor.java:153)\n' +
+    '\tat org.eclipse.text.edits.TextEdit.apply(TextEdit.java:714)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:141)\n' +
+    '\tat org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)\n' +
+    '\tat org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:63)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ChangeUtil.convertTextEdit(ChangeUtil.java:281)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ChangeUtil.convertTextChange(ChangeUtil.java:263)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ChangeUtil.convertSingleChange(ChangeUtil.java:105)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ChangeUtil.convertToWorkspaceEdit(ChangeUtil.java:94)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionFromProposal(CodeActionHandler.java:186)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:152)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:638)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:20.406'
+}
+{
+  message: '[Error - 10:31:22 AM] Oct 10, 2020, 10:31:22 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:22.949'
+}
+{
+  message: '[Error - 10:31:36 AM] Oct 10, 2020, 10:31:36 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:36.174'
+}
+{
+  message: '[Error - 10:31:37 AM] Oct 10, 2020, 10:31:37 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:37.187'
+}
+{
+  message: '[Error - 10:31:41 AM] Oct 10, 2020, 10:31:41 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:41.415'
+}
+{
+  message: '[Error - 10:31:43 AM] Oct 10, 2020, 10:31:43 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:43.910'
+}
+{
+  message: '[Error - 10:31:47 AM] Oct 10, 2020, 10:31:47 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:47.248'
+}
+{
+  message: '[Error - 10:31:50 AM] Oct 10, 2020, 10:31:50 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:50.920'
+}
+{
+  message: '[Error - 10:31:54 AM] Oct 10, 2020, 10:31:54 AM Offset > length: 1 > 0\n' +
+    'Offset > length: 1 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:234)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:127)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:264)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:228)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-10-10 10:31:54.198'
+}

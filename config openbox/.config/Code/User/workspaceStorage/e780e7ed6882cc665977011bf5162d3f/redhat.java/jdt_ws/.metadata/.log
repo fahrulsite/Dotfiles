@@ -1,0 +1,2618 @@
+!SESSION 2020-07-02 12:17:40.015 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=13.0.2
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/fahrul/.config/Code/User/workspaceStorage/e780e7ed6882cc665977011bf5162d3f/redhat.java/jdt_ws
+
+This is a continuation of log file /home/fahrul/.config/Code/User/workspaceStorage/e780e7ed6882cc665977011bf5162d3f/redhat.java/jdt_ws/.metadata/.bak_0.log
+Created Time: 2020-07-02 12:20:44.081
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2020-07-02 12:20:44.081
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1739)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2956)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:233)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:90)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:619)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2020-07-02 12:20:44.082
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1739)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2956)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:233)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:90)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:619)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.core 4 4 2020-07-02 12:20:44.111
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.*;
+
+public class Atm extends Bank {
+    static int batasPenarikan = 10000000;
+    static int tes2=0;
+    Random random = new Random();
+    Scanner scan = new Scanner(System.in);
+    public static void cek(int p){
+        tes2+=p;
+    }
+    public void transaksi(int paramRekeningTujuan, int paramJumlah) {
+        if(paramJumlah>saldo){
+            System.out.println("Maaf, sisa saldo anda tidak mencukupi");
+        }else{
+            // boolean ulanglagi = true;
+            int angka = random.nextInt(6);
+            
+                int validasi = faktorial(angka);
+                System.out.println(angka+"!");
+                System.out.print("Ketikkan hasil faktorial diatas sebagai bukti bahwa anda bukan robot : ");
+                int hasil = scan.nextInt();
+                if (hasil==validasi) {
+                    
+
+                }else{
+                    System.out.println("Error! Jawaban Anda salah");
+                }    
+        }
+    }
+
+    public int faktorial(int n){
+        if(n==0){
+            return 1;
+        }else{
+            return n* faktorial(n-1);
+        }
+    }
+
+    public void mutasi() {
+        System.out.println("===== Mutasi =====");
+        if(mutasi.isEmpty()){
+            System.out.println("Anda belum pernah melakukan transaksi");
+        }else{
+            System.out.println("Tanggal\t\t\t\t Jumlah Transaksi");
+            for (int i = mutasi.size()-1; i >=0 ; i--) {
+                System.out.print(tanggal.get(i)+"\t");
+                System.out.println("Rp"+mutasi.get(i));
+            }
+        }
+    }
+
+    public void login(){
+        boolean ulang = true;
+        while(ulang){
+            try {
+                System.out.println("======= Bank PTI =======");
+                System.out.print("Masukkan Nomer Kartu : ");
+                int inputKartu = scan.nextInt();
+                scan.nextLine();
+            
+                System.out.print("Masukkan PIN : ");
+                int inputPIN = scan.nextInt();
+                if (inputKartu != kartu) {
+                    System.out.println("Nomer kartu salah");
+               } else if(inputPIN != pin){
+                   System.out.println("PIN salah");
+               } else{
+                   ulang = false;
+               }
+            } catch (InputMismatchException e) {
+                System.out.println("Nomer Kartu dan PIN harus angka");
+                System.exit(0);
+            }       
+        }
+    }
+
+    public int tarik(){
+        int i = 0;
+        int penarikan;
+
+        do{
+        System.out.print("Masukan nominal penarikan    : ");
+        penarikan = scan.nextInt();
+        cek(penarikan);
+        
+        if (){
+        }(penarikan > saldo){
+            System.out.println("Maaf, saldo Anda tidak mencukupi");
+            System.out.println("silahkan masukan nominal yang lebih kecil");
+        }else if (penarikan < 0){
+            System.out.println("Maaf Anda tidak memasukkan nominal yang benar");
+            System.out.println("Silahkan masukkan nominal yang benar");
+            tarik();
+        }
+        else {
+
+            System.out.println("penarikan berhasil, sebanyak : " +penarikan);
+            System.out.println("terima kasih^^, silahkan ambil uang anda ...");
+            kurangiSaldo(penarikan);
+        }
+        i++;
+        }
+        while ( penarikan > saldo);
+        return saldo;
+        }
+
+    public static void kurangiSaldo(int paramSaldo){
+        try {
+            tanggal.add(date.toString());
+            mutasi.add(paramSaldo);
+            saldo = saldo - paramSaldo;
+            String textSaldo = Integer.toString(saldo);
+            FileWriter fileWriter = new FileWriter(fileSaldo);
+            fileWriter.write(textSaldo);
+            fileWriter.close();
+
+            FileWriter writerTanggal = new FileWriter(fileTanggal);
+            String listTanggal =tanggal.toString();
+            writerTanggal.write(listTanggal);
+            writerTanggal.close();
+
+            FileWriter writerMutasi = new FileWriter(fileMutasi);
+            String listMutasi =mutasi.toString();
+            writerMutasi.write(listMutasi);
+            writerMutasi.close();
+        } catch (IOException e) {
+            System.out.println("Terjadi kesalahan karena: " + e.getMessage());
+        }
+    }
+
+    
+}
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1739)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2956)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.internal.core.manipulation.dom.ASTResolving.createQuickFixAST(ASTResolving.java:1022)
+	at org.eclipse.jdt.ls.core.internal.corrections.InnovationContext.getASTRoot(InnovationContext.java:68)
+	at org.eclipse.jdt.ls.core.internal.corrections.InnovationContext.getCoveringNode(InnovationContext.java:84)
+	at org.eclipse.jdt.ls.core.internal.corrections.RefactorProcessor.getProposals(RefactorProcessor.java:127)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:128)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:619)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.core 4 4 2020-07-02 12:20:44.494
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.*;
+
+public class Atm extends Bank {
+    static int batasPenarikan = 10000000;
+    static int tes2=0;
+    Random random = new Random();
+    Scanner scan = new Scanner(System.in);
+    public static void cek(int p){
+        tes2+=p;
+    }
+    public void transaksi(int paramRekeningTujuan, int paramJumlah) {
+        if(paramJumlah>saldo){
+            System.out.println("Maaf, sisa saldo anda tidak mencukupi");
+        }else{
+            // boolean ulanglagi = true;
+            int angka = random.nextInt(6);
+            
+                int validasi = faktorial(angka);
+                System.out.println(angka+"!");
+                System.out.print("Ketikkan hasil faktorial diatas sebagai bukti bahwa anda bukan robot : ");
+                int hasil = scan.nextInt();
+                if (hasil==validasi) {
+                    
+
+                }else{
+                    System.out.println("Error! Jawaban Anda salah");
+                }    
+        }
+    }
+
+    public int faktorial(int n){
+        if(n==0){
+            return 1;
+        }else{
+            return n* faktorial(n-1);
+        }
+    }
+
+    public void mutasi() {
+        System.out.println("===== Mutasi =====");
+        if(mutasi.isEmpty()){
+            System.out.println("Anda belum pernah melakukan transaksi");
+        }else{
+            System.out.println("Tanggal\t\t\t\t Jumlah Transaksi");
+            for (int i = mutasi.size()-1; i >=0 ; i--) {
+                System.out.print(tanggal.get(i)+"\t");
+                System.out.println("Rp"+mutasi.get(i));
+            }
+        }
+    }
+
+    public void login(){
+        boolean ulang = true;
+        while(ulang){
+            try {
+                System.out.println("======= Bank PTI =======");
+                System.out.print("Masukkan Nomer Kartu : ");
+                int inputKartu = scan.nextInt();
+                scan.nextLine();
+            
+                System.out.print("Masukkan PIN : ");
+                int inputPIN = scan.nextInt();
+                if (inputKartu != kartu) {
+                    System.out.println("Nomer kartu salah");
+               } else if(inputPIN != pin){
+                   System.out.println("PIN salah");
+               } else{
+                   ulang = false;
+               }
+            } catch (InputMismatchException e) {
+                System.out.println("Nomer Kartu dan PIN harus angka");
+                System.exit(0);
+            }       
+        }
+    }
+
+    public int tarik(){
+        int i = 0;
+        int penarikan;
+
+        do{
+        System.out.print("Masukan nominal penarikan    : ");
+        penarikan = scan.nextInt();
+        cek(penarikan);
+        
+        if (){
+        }(penarikan > saldo){
+            System.out.println("Maaf, saldo Anda tidak mencukupi");
+            System.out.println("silahkan masukan nominal yang lebih kecil");
+        }else if (penarikan < 0){
+            System.out.println("Maaf Anda tidak memasukkan nominal yang benar");
+            System.out.println("Silahkan masukkan nominal yang benar");
+            tarik();
+        }
+        else {
+
+            System.out.println("penarikan berhasil, sebanyak : " +penarikan);
+            System.out.println("terima kasih^^, silahkan ambil uang anda ...");
+            kurangiSaldo(penarikan);
+        }
+        i++;
+        }
+        while ( penarikan > saldo);
+        return saldo;
+        }
+
+    public static void kurangiSaldo(int paramSaldo){
+        try {
+            tanggal.add(date.toString());
+            mutasi.add(paramSaldo);
+            saldo = saldo - paramSaldo;
+            String textSaldo = Integer.toString(saldo);
+            FileWriter fileWriter = new FileWriter(fileSaldo);
+            fileWriter.write(textSaldo);
+            fileWriter.close();
+
+            FileWriter writerTanggal = new FileWriter(fileTanggal);
+            String listTanggal =tanggal.toString();
+            writerTanggal.write(listTanggal);
+            writerTanggal.close();
+
+            FileWriter writerMutasi = new FileWriter(fileMutasi);
+            String listMutasi =mutasi.toString();
+            writerMutasi.write(listMutasi);
+            writerMutasi.close();
+        } catch (IOException e) {
+            System.out.println("Terjadi kesalahan karena: " + e.getMessage());
+        }
+    }
+
+    
+}
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1739)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2956)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2020-07-02 12:20:44.495
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1739)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2956)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2020-07-02 12:20:44.497
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1739)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2956)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:221)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.access$1(BaseDocumentLifeCycleHandler.java:203)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:100)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:44.514
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:44.514
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:44.535
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:44.535
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:44.566
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:44.566
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:44.566
+!MESSAGE Validated 4. Took 91 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:45.393
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:45.398
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:45.475
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:45.624
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:20:45.754
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:45.763
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:45.823
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:20:45.859
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.002
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.147
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.167
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.328
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.390
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:20:46.565
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.575
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.593
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.638
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.639
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.641
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.767
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:46.846
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:47.346
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:47.346
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:47.364
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:47.364
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:47.400
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:47.400
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:47.445
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:47.445
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:47.448
+!MESSAGE Validated 4. Took 152 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:47.674
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:48.024
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:48.392
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:48.395
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:48.398
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:48.400
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:48.403
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:48.408
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:49.022
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:50.561
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:50.564
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:20:50.696
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:50.724
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:50.751
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:50.792
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:50.793
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:50.797
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:50.917
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:51.017
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:51.146
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:51.344
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:51.394
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:51.394
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:51.395
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:51.516
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:51.601
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.031
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.034
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.231
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:20:52.318
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.330
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.356
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:20:52.463
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.472
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:20:52.507
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.512
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.535
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.585
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.586
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.587
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.705
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:52.770
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.000
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.197
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.248
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.248
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.249
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.363
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.455
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.489
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.684
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.737
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.737
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.738
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.850
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:53.945
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.443
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.443
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.455
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.460
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.460
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.495
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.495
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.535
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.536
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.536
+!MESSAGE Validated 4. Took 141 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.538
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.629
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.680
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.680
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:20:54.689
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.704
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.733
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.799
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:54.942
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.238
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.240
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.434
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.487
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.487
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.487
+!MESSAGE >> document/codeAction
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:20:55.547
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.567
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.601
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.693
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.830
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.837
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:20:55.896
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:55.904
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.011
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.061
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.061
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.067
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.175
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.284
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-07-02 12:20:56.411
+!MESSAGE Unable to read documentation
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:157)
+	at com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:70)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$3(JDTLanguageServer.java:476)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.773
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.773
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.787
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.787
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.809
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.809
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.849
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.850
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:56.850
+!MESSAGE Validated 4. Took 116 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:57.029
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:57.830
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:57.833
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:57.834
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:57.837
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:57.839
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:20:57.844
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:00.997
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:01.333
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:01.693
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:01.698
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:01.768
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:21:01.859
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:01.869
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:01.882
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:01.971
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:21:02.046
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.055
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.068
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:21:02.109
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.115
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.267
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.317
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.318
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.319
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.429
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.523
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.633
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.832
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.883
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.883
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.884
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:02.992
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.086
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.257
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.576
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.576
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.586
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.586
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.608
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.608
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.640
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.640
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.640
+!MESSAGE Validated 4. Took 103 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.716
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.884
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.935
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:03.935
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.044
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.171
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.659
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.659
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.674
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.674
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.694
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.694
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.730
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.730
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:04.730
+!MESSAGE Validated 4. Took 109 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:05.716
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:05.719
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:05.721
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:05.723
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:05.725
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:05.731
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:06.612
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:06.620
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:06.802
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:06.810
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:21:06.906
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:06.916
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:06.919
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:21:06.963
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:06.967
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.091
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.142
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.142
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.143
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.247
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.322
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.416
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.596
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.647
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.647
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.648
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.748
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:07.858
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:08.031
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:08.213
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:08.265
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:08.266
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:08.267
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:08.365
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:08.437
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:08.742
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:08.874
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.030
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.212
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.262
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.445
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.473
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.657
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.706
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.707
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.708
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.807
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:09.908
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:10.361
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:10.361
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:10.377
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:10.377
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:10.400
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:10.400
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:10.429
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:10.430
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:10.430
+!MESSAGE Validated 4. Took 121 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:10.617
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:11.474
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:11.477
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:11.479
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:11.481
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:11.484
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:11.492
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:11.816
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:12.003
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:12.127
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:12.299
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:12.485
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:12.537
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:12.651
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:12.795
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:13.001
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:13.149
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:13.331
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:13.381
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:13.382
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:13.383
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:13.481
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:13.602
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.093
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.093
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.109
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.110
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.155
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.155
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.202
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.202
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.203
+!MESSAGE Validated 4. Took 151 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.368
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.762
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:14.956
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:15.148
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:15.149
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:15.358
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:15.542
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:15.592
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:15.593
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:15.594
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:15.692
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:15.762
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.190
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.213
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.213
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.233
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.233
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.264
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.264
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.308
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.308
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.308
+!MESSAGE Validated 4. Took 145 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.393
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.576
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.703
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.791
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:16.988
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:17.034
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:17.088
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:17.250
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:17.331
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:17.439
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:17.612
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:17.752
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:17.888
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.038
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.127
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.221
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.374
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.558
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.608
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.609
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.610
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.655
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.749
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.839
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:18.999
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:19.119
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:19.235
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:19.355
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:19.482
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:19.622
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:19.824
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:19.956
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.046
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.167
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.243
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.440
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.490
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.491
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.492
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.593
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.652
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.773
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:20.948
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.012
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.140
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.140
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.149
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.149
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.177
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.177
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.221
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.222
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.222
+!MESSAGE Validated 4. Took 120 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.277
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.606
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:21.953
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:23.028
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:23.030
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:23.032
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:23.034
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:23.036
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:23.041
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:23.055
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:23.528
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:24.759
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:25.104
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:26.071
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:26.371
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:26.415
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:26.681
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:26.965
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:28.431
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:28.433
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:28.435
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:28.437
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:28.439
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:28.446
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:21:37.681
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:08.679
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:10.424
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:10.438
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:10.560
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:10.606
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:10.607
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:12.238
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:12.300
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:12.561
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:13.555
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:13.564
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:13.682
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:13.730
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:13.731
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:13.735
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:13.897
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-07-02 12:22:13.911
+!MESSAGE Failed to resolve jdt://contents/java.base/java.util/Scanner.class?=ATM-Bank PTI_b344e60a/%5C/usr%5C/lib%5C/jvm%5C/default%5C/lib%5C/jrt-fs.jar%60java.base=/javadoc_location=/https:%5C/%5C/docs.oracle.com%5C/en%5C/java%5C/javase%5C/13%5C/docs%5C/api%5C/=/%3Cjava.util(Scanner.class
+!STACK 0
+java.net.URISyntaxException: Illegal character in query at index 58: jdt://contents/java.base/java.util/Scanner.class?=ATM-Bank PTI_b344e60a/%5C/usr%5C/lib%5C/jvm%5C/default%5C/lib%5C/jrt-fs.jar%60java.base=/javadoc_location=/https:%5C/%5C/docs.oracle.com%5C/en%5C/java%5C/javase%5C/13%5C/docs%5C/api%5C/=/%3Cjava.util(Scanner.class
+	at java.base/java.net.URI$Parser.fail(URI.java:2936)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3107)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3195)
+	at java.base/java.net.URI$Parser.parse(URI.java:3137)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toURI(JDTUtils.java:875)
+	at org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandler.fixLocation(NavigateToDefinitionHandler.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandler.computeDefinitionNavigation(NavigateToDefinitionHandler.java:170)
+	at org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandler.computeDefinitionNavigation(NavigateToDefinitionHandler.java:84)
+	at org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandler.definition(NavigateToDefinitionHandler.java:69)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$8(JDTLanguageServer.java:553)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:13.911
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:13.919
+!MESSAGE >> java/classFileContents
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:14.002
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:14.003
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:14.004
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-07-02 12:22:14.013
+!MESSAGE Failed to resolve jdt://contents/java.base/java.util/Scanner.class?=ATM-Bank PTI_b344e60a/%5C/usr%5C/lib%5C/jvm%5C/default%5C/lib%5C/jrt-fs.jar%60java.base=/javadoc_location=/https:%5C/%5C/docs.oracle.com%5C/en%5C/java%5C/javase%5C/13%5C/docs%5C/api%5C/=/%3Cjava.util(Scanner.class
+!STACK 0
+java.net.URISyntaxException: Illegal character in query at index 58: jdt://contents/java.base/java.util/Scanner.class?=ATM-Bank PTI_b344e60a/%5C/usr%5C/lib%5C/jvm%5C/default%5C/lib%5C/jrt-fs.jar%60java.base=/javadoc_location=/https:%5C/%5C/docs.oracle.com%5C/en%5C/java%5C/javase%5C/13%5C/docs%5C/api%5C/=/%3Cjava.util(Scanner.class
+	at java.base/java.net.URI$Parser.fail(URI.java:2936)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3107)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3195)
+	at java.base/java.net.URI$Parser.parse(URI.java:3137)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toURI(JDTUtils.java:875)
+	at org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandler.fixLocation(NavigateToDefinitionHandler.java:188)
+	at org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandler.computeDefinitionNavigation(NavigateToDefinitionHandler.java:170)
+	at org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandler.computeDefinitionNavigation(NavigateToDefinitionHandler.java:84)
+	at org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandler.definition(NavigateToDefinitionHandler.java:69)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$8(JDTLanguageServer.java:553)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:14.017
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:14.037
+!MESSAGE >> java/classFileContents
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:14.069
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:14.070
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:14.153
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:14.221
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:14.481
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:16.020
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:16.022
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:16.024
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:16.027
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:16.029
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:16.035
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:18.708
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:22:52.381
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:07.587
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:15.735
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:20.228
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:25.209
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:31.277
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:31.332
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:32.442
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:33.082
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:33.661
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.096
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.135
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-07-02 12:23:34.144
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)
+	at org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:635)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:139)
+	at org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)
+	at org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:63)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEdit(SourceAssistProcessor.java:419)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEditAction(SourceAssistProcessor.java:384)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:151)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:164)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:619)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-07-02 12:23:34.146
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)
+	at org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:636)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:139)
+	at org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)
+	at org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:63)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEdit(SourceAssistProcessor.java:419)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEditAction(SourceAssistProcessor.java:384)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:151)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:164)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:619)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-07-02 12:23:34.149
+!MESSAGE Error converting TextEdits
+!STACK 0
+org.eclipse.text.edits.MalformedTreeException: End position lies outside document range
+	at org.eclipse.text.edits.TextEditProcessor.checkIntegrityDo(TextEditProcessor.java:180)
+	at org.eclipse.text.edits.TextEdit.dispatchCheckIntegrity(TextEdit.java:746)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(TextEditProcessor.java:153)
+	at org.eclipse.text.edits.TextEdit.apply(TextEdit.java:714)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:141)
+	at org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)
+	at org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:63)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEdit(SourceAssistProcessor.java:419)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEditAction(SourceAssistProcessor.java:384)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:151)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:164)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:619)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.334
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.397
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.397
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.398
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.595
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.649
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.650
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.802
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:34.845
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.040
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.090
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.091
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.236
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.299
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.436
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.678
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.807
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.808
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.836
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.837
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.877
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.877
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.901
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.901
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:35.901
+!MESSAGE Validated 4. Took 152 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:36.753
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:37.392
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:37.395
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:37.436
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:37.439
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:37.440
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:37.443
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:37.445
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:37.454
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:38.579
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:43.902
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:43.926
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:44.077
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:44.111
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:44.111
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:44.114
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:46.293
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:46.302
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:46.429
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:46.480
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:46.481
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:48.923
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:48.939
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:49.067
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:49.113
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:49.113
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:49.116
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:55.096
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:55.099
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:55.794
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:55.797
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:56.818
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:56.821
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:57.814
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:58.214
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:23:58.225
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:16.731
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:16.742
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:21.352
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:21.404
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:22.664
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.125
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.290
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.349
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.350
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.440
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.580
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.743
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.764
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.835
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:24:23.935
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.943
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:23.982
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.102
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:24:24.133
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.144
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:24:24.193
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.199
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.267
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.318
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.318
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.320
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.417
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.509
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.660
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.855
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.906
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.907
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:24.909
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.006
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.114
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.605
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.605
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.615
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.615
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.651
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.652
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.674
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.674
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.674
+!MESSAGE Validated 4. Took 108 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.791
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.797
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:25.987
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.065
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:24:26.106
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.115
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2020-07-02 12:24:26.187
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.195
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.229
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.278
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.279
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.280
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.378
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.519
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.713
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.910
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.960
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.961
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:26.962
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.030
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.060
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.167
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.341
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.572
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.663
+!MESSAGE begin problem for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.664
+!MESSAGE 1 problems reported for /Atm.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.675
+!MESSAGE begin problem for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.675
+!MESSAGE 0 problems reported for /Bank.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.730
+!MESSAGE begin problem for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.730
+!MESSAGE 3 problems reported for /Filee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.757
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.757
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.757
+!MESSAGE Validated 4. Took 140 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:27.920
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:29.341
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:29.344
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:29.345
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:29.348
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:29.350
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:29.355
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:24:32.158
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:25:13.844
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:25:22.981
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:48.925
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:49.040
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:54.985
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:54.994
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:55.548
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:55.550
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:57.532
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:57.535
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:57.733
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:57.736
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:58.033
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:26:58.035
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:00.949
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:00.953
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:01.549
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:01.553
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:02.848
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:03.068
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:04.253
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:04.257
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:08.080
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:08.083
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:08.380
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:08.385
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:08.887
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:08.889
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:09.289
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:09.294
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:09.605
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:09.608
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:16.236
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:16.249
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:17.044
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:17.047
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:18.696
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:18.706
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:19.547
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:19.550
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:19.747
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:19.754
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:22.686
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:22.690
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:24.447
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:25.049
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:25.059
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:27.100
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:27.109
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:35.496
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:35.502
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:36.301
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:36.393
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:38.386
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:38.392
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:39.334
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:39.343
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:40.076
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:40.085
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:41.677
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:41.743
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:42.694
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:42.706
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:42.895
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:42.906
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:44.656
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:44.741
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:49.771
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:27:49.774
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:28:03.627
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:28:25.580
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:29:00.345
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-02 12:29:14.363
+!MESSAGE >> workspace/didChangeWatchedFiles 

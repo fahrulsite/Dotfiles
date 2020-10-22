@@ -1,0 +1,8 @@
+2020/10/20-09:29:52.185 1d58 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/20-09:29:52.185 1d58 Recovering log #1053
+2020/10/20-09:29:52.185 1d58 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/001053.log 
+2020/10/20-09:29:55.167 305c Level-0 table #1058: started
+2020/10/20-09:29:55.167 305c Level-0 table #1058: 0 bytes OK
+2020/10/20-09:29:55.257 305c Delete type=0 #1053
+2020/10/20-09:29:55.258 305c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/20-09:29:55.258 305c Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,8 @@
+2020/10/15-22:43:27.198 24ae Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_ad.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/15-22:43:27.198 24ae Recovering log #4
+2020/10/15-22:43:27.198 24ae Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_ad.doubleclick.net_0.indexeddb.leveldb/000004.log 
+2020/10/15-22:43:56.351 24ae Level-0 table #8: started
+2020/10/15-22:43:56.351 24ae Level-0 table #8: 0 bytes OK
+2020/10/15-22:43:56.583 24ae Delete type=0 #4
+2020/10/15-22:43:56.583 24ae Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/15-22:43:56.583 24ae Manual compaction at level-1 from (begin) .. (end); will stop at (end)

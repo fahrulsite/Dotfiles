@@ -1,0 +1,42 @@
+2020/10/18-15:57:09.775 aa9 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_puslapdik.webex.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/18-15:57:09.775 aa9 Recovering log #11
+2020/10/18-15:57:09.775 aa9 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_puslapdik.webex.com_0.indexeddb.leveldb/000011.log 
+2020/10/18-16:23:09.807 166d Level-0 table #16: started
+2020/10/18-16:23:09.955 166d Level-0 table #16: 939129 bytes OK
+2020/10/18-16:23:10.081 166d Delete type=0 #11
+2020/10/18-16:23:51.478 aa8 Compacting 1@1 + 1@2 files
+2020/10/18-16:23:51.840 aa8 Generated table #17@1: 20324 keys, 1052734 bytes
+2020/10/18-16:23:51.840 aa8 Compacted 1@1 + 1@2 files => 1052734 bytes
+2020/10/18-16:23:51.908 aa8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/18-16:23:51.908 aa8 Delete type=2 #16
+2020/10/18-16:23:51.908 aa8 Delete type=2 #13
+2020/10/18-16:36:00.076 1122 Level-0 table #19: started
+2020/10/18-16:36:00.253 1122 Level-0 table #19: 907655 bytes OK
+2020/10/18-16:36:00.324 1122 Delete type=0 #15
+2020/10/18-16:36:02.711 1a9f Compacting 1@1 + 1@2 files
+2020/10/18-16:36:03.323 1a9f Generated table #20@1: 29558 keys, 1504029 bytes
+2020/10/18-16:36:03.323 1a9f Compacted 1@1 + 1@2 files => 1504029 bytes
+2020/10/18-16:36:03.356 1a9f compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/18-16:51:14.223 1d91 Level-0 table #22: started
+2020/10/18-16:51:14.493 1d91 Level-0 table #22: 892717 bytes OK
+2020/10/18-16:51:14.951 1d91 Delete type=2 #17
+2020/10/18-16:51:14.951 1d91 Delete type=2 #19
+2020/10/18-16:51:14.951 1d91 Delete type=0 #18
+2020/10/18-16:51:18.386 2318 Compacting 1@1 + 1@2 files
+2020/10/18-16:51:18.757 2318 Generated table #23@1: 38592 keys, 1947993 bytes
+2020/10/18-16:51:18.757 2318 Compacted 1@1 + 1@2 files => 1947993 bytes
+2020/10/18-16:51:18.823 2318 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/18-16:51:18.824 2318 Delete type=2 #22
+2020/10/18-16:51:18.824 2318 Delete type=2 #20
+2020/10/18-16:53:49.358 1d91 Level-0 table #25: started
+2020/10/18-16:53:49.423 1d91 Level-0 table #25: 152701 bytes OK
+2020/10/18-16:53:49.456 1d91 Delete type=0 #21
+2020/10/18-16:53:49.457 1d91 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/18-16:53:49.457 1d91 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x06\x02\x01\x06\x00l\x001\x004\x004\x000\x009' @ 239765 : 1
+2020/10/18-16:53:49.457 1d91 Compacting 1@1 + 1@2 files
+2020/10/18-16:53:49.647 1d91 Generated table #26@1: 40105 keys, 2021517 bytes
+2020/10/18-16:53:49.647 1d91 Compacted 1@1 + 1@2 files => 2021517 bytes
+2020/10/18-16:53:49.678 1d91 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/18-16:53:49.678 1d91 Delete type=2 #25
+2020/10/18-16:53:49.678 1d91 Delete type=2 #23
+2020/10/18-16:53:49.680 1d91 Manual compaction at level-1 from '\x00\x01\x06\x02\x01\x06\x00l\x001\x004\x004\x000\x009' @ 239765 : 1 .. (end); will stop at (end)

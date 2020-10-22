@@ -1,0 +1,5 @@
+2020/10/09-14:28:12.926 2085 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_iuli.bitrix24.site_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/09-14:28:17.089 164e Level-0 table #5: started
+2020/10/09-14:28:17.146 164e Level-0 table #5: 1815 bytes OK
+2020/10/09-14:28:17.225 164e Delete type=0 #3
+2020/10/09-14:28:17.225 164e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

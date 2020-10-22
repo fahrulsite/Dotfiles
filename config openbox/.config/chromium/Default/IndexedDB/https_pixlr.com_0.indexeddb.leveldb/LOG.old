@@ -1,0 +1,15 @@
+2020/08/06-20:38:35.835 11e7 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_pixlr.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/06-20:38:35.835 11e7 Recovering log #4
+2020/08/06-20:38:35.835 11e7 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_pixlr.com_0.indexeddb.leveldb/000004.log 
+2020/08/06-20:38:55.959 850 Level-0 table #8: started
+2020/08/06-20:38:56.004 850 Level-0 table #8: 1838 bytes OK
+2020/08/06-20:38:56.041 850 Delete type=0 #4
+2020/08/06-20:38:56.041 850 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/06-20:38:56.041 850 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x08\x03\x01$\x00a\x00d\x003\x00e\x002\x002\x00a\x00b\x00-\x004\x000\x00c\x00e\x00-\x004\x005\x008\x00c\x00-\x008\x009\x003\x007\x00-\x002\x002\x00e\x001\x00c\x004\x00b\x00b\x00a\x006\x00d\x005' @ 318 : 1
+2020/08/06-20:38:56.041 850 Compacting 1@1 + 1@2 files
+2020/08/06-20:38:56.072 850 Generated table #9@1: 97 keys, 2096 bytes
+2020/08/06-20:38:56.072 850 Compacted 1@1 + 1@2 files => 2096 bytes
+2020/08/06-20:38:56.107 850 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/06-20:38:56.107 850 Delete type=2 #8
+2020/08/06-20:38:56.108 850 Delete type=2 #5
+2020/08/06-20:38:56.108 850 Manual compaction at level-1 from '\x00\x01\x08\x03\x01$\x00a\x00d\x003\x00e\x002\x002\x00a\x00b\x00-\x004\x000\x00c\x00e\x00-\x004\x005\x008\x00c\x00-\x008\x009\x003\x007\x00-\x002\x002\x00e\x001\x00c\x004\x00b\x00b\x00a\x006\x00d\x005' @ 318 : 1 .. (end); will stop at (end)

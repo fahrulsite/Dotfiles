@@ -1,0 +1,15 @@
+2020/10/16-17:17:37.615 1bb6 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/16-17:17:37.615 1bb6 Recovering log #159
+2020/10/16-17:17:37.615 1bb6 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000159.log 
+2020/10/16-17:18:09.830 1c96 Level-0 table #164: started
+2020/10/16-17:18:09.866 1c96 Level-0 table #164: 593 bytes OK
+2020/10/16-17:18:09.908 1c96 Delete type=0 #159
+2020/10/16-17:18:09.908 1c96 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/16-17:18:09.908 1c96 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1916 : 1
+2020/10/16-17:18:09.908 1c96 Compacting 1@1 + 1@2 files
+2020/10/16-17:18:09.946 1c96 Generated table #165@1: 68 keys, 1348 bytes
+2020/10/16-17:18:09.946 1c96 Compacted 1@1 + 1@2 files => 1348 bytes
+2020/10/16-17:18:09.985 1c96 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/16-17:18:09.986 1c96 Delete type=2 #164
+2020/10/16-17:18:09.986 1c96 Delete type=2 #161
+2020/10/16-17:18:09.987 1c96 Manual compaction at level-1 from '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1916 : 1 .. (end); will stop at (end)

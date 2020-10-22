@@ -1,0 +1,15 @@
+2020/10/10-11:31:52.487 840a Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.geeksforgeeks.org_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/10-11:31:52.487 840a Recovering log #4
+2020/10/10-11:31:52.487 840a Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.geeksforgeeks.org_0.indexeddb.leveldb/000004.log 
+2020/10/10-11:31:56.750 3e6e Level-0 table #8: started
+2020/10/10-11:31:56.831 3e6e Level-0 table #8: 190 bytes OK
+2020/10/10-11:31:56.921 3e6e Delete type=0 #4
+2020/10/10-11:31:56.921 3e6e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/10-11:31:56.921 3e6e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 9 : 1
+2020/10/10-11:31:56.921 3e6e Compacting 1@1 + 1@2 files
+2020/10/10-11:31:56.988 3e6e Generated table #9@1: 8 keys, 329 bytes
+2020/10/10-11:31:56.988 3e6e Compacted 1@1 + 1@2 files => 329 bytes
+2020/10/10-11:31:57.042 3e6e compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/10-11:31:57.043 3e6e Delete type=2 #8
+2020/10/10-11:31:57.043 3e6e Delete type=2 #5
+2020/10/10-11:31:57.043 3e6e Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 9 : 1 .. (end); will stop at (end)

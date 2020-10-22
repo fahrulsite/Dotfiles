@@ -1,0 +1,20 @@
+{
+    "name": {
+        "message": "Rainbow Color Picker"
+    },
+    "description": {
+       "message": "Plukk farge fra siden med pipetteverktøyet og få fargepalett fra sidene."
+    },
+    "select_color": {
+        "message": "Select color"
+    },
+    "color_pick_btn": {
+        "message": "Pick color from web page"
+    },
+    "selected_color": {
+        "message": "Selected color"
+    },
+    "dominant_color": {
+        "message": "Dominant color"
+    }
+ }

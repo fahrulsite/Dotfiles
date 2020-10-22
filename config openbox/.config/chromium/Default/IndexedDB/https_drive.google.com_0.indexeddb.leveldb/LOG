@@ -1,0 +1,15 @@
+2020/10/20-17:57:49.406 632b Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/20-17:57:49.407 632b Recovering log #1334
+2020/10/20-17:57:49.408 632b Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/001334.log 
+2020/10/20-18:00:26.303 6b05 Level-0 table #1339: started
+2020/10/20-18:00:26.373 6b05 Level-0 table #1339: 494576 bytes OK
+2020/10/20-18:00:26.405 6b05 Delete type=0 #1334
+2020/10/20-18:00:26.405 6b05 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/20-18:00:26.406 6b05 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x00d\x008\x006\x003\x00f\x008\x001\x00b\x000\x000\x002\x00a\x005\x00a\x002\x00a\x005\x002\x005\x00d\x005\x00b\x005\x00a\x005\x006\x00b\x001\x009\x001\x006\x004\x00_\x003\x00_\x002\x00:\x000\x000' @ 168625 : 0
+2020/10/20-18:00:26.406 6b05 Compacting 1@1 + 1@2 files
+2020/10/20-18:00:26.452 6b05 Generated table #1340@1: 135 keys, 243759 bytes
+2020/10/20-18:00:26.452 6b05 Compacted 1@1 + 1@2 files => 243759 bytes
+2020/10/20-18:00:26.482 6b05 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/20-18:00:26.482 6b05 Delete type=2 #1336
+2020/10/20-18:00:26.482 6b05 Delete type=2 #1339
+2020/10/20-18:00:26.483 6b05 Manual compaction at level-1 from '\x00\x01\x03\x03\x01'\x00d\x008\x006\x003\x00f\x008\x001\x00b\x000\x000\x002\x00a\x005\x00a\x002\x00a\x005\x002\x005\x00d\x005\x00b\x005\x00a\x005\x006\x00b\x001\x009\x001\x006\x004\x00_\x003\x00_\x002\x00:\x000\x000' @ 168625 : 0 .. (end); will stop at (end)

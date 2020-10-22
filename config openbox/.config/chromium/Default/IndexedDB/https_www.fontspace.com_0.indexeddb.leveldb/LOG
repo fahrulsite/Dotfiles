@@ -1,0 +1,5 @@
+2020/05/25-14:11:19.822 66ab Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.fontspace.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/25-14:11:29.505 b7c Level-0 table #5: started
+2020/05/25-14:11:29.591 b7c Level-0 table #5: 344 bytes OK
+2020/05/25-14:11:29.658 b7c Delete type=0 #3
+2020/05/25-14:11:29.659 b7c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

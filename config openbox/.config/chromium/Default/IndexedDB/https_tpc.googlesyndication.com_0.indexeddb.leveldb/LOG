@@ -1,0 +1,8 @@
+2020/10/15-22:58:56.405 4b0b Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/15-22:58:56.405 4b0b Recovering log #230
+2020/10/15-22:58:56.405 4b0b Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/000230.log 
+2020/10/15-22:59:05.358 4ac1 Level-0 table #234: started
+2020/10/15-22:59:05.359 4ac1 Level-0 table #234: 0 bytes OK
+2020/10/15-22:59:05.421 4ac1 Delete type=0 #230
+2020/10/15-22:59:05.421 4ac1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/15-22:59:05.421 4ac1 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

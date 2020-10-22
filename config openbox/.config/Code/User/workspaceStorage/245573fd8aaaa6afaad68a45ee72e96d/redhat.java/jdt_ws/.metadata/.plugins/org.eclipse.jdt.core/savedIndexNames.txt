@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/fahrul/.config/Code/User/workspaceStorage/245573fd8aaaa6afaad68a45ee72e96d/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+866833348.index
+676911311.index
+3842426239.index

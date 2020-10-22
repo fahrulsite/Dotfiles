@@ -1,0 +1,36 @@
+2020/10/15-08:23:11.943 69a0 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_shopee.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/15-08:23:11.943 69a0 Recovering log #130
+2020/10/15-08:23:11.944 69a0 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_shopee.co.id_0.indexeddb.leveldb/000130.log 
+2020/10/15-08:23:12.107 715e Level-0 table #136: started
+2020/10/15-08:23:12.140 715e Level-0 table #136: 597 bytes OK
+2020/10/15-08:23:12.173 715e Delete type=0 #130
+2020/10/15-08:23:12.173 715e Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/10/15-08:24:41.157 7220 Level-0 table #138: started
+2020/10/15-08:24:41.191 7220 Level-0 table #138: 16347 bytes OK
+2020/10/15-08:24:41.228 7220 Delete type=0 #135
+2020/10/15-08:24:41.228 7220 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\x05' @ 92595 : 1
+2020/10/15-08:24:41.228 7220 Compacting 1@0 + 1@1 files
+2020/10/15-08:24:41.269 7220 Generated table #139@0: 147 keys, 2759 bytes
+2020/10/15-08:24:41.269 7220 Compacted 1@0 + 1@1 files => 2759 bytes
+2020/10/15-08:24:41.305 7220 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/10/15-08:24:41.305 7220 Delete type=2 #138
+2020/10/15-08:24:41.306 7220 Manual compaction at level-0 from '\x00\x0c\x00\x00\x05' @ 92595 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/10/15-08:24:45.252 7220 Compacting 1@1 + 1@2 files
+2020/10/15-08:24:45.307 7220 Generated table #140@1: 1524 keys, 30146 bytes
+2020/10/15-08:24:45.307 7220 Compacted 1@1 + 1@2 files => 30146 bytes
+2020/10/15-08:24:45.349 7220 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/15-08:24:45.350 7220 Delete type=2 #139
+2020/10/15-08:24:45.350 7220 Delete type=2 #133
+2020/10/15-08:24:45.350 7220 Delete type=2 #136
+2020/10/15-08:24:45.350 715e Level-0 table #142: started
+2020/10/15-08:24:45.423 715e Level-0 table #142: 3163 bytes OK
+2020/10/15-08:24:45.576 715e Delete type=0 #137
+2020/10/15-08:24:45.577 715e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/15-08:24:45.577 715e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x008\x000\x008\x003\x003\x002\x009\x002\x008\x007\x005\x002\x00:\x00w\x00e\x00b\x00:\x008\x00b\x000\x002\x004\x002\x006\x005\x009\x00b\x006\x00e\x003\x000\x001\x000\x008\x002\x008\x004\x003\x005' @ 92649 : 1
+2020/10/15-08:24:45.577 715e Compacting 1@1 + 1@2 files
+2020/10/15-08:24:45.645 715e Generated table #143@1: 1526 keys, 30802 bytes
+2020/10/15-08:24:45.645 715e Compacted 1@1 + 1@2 files => 30802 bytes
+2020/10/15-08:24:45.683 715e compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/15-08:24:45.683 715e Delete type=2 #140
+2020/10/15-08:24:45.683 715e Delete type=2 #142
+2020/10/15-08:24:45.683 715e Manual compaction at level-1 from '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x008\x000\x008\x003\x003\x002\x009\x002\x008\x007\x005\x002\x00:\x00w\x00e\x00b\x00:\x008\x00b\x000\x002\x004\x002\x006\x005\x009\x00b\x006\x00e\x003\x000\x001\x000\x008\x002\x008\x004\x003\x005' @ 92649 : 1 .. (end); will stop at (end)

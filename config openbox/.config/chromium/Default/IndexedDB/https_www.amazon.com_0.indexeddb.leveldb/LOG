@@ -1,0 +1,5 @@
+2020/06/07-21:52:28.513 d8b Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/07-21:52:36.216 cc8 Level-0 table #5: started
+2020/06/07-21:52:36.279 cc8 Level-0 table #5: 1298 bytes OK
+2020/06/07-21:52:36.335 cc8 Delete type=0 #3
+2020/06/07-21:52:36.335 cc8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

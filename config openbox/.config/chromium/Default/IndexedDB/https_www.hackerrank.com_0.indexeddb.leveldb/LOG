@@ -1,0 +1,5 @@
+2020/10/08-19:03:36.147 1c0d Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.hackerrank.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/08-19:03:42.535 1a2a Level-0 table #5: started
+2020/10/08-19:03:42.588 1a2a Level-0 table #5: 386 bytes OK
+2020/10/08-19:03:42.644 1a2a Delete type=0 #3
+2020/10/08-19:03:42.644 1a2a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

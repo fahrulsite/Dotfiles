@@ -1,0 +1,17 @@
+2020/07/24-16:31:07.594 1a14 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.islampos.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/24-16:31:12.188 1901 Level-0 table #5: started
+2020/07/24-16:31:12.268 1901 Level-0 table #5: 564 bytes OK
+2020/07/24-16:31:12.371 1901 Delete type=0 #3
+2020/07/24-16:31:12.372 1901 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/07/24-16:31:14.352 1901 Level-0 table #7: started
+2020/07/24-16:31:14.386 1901 Level-0 table #7: 249 bytes OK
+2020/07/24-16:31:14.416 1901 Delete type=0 #4
+2020/07/24-16:31:14.416 1901 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/24-16:31:14.416 1901 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0
+2020/07/24-16:31:14.416 1901 Compacting 1@1 + 1@2 files
+2020/07/24-16:31:14.464 1901 Generated table #8@1: 5 keys, 237 bytes
+2020/07/24-16:31:14.464 1901 Compacted 1@1 + 1@2 files => 237 bytes
+2020/07/24-16:31:14.505 1901 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/24-16:31:14.505 1901 Delete type=2 #5
+2020/07/24-16:31:14.505 1901 Delete type=2 #7
+2020/07/24-16:31:14.505 1901 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0 .. (end); will stop at (end)

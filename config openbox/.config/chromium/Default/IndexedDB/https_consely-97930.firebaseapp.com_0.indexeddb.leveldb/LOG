@@ -1,0 +1,5 @@
+2020/08/11-17:45:40.709 619e Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_consely-97930.firebaseapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/11-17:45:53.820 76e Level-0 table #5: started
+2020/08/11-17:45:53.876 76e Level-0 table #5: 1168 bytes OK
+2020/08/11-17:45:53.944 76e Delete type=0 #3
+2020/08/11-17:45:53.944 76e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

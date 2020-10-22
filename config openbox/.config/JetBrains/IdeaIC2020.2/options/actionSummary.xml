@@ -1,0 +1,213 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$Delete">
+        <ActionSummary times="6" last="1600962080167" />
+      </entry>
+      <entry key="$SelectAll">
+        <ActionSummary times="1" last="1591798256049" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="27" last="1600967838879" />
+      </entry>
+      <entry key="ActivateProjectToolWindow">
+        <ActionSummary times="2" last="1600964329603" />
+      </entry>
+      <entry key="ChooseRunConfiguration">
+        <ActionSummary times="2" last="1600961884084" />
+      </entry>
+      <entry key="CloseProject">
+        <ActionSummary times="1" last="1591791265052" />
+      </entry>
+      <entry key="CodeCompletion">
+        <ActionSummary times="25" last="1600967796953" />
+      </entry>
+      <entry key="CommentByLineComment">
+        <ActionSummary times="5" last="1600967113018" />
+      </entry>
+      <entry key="CompileDirty">
+        <ActionSummary times="4" last="1591798699892" />
+      </entry>
+      <entry key="CopyElement">
+        <ActionSummary times="2" last="1600961780031" />
+      </entry>
+      <entry key="Dart.NewDartFile">
+        <ActionSummary times="5" last="1600962084343" />
+      </entry>
+      <entry key="Debug">
+        <ActionSummary times="8" last="1600967553110" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="435" last="1600967917603" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="155" last="1600967904789" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="10" last="1600966540311" />
+      </entry>
+      <entry key="EditorCut">
+        <ActionSummary times="5" last="1600967906562" />
+      </entry>
+      <entry key="EditorDelete">
+        <ActionSummary times="14" last="1600967545235" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="528" last="1600967933899" />
+      </entry>
+      <entry key="EditorDownWithSelection">
+        <ActionSummary times="28" last="1600967636628" />
+      </entry>
+      <entry key="EditorDuplicate">
+        <ActionSummary times="3" last="1600965464483" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="152" last="1600967918115" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="247" last="1600967908303" />
+      </entry>
+      <entry key="EditorLeftWithSelection">
+        <ActionSummary times="9" last="1600966006254" />
+      </entry>
+      <entry key="EditorLineEnd">
+        <ActionSummary times="243" last="1600967907874" />
+      </entry>
+      <entry key="EditorLineEndWithSelection">
+        <ActionSummary times="11" last="1600967073758" />
+      </entry>
+      <entry key="EditorLineStart">
+        <ActionSummary times="19" last="1600965525999" />
+      </entry>
+      <entry key="EditorLineStartWithSelection">
+        <ActionSummary times="70" last="1600967905960" />
+      </entry>
+      <entry key="EditorNextWord">
+        <ActionSummary times="13" last="1600966714107" />
+      </entry>
+      <entry key="EditorNextWordWithSelection">
+        <ActionSummary times="33" last="1600965246844" />
+      </entry>
+      <entry key="EditorPageDown">
+        <ActionSummary times="1" last="1600965542855" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="7" last="1600967909002" />
+      </entry>
+      <entry key="EditorPreviousWord">
+        <ActionSummary times="29" last="1600967539899" />
+      </entry>
+      <entry key="EditorPreviousWordWithSelection">
+        <ActionSummary times="112" last="1600967908641" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="130" last="1600967686436" />
+      </entry>
+      <entry key="EditorRightWithSelection">
+        <ActionSummary times="6" last="1600967359803" />
+      </entry>
+      <entry key="EditorSplitLine">
+        <ActionSummary times="1" last="1591798474016" />
+      </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="11" last="1600967620906" />
+      </entry>
+      <entry key="EditorTextEndWithSelection">
+        <ActionSummary times="1" last="1600964245169" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="214" last="1600967929199" />
+      </entry>
+      <entry key="EditorUpWithSelection">
+        <ActionSummary times="122" last="1600967637871" />
+      </entry>
+      <entry key="ExpandRegion">
+        <ActionSummary times="6" last="1600961123497" />
+      </entry>
+      <entry key="FindNext">
+        <ActionSummary times="2" last="1591797167264" />
+      </entry>
+      <entry key="Generate">
+        <ActionSummary times="2" last="1591798490240" />
+      </entry>
+      <entry key="Generate.GetSetAccessor.Dart">
+        <ActionSummary times="1" last="1591798492903" />
+      </entry>
+      <entry key="GotoDeclaration">
+        <ActionSummary times="1" last="1591798709891" />
+      </entry>
+      <entry key="HideAllWindows">
+        <ActionSummary times="1" last="1591791240420" />
+      </entry>
+      <entry key="NewFile">
+        <ActionSummary times="1" last="1600961921865" />
+      </entry>
+      <entry key="NewProject">
+        <ActionSummary times="2" last="1600961223827" />
+      </entry>
+      <entry key="NextTemplateVariable">
+        <ActionSummary times="6" last="1600967610946" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="156" last="1600967910655" />
+      </entry>
+      <entry key="RunClass">
+        <ActionSummary times="1" last="1600962676184" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="33" last="1600967176080" />
+      </entry>
+      <entry key="SearchEverywhere">
+        <ActionSummary times="2" last="1591798463456" />
+      </entry>
+      <entry key="ShowIntentionActions">
+        <ActionSummary times="3" last="1591798472955" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="5" last="1600961818917" />
+      </entry>
+      <entry key="Stop">
+        <ActionSummary times="8" last="1600966612357" />
+      </entry>
+      <entry key="ToggleLineBreakpoint">
+        <ActionSummary times="1" last="1591797974502" />
+      </entry>
+      <entry key="Tree-selectNext">
+        <ActionSummary times="1" last="1600963977314" />
+      </entry>
+      <entry key="WelcomeScreen.CreateNewProject">
+        <ActionSummary times="2" last="1591791270509" />
+      </entry>
+      <entry key="WelcomeScreen.Plugins">
+        <ActionSummary times="1" last="1591790664028" />
+      </entry>
+      <entry key="com.intellij.execution.actions.RunConfigurationsComboBoxAction$SelectConfigAction">
+        <ActionSummary times="1" last="1600962015181" />
+      </entry>
+      <entry key="com.intellij.execution.impl.ConsoleViewImpl$BackSpaceHandler">
+        <ActionSummary times="5" last="1600962702688" />
+      </entry>
+      <entry key="com.intellij.execution.impl.ConsoleViewImpl$EnterHandler">
+        <ActionSummary times="34" last="1600966060017" />
+      </entry>
+      <entry key="com.intellij.execution.impl.RunConfigurable$MyRemoveAction">
+        <ActionSummary times="1" last="1591791402163" />
+      </entry>
+      <entry key="com.intellij.execution.impl.RunConfigurable$MyToolbarAddAction">
+        <ActionSummary times="2" last="1591791435067" />
+      </entry>
+      <entry key="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+        <ActionSummary times="1" last="1591797168928" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="2" last="1600961344005" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$5">
+        <ActionSummary times="1" last="1591790660627" />
+      </entry>
+      <entry key="editRunConfigurations">
+        <ActionSummary times="3" last="1600961791788" />
+      </entry>
+    </data>
+  </component>
+</application>

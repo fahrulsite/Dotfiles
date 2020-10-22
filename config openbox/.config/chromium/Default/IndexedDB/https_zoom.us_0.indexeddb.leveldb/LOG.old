@@ -1,0 +1,16 @@
+2020/06/24-19:30:38.343 5a7 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_zoom.us_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/24-19:30:44.475 1959 Level-0 table #5: started
+2020/06/24-19:30:44.809 1959 Level-0 table #5: 4222364 bytes OK
+2020/06/24-19:30:44.978 1959 Delete type=0 #3
+2020/06/24-21:30:43.029 1959 Level-0 table #7: started
+2020/06/24-21:30:43.062 1959 Level-0 table #7: 310 bytes OK
+2020/06/24-21:30:43.098 1959 Delete type=0 #4
+2020/06/24-21:30:43.098 1959 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/24-21:30:43.098 1959 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x01\x05\x00v\x00i\x00d\x00e\x00o' @ 153 : 1
+2020/06/24-21:30:43.098 1959 Compacting 1@1 + 1@2 files
+2020/06/24-21:30:43.274 1959 Generated table #8@1: 48 keys, 2021672 bytes
+2020/06/24-21:30:43.274 1959 Compacted 1@1 + 1@2 files => 2021672 bytes
+2020/06/24-21:30:43.309 1959 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/24-21:30:43.309 1959 Delete type=2 #5
+2020/06/24-21:30:43.309 1959 Delete type=2 #7
+2020/06/24-21:30:43.310 1959 Manual compaction at level-1 from '\x00\x03\x01\x02\x01\x05\x00v\x00i\x00d\x00e\x00o' @ 153 : 1 .. (end); will stop at (end)

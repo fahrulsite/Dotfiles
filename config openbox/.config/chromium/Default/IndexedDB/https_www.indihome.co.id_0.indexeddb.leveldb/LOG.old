@@ -1,0 +1,15 @@
+2020/08/17-14:42:44.102 2b31 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.indihome.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/17-14:42:44.102 2b31 Recovering log #7
+2020/08/17-14:42:44.102 2b31 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.indihome.co.id_0.indexeddb.leveldb/000007.log 
+2020/08/17-14:42:47.650 12c4 Level-0 table #12: started
+2020/08/17-14:42:47.705 12c4 Level-0 table #12: 3926 bytes OK
+2020/08/17-14:42:47.747 12c4 Delete type=0 #7
+2020/08/17-14:42:47.747 12c4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/17-14:42:47.747 12c4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01!\x04\x02\x01\x07\x00v\x00i\x00s\x00i\x00t\x00e\x00d\x03\x00\x00@=\x8d\xce\xd7A\x00\x01$\x004\x001\x005\x00a\x009\x005\x009\x001\x00-\x001\x00e\x00c\x005\x00-\x004\x002\x007\x008\x00-\x00b\x00c\x008\x001\x00-\x004\x00e\x009\x007\x00d\x008\x00d\x005\x004\x007\x000\x00d' @ 884 : 1
+2020/08/17-14:42:47.747 12c4 Compacting 1@1 + 1@2 files
+2020/08/17-14:42:47.818 12c4 Generated table #13@1: 122 keys, 4263 bytes
+2020/08/17-14:42:47.818 12c4 Compacted 1@1 + 1@2 files => 4263 bytes
+2020/08/17-14:42:47.858 12c4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/17-14:42:47.858 12c4 Delete type=2 #9
+2020/08/17-14:42:47.858 12c4 Delete type=2 #12
+2020/08/17-14:42:47.858 12c4 Manual compaction at level-1 from '\x00\x03\x01!\x04\x02\x01\x07\x00v\x00i\x00s\x00i\x00t\x00e\x00d\x03\x00\x00@=\x8d\xce\xd7A\x00\x01$\x004\x001\x005\x00a\x009\x005\x009\x001\x00-\x001\x00e\x00c\x005\x00-\x004\x002\x007\x008\x00-\x00b\x00c\x008\x001\x00-\x004\x00e\x009\x007\x00d\x008\x00d\x005\x004\x007\x000\x00d' @ 884 : 1 .. (end); will stop at (end)

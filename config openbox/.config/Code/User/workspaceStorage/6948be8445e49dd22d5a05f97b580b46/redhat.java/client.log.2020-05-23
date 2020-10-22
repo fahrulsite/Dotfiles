@@ -1,0 +1,1160 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_ss_linux -data /home/fahrul/.config/Code/User/workspaceStorage/6948be8445e49dd22d5a05f97b580b46/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2020-05-23 04:08:55.340'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_linux -data /home/fahrul/.config/Code/User/workspaceStorage/6948be8445e49dd22d5a05f97b580b46/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2020-05-23 04:08:55.414'
+}
+{
+  message: '[Error - 4:09:21 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.httpserver> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.httpserver> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:21.975'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.jartool> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.jartool> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.024'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.jconsole> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.jconsole> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.026'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.jdi> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.jdi> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.031'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.management> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.management> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.049'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.sctp> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.sctp> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.068'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.security.auth> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.security.auth> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.070'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.security.jgss> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.security.jgss> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.072'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.unsupported> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.unsupported> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.081'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.dynalink> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.dynalink> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.083'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.internal.ed> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.internal.ed> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.085'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.internal.le> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.internal.le> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.088'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.internal.opt> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.internal.opt> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.105'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.javadoc> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.javadoc> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.107'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.jfr> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.jfr> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.109'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.jshell> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.jshell> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.111'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.jsobject> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.jsobject> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.113'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.management.agent> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.management.agent> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.129'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.management.jfr> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.management.jfr> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.131'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.net> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.net> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.133'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.scripting.nashorn> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.scripting.nashorn> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.134'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.unsupported.desktop> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.unsupported.desktop> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.137'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.xml.dom> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.xml.dom> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.142'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.internal.jvmstat> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.internal.jvmstat> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.144'
+}
+{
+  message: '[Error - 4:09:22 AM] May 23, 2020, 4:09:21 AM Unexpected internal error\n' +
+    "<module:jdk.jdwp.agent> is not on its project's build path\n" +
+    "Java Model Exception: Java Model Status [<module:jdk.jdwp.agent> is not on its project's build path]\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceModuleDescription(PackageFragmentRoot.java:911)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:904)\n' +
+    '\tat org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getModuleDescription(JarPackageFragmentRoot.java:343)\n' +
+    '\tat org.eclipse.jdt.internal.core.JrtPackageFragmentRoot.getModule(JrtPackageFragmentRoot.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.lambda$1(JavaProject.java:800)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(JavaProject.java:822)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.defaultRootModules(JavaProject.java:798)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:745)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1054)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:999)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:976)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:489)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3806)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:650)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:181)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2020-05-23 04:09:22.145'
+}

@@ -1,0 +1,5 @@
+2020/06/17-15:31:26.341 1fab Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_republika.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/17-15:42:04.534 1e47 Level-0 table #5: started
+2020/06/17-15:42:04.587 1e47 Level-0 table #5: 1365 bytes OK
+2020/06/17-15:42:04.624 1e47 Delete type=0 #3
+2020/06/17-15:42:04.625 1e47 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

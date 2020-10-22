@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/fahrul/.config/Code/User/workspaceStorage/4fff84ccea12f687d1801f8a20680ef4/redhat.java/.3aee36e1f82094b28b7a166c27d0bdc55d2bbed2-audit.json",
+    "files": [
+        {
+            "date": 1590657233145,
+            "name": "/home/fahrul/.config/Code/User/workspaceStorage/4fff84ccea12f687d1801f8a20680ef4/redhat.java/client.log.2020-05-28",
+            "hash": "973327205c0ed10d44655ec4160f1a64"
+        }
+    ]
+}

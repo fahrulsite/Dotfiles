@@ -1,0 +1,15 @@
+2020/09/21-11:13:20.891 772d Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_tirto.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/21-11:13:20.891 772d Recovering log #7
+2020/09/21-11:13:20.892 772d Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_tirto.id_0.indexeddb.leveldb/000007.log 
+2020/09/21-11:15:45.341 2f03 Level-0 table #12: started
+2020/09/21-11:15:45.381 2f03 Level-0 table #12: 3319 bytes OK
+2020/09/21-11:15:45.412 2f03 Delete type=0 #7
+2020/09/21-11:15:45.412 2f03 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/21-11:15:45.412 2f03 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 589 : 1
+2020/09/21-11:15:45.412 2f03 Compacting 1@1 + 1@2 files
+2020/09/21-11:15:45.459 2f03 Generated table #13@1: 95 keys, 2081 bytes
+2020/09/21-11:15:45.460 2f03 Compacted 1@1 + 1@2 files => 2081 bytes
+2020/09/21-11:15:45.489 2f03 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/21-11:15:45.489 2f03 Delete type=2 #9
+2020/09/21-11:15:45.489 2f03 Delete type=2 #12
+2020/09/21-11:15:45.490 2f03 Manual compaction at level-1 from '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 589 : 1 .. (end); will stop at (end)

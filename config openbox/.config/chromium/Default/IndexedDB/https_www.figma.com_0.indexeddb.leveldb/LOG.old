@@ -1,0 +1,15 @@
+2020/09/12-14:09:34.180 b7aa Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/12-14:09:34.181 b7aa Recovering log #237
+2020/09/12-14:09:34.181 b7aa Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000237.log 
+2020/09/12-14:14:39.856 c0d Level-0 table #242: started
+2020/09/12-14:14:39.900 c0d Level-0 table #242: 5262 bytes OK
+2020/09/12-14:14:39.931 c0d Delete type=0 #237
+2020/09/12-14:14:39.931 c0d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/12-14:14:39.931 c0d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01`\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00w\x00w\x00.\x00f\x00i\x00g\x00m\x00a\x00.\x00c\x00o\x00m\x00/\x00f\x00i\x00l\x00e\x00/\x00q\x00B\x00b\x00h\x005\x00D\x00J\x00C\x00V\x00I\x00d\x00j\x00Y\x00W\x00T\x00X\x00X\x005\x000\x00v\x00R\x00E\x00/\x00i\x00m\x00a\x00g\x00e\x00/\x00f\x005\x00f\x00b\x00e\x006\x001\x001\x005\x00c\x00b\x009\x00a\x007\x007\x000\x00a\x009\x00d\x00b\x00b\x006\x00f\x00b\x009\x00f\x000\x00f\x009\x003\x008\x009\x001\x00e\x00b\x00e\x003\x00f\x002\x007' @ 12213 : 1
+2020/09/12-14:14:39.931 c0d Compacting 1@1 + 1@2 files
+2020/09/12-14:14:39.990 c0d Generated table #243@1: 170 keys, 13036 bytes
+2020/09/12-14:14:39.990 c0d Compacted 1@1 + 1@2 files => 13036 bytes
+2020/09/12-14:14:40.020 c0d compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/12-14:14:40.020 c0d Delete type=2 #239
+2020/09/12-14:14:40.020 c0d Delete type=2 #242
+2020/09/12-14:14:40.020 c0d Manual compaction at level-1 from '\x00\x01\x01\x02\x01`\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00w\x00w\x00.\x00f\x00i\x00g\x00m\x00a\x00.\x00c\x00o\x00m\x00/\x00f\x00i\x00l\x00e\x00/\x00q\x00B\x00b\x00h\x005\x00D\x00J\x00C\x00V\x00I\x00d\x00j\x00Y\x00W\x00T\x00X\x00X\x005\x000\x00v\x00R\x00E\x00/\x00i\x00m\x00a\x00g\x00e\x00/\x00f\x005\x00f\x00b\x00e\x006\x001\x001\x005\x00c\x00b\x009\x00a\x007\x007\x000\x00a\x009\x00d\x00b\x00b\x006\x00f\x00b\x009\x00f\x000\x00f\x009\x003\x008\x009\x001\x00e\x00b\x00e\x003\x00f\x002\x007' @ 12213 : 1 .. (end); will stop at (end)

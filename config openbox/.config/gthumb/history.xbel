@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/fahrul/Pictures" added="2020-10-20T13:43:14.297818Z" modified="2020-10-20T13:43:14.297829Z" visited="2020-10-20T13:43:14.297820Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297824Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Desktop" added="2020-10-20T13:43:14.297832Z" modified="2020-10-20T13:43:14.297837Z" visited="2020-10-20T13:43:14.297832Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297833Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul" added="2020-10-20T13:43:14.297839Z" modified="2020-10-20T13:43:14.297844Z" visited="2020-10-20T13:43:14.297839Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297841Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Pictures/bu%20webex" added="2020-10-20T13:43:14.297847Z" modified="2020-10-20T13:43:14.297851Z" visited="2020-10-20T13:43:14.297847Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297849Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Downloads/herbal" added="2020-10-20T13:43:14.297853Z" modified="2020-10-20T13:43:14.297857Z" visited="2020-10-20T13:43:14.297853Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297855Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Desktop/print/Sertifikat%20Dicoding" added="2020-10-20T13:43:14.297860Z" modified="2020-10-20T13:43:14.297863Z" visited="2020-10-20T13:43:14.297860Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297862Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Documents/Fauzi/Sertifikat/Sertifikat%20Dicoding" added="2020-10-20T13:43:14.297866Z" modified="2020-10-20T13:43:14.297871Z" visited="2020-10-20T13:43:14.297867Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297868Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Downloads" added="2020-10-20T13:43:14.297876Z" modified="2020-10-20T13:43:14.297879Z" visited="2020-10-20T13:43:14.297876Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297877Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/HP/DCIM/Camera" added="2020-10-20T13:43:14.297880Z" modified="2020-10-20T13:43:14.297884Z" visited="2020-10-20T13:43:14.297881Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297882Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Documents/Fauzi/HP/Camera" added="2020-10-20T13:43:14.297886Z" modified="2020-10-20T13:43:14.297890Z" visited="2020-10-20T13:43:14.297887Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297888Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Pictures/plesir%20gunkid" added="2020-10-20T13:43:14.297892Z" modified="2020-10-20T13:43:14.297896Z" visited="2020-10-20T13:43:14.297893Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297894Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Documents/Fauzi" added="2020-10-20T13:43:14.297898Z" modified="2020-10-20T13:43:14.297902Z" visited="2020-10-20T13:43:14.297899Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297900Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Documents/Fauzi/Sertifikat/Dicoding" added="2020-10-20T13:43:14.297904Z" modified="2020-10-20T13:43:14.297908Z" visited="2020-10-20T13:43:14.297905Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297906Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Downloads/BU" added="2020-10-20T13:43:14.297910Z" modified="2020-10-20T13:43:14.297916Z" visited="2020-10-20T13:43:14.297910Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297912Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/fahrul/Downloads/completion" added="2020-10-20T13:43:14.297919Z" modified="2020-10-20T13:43:14.297925Z" visited="2020-10-20T13:43:14.297920Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2020-10-20T13:43:14.297922Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,39 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/.96bfc0ea3604f46dc424d64c9b33b8a40fc886a9-audit.json",
+    "files": [
+        {
+            "date": 1602225943577,
+            "name": "/home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/client.log.2020-10-09",
+            "hash": "bc1d0e08dfacb0dc08c44d40a9fa43e1"
+        },
+        {
+            "date": 1602240960431,
+            "name": "/home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/client.log.2020-10-09.1",
+            "hash": "b4eaecc7f517e0e37400b35d701373ae"
+        },
+        {
+            "date": 1602293420296,
+            "name": "/home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/client.log.2020-10-10",
+            "hash": "337b566cabef380fa54c165b35791050"
+        },
+        {
+            "date": 1602300715370,
+            "name": "/home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/client.log.2020-10-10.1",
+            "hash": "d86d435c09d6c2461dab53847c039884"
+        },
+        {
+            "date": 1602301077711,
+            "name": "/home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/client.log.2020-10-10.2",
+            "hash": "3de385f1dc4db712cb9dd7db8b66f74e"
+        },
+        {
+            "date": 1602303078153,
+            "name": "/home/fahrul/.config/Code/User/workspaceStorage/77aafd9403fae21eb89344ce3511ce6e/redhat.java/client.log.2020-10-10.3",
+            "hash": "e2e500d4b395ddf78aeec80814844216"
+        }
+    ]
+}

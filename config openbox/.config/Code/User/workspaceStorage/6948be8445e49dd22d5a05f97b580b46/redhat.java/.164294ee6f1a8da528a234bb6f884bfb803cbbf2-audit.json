@@ -1,0 +1,24 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/fahrul/.config/Code/User/workspaceStorage/6948be8445e49dd22d5a05f97b580b46/redhat.java/.164294ee6f1a8da528a234bb6f884bfb803cbbf2-audit.json",
+    "files": [
+        {
+            "date": 1590181731137,
+            "name": "/home/fahrul/.config/Code/User/workspaceStorage/6948be8445e49dd22d5a05f97b580b46/redhat.java/client.log.2020-05-23",
+            "hash": "3d9f5b7a85608cc9a93e7c46cdcb8d8a"
+        },
+        {
+            "date": 1590181837098,
+            "name": "/home/fahrul/.config/Code/User/workspaceStorage/6948be8445e49dd22d5a05f97b580b46/redhat.java/client.log.2020-05-23.1",
+            "hash": "ef2233412438e1aa328b7595d7e58ccf"
+        },
+        {
+            "date": 1590327332259,
+            "name": "/home/fahrul/.config/Code/User/workspaceStorage/6948be8445e49dd22d5a05f97b580b46/redhat.java/client.log.2020-05-24",
+            "hash": "fc9c24c6078ce1ef074961293378edf5"
+        }
+    ]
+}

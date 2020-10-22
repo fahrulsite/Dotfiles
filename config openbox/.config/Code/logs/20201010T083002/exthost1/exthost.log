@@ -1,0 +1,150 @@
+[2020-10-10 08:30:19.202] [exthost] [info] extension host started
+[2020-10-10 08:30:19.231] [exthost] [info] ExtensionService#_doActivateExtension redhat.java {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2020-10-10 08:30:19.232] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension
+[2020-10-10 08:30:19.357] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:java"}
+[2020-10-10 08:30:19.357] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.10/dist/intellicode
+[2020-10-10 08:30:19.495] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2020-10-10 08:30:19.495] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/vscjava.vscode-java-debug-0.27.1/dist/extension
+[2020-10-10 08:30:19.571] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack {"startup":false,"extensionId":{"value":"vscjava.vscode-java-pack","_lower":"vscjava.vscode-java-pack"},"activationEvent":"onLanguage:java"}
+[2020-10-10 08:30:19.571] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/vscjava.vscode-java-pack-0.10.0/out/extension
+[2020-10-10 08:30:19.772] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-10-10 08:30:19.772] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-10-10 08:30:19.834] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-10-10 08:30:19.835] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2020-10-10 08:30:19.912] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-10-10 08:30:19.912] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2020-10-10 08:30:20.007] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-10-10 08:30:20.008] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-10-10 08:30:20.038] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-10-10 08:30:20.038] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2020-10-10 08:30:20.078] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-10-10 08:30:20.079] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/search-result/dist/extension.js
+[2020-10-10 08:30:20.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-10-10 08:30:20.107] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-10-10 08:30:22.982] [exthost] [info] eager extensions activated
+[2020-10-10 08:30:24.590] [exthost] [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+[2020-10-10 08:30:24.716] [exthost] [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+[2020-10-10 08:30:50.230] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency {"startup":false,"extensionId":{"value":"vscjava.vscode-java-dependency","_lower":"vscjava.vscode-java-dependency"},"activationEvent":"onLanguage:java"}
+[2020-10-10 08:30:50.230] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/vscjava.vscode-java-dependency-0.13.0/dist/extension
+[2020-10-10 08:30:50.462] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2020-10-10 08:30:50.462] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/vscjava.vscode-java-test-0.24.2/main.js
+[2020-10-10 08:31:40.776] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 08:31:40.779] [exthost] [error] Error: The request (id: 12, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 08:32:11.625] [exthost] [info] [VisualStudioExptTeam.vscodeintellicode] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-10-10 08:32:11.629] [exthost] [warning] [VisualStudioExptTeam.vscodeintellicode] INVALID result from 'resolveCompletionItem', extension MUST NOT change any of: label, sortText, filterText, insertText, or textEdit
+[2020-10-10 08:52:07.310] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 08:52:07.311] [exthost] [error] Error: The request (id: 785, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 09:14:58.961] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"extensionId":{"value":"vscode.python","_lower":"vscode.python"},"activationEvent":"onLanguage:python"}
+[2020-10-10 09:14:58.962] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/python/dist/pythonMain
+[2020-10-10 09:31:10.140] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 09:31:10.141] [exthost] [error] Error: The request (id: 1603, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 09:34:02.141] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 09:34:02.141] [exthost] [error] Error: The request (id: 1764, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 10:22:09.197] [exthost] [info] extension host started
+[2020-10-10 10:22:09.325] [exthost] [info] ExtensionService#_doActivateExtension redhat.java {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2020-10-10 10:22:09.326] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension
+[2020-10-10 10:22:09.393] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:java"}
+[2020-10-10 10:22:09.393] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.10/dist/intellicode
+[2020-10-10 10:22:09.467] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2020-10-10 10:22:09.467] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/vscjava.vscode-java-debug-0.27.1/dist/extension
+[2020-10-10 10:22:09.529] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack {"startup":false,"extensionId":{"value":"vscjava.vscode-java-pack","_lower":"vscjava.vscode-java-pack"},"activationEvent":"onLanguage:java"}
+[2020-10-10 10:22:09.529] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/vscjava.vscode-java-pack-0.10.0/out/extension
+[2020-10-10 10:22:09.685] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-10-10 10:22:09.685] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-10-10 10:22:09.689] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-10-10 10:22:09.689] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2020-10-10 10:22:09.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-10-10 10:22:09.714] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2020-10-10 10:22:09.768] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-10-10 10:22:09.768] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-10-10 10:22:09.779] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-10-10 10:22:09.779] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2020-10-10 10:22:09.782] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-10-10 10:22:09.782] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/search-result/dist/extension.js
+[2020-10-10 10:22:09.783] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-10-10 10:22:09.783] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-10-10 10:22:10.264] [exthost] [info] eager extensions activated
+[2020-10-10 10:22:10.490] [exthost] [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+[2020-10-10 10:22:10.554] [exthost] [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+[2020-10-10 10:22:26.298] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency {"startup":false,"extensionId":{"value":"vscjava.vscode-java-dependency","_lower":"vscjava.vscode-java-dependency"},"activationEvent":"onLanguage:java"}
+[2020-10-10 10:22:26.298] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/vscjava.vscode-java-dependency-0.13.0/dist/extension
+[2020-10-10 10:22:26.393] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2020-10-10 10:22:26.393] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fahrul/.vscode/extensions/vscjava.vscode-java-test-0.24.2/main.js
+[2020-10-10 10:28:49.595] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 10:28:49.598] [exthost] [error] Error: The request (id: 48, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 10:30:03.386] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 10:30:03.386] [exthost] [error] Error: The request (id: 99, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 10:30:05.624] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 10:30:05.624] [exthost] [error] Error: The request (id: 104, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 10:30:08.083] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 10:30:08.083] [exthost] [error] Error: The request (id: 111, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 10:30:21.152] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 10:30:21.153] [exthost] [error] Error: The request (id: 159, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 10:30:50.965] [exthost] [warning] [VisualStudioExptTeam.vscodeintellicode] INVALID result from 'resolveCompletionItem', extension MUST NOT change any of: label, sortText, filterText, insertText, or textEdit
+[2020-10-10 10:33:08.757] [exthost] [error] [VisualStudioExptTeam.vscodeintellicode] provider FAILED
+[2020-10-10 10:33:08.761] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:677:574)
+	at U.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:677:354)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:412:9)
+[2020-10-10 11:05:49.012] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 11:05:49.012] [exthost] [error] Error: The request (id: 1043, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 11:09:19.928] [exthost] [error] [redhat.java] provider FAILED
+[2020-10-10 11:09:19.928] [exthost] [error] Error: The request (id: 1059, method: 'textDocument/hover') has been cancelled
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76301
+	at /home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76595
+	at Immediate.<anonymous> (/home/fahrul/.vscode/extensions/redhat.java-0.64.1/dist/extension.js:1:76956)
+	at processImmediate (internal/timers.js:439:21)
+[2020-10-10 11:10:10.197] [exthost] [info] [VisualStudioExptTeam.vscodeintellicode] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-10-10 11:10:10.701] [exthost] [error] [VisualStudioExptTeam.vscodeintellicode] provider FAILED
+[2020-10-10 11:10:10.702] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:677:574)
+	at U.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:677:354)
+[2020-10-10 11:10:11.205] [exthost] [error] [VisualStudioExptTeam.vscodeintellicode] provider FAILED
+[2020-10-10 11:10:11.206] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:677:574)
+	at U.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:677:354)
+[2020-10-10 12:01:56.789] [exthost] [error] [VisualStudioExptTeam.vscodeintellicode] provider FAILED
+[2020-10-10 12:01:56.790] [exthost] [error] Error: DisposableStore is missing...
+	at U._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:677:574)
+	at U.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:677:354)

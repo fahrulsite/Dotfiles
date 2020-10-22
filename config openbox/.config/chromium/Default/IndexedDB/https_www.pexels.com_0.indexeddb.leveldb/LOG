@@ -1,0 +1,15 @@
+2020/09/25-09:48:14.602 678 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.pexels.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/25-09:48:14.602 678 Recovering log #4
+2020/09/25-09:48:14.602 678 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.pexels.com_0.indexeddb.leveldb/000004.log 
+2020/09/25-09:52:40.109 942 Level-0 table #8: started
+2020/09/25-09:52:40.159 942 Level-0 table #8: 576 bytes OK
+2020/09/25-09:52:40.279 942 Delete type=0 #4
+2020/09/25-09:52:40.279 942 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/25-09:52:40.279 942 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 216 : 1
+2020/09/25-09:52:40.279 942 Compacting 1@1 + 1@2 files
+2020/09/25-09:52:40.360 942 Generated table #9@1: 67 keys, 1325 bytes
+2020/09/25-09:52:40.360 942 Compacted 1@1 + 1@2 files => 1325 bytes
+2020/09/25-09:52:40.395 942 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/25-09:52:40.395 942 Delete type=2 #8
+2020/09/25-09:52:40.395 942 Delete type=2 #5
+2020/09/25-09:52:40.395 942 Manual compaction at level-1 from '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 216 : 1 .. (end); will stop at (end)

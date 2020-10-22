@@ -1,0 +1,7 @@
+2020/09/10-15:58:18.391 e9a Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_artikelbaru.os.tc_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/10-15:58:18.392 e9a Recovering log #3
+2020/09/10-15:58:18.824 e9a Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_artikelbaru.os.tc_0.indexeddb.leveldb/000003.log 
+2020/09/10-15:58:45.845 b4b Level-0 table #5: started
+2020/09/10-15:58:45.900 b4b Level-0 table #5: 14345 bytes OK
+2020/09/10-15:58:45.936 b4b Delete type=0 #3
+2020/09/10-15:58:45.952 b4b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

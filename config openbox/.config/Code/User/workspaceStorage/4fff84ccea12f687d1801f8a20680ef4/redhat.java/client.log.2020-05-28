@@ -1,0 +1,40 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_ss_linux -data /home/fahrul/.config/Code/User/workspaceStorage/4fff84ccea12f687d1801f8a20680ef4/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2020-05-28 16:13:53.717'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/fahrul/.vscode/extensions/redhat.java-0.62.0/server/plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -configuration /home/fahrul/.config/Code/User/globalStorage/redhat.java/0.62.0/config_linux -data /home/fahrul/.config/Code/User/workspaceStorage/4fff84ccea12f687d1801f8a20680ef4/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2020-05-28 16:13:53.785'
+}
+{
+  message: '[Error - 4:14:06 PM] May 28, 2020, 4:14:06 PM \n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineOffset(ListLineTracker.java:197)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineOffset(AbstractLineTracker.java:161)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOffset(AbstractDocument.java:876)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toOffset(JsonRpcHelpers.java:85)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toOffset(JsonRpcHelpers.java:69)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.findElementsAtSelection(JDTUtils.java:716)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:94)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:52)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:41)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$8(SyntaxLanguageServer.java:314)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:74)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)\n',
+  level: 'info',
+  timestamp: '2020-05-28 16:14:07.591'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 13, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2020-05-28 17:24:39.449'
+}

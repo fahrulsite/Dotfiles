@@ -1,0 +1,139 @@
+/* Main */
+html, body {
+    background-color: #343434 !important;
+}
+
+h1, h2, h3, h4, label, p, h5 {
+    color: black;
+}
+
+hr {
+    width: 100% !important;
+    display: block !important;
+    overflow: hidden !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    border: 0 !important;
+    border-top: 1px solid rgba(0,0,0,.1) !important;
+}
+
+
+/* Content */
+.content {
+    border-radius: 16px;
+    background-color: whitesmoke;
+    margin: 4% 4% 2% 4%;
+}
+
+img {
+    border: whitesmoke solid 2px;
+    cursor: pointer;
+}
+
+.item {
+    min-height: 90px;
+    padding-top: 8px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #FF3E51 !important;
+}
+
+.border-bottom:last-of-type {
+    border-bottom: none !important;
+}
+
+.border-top {
+    border-top: 2px solid black !important;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.labels {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+
+
+.input-number::-webkit-inner-spin-button, 
+.input-number::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 3px;
+}
+   
+input[type="range"]::-moz-range-track {
+    height: 3px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background: #c82333;
+    height: 15px;
+    width: 15px;
+    margin-top: -6px;
+    border-radius: 50%;
+}
+   
+input[type="range"]::-moz-range-thumb {
+    background: #c82333;
+    height: 15px;
+    width: 15px;
+    margin-top: -6px;
+}
+
+
+
+input[type="number"] {
+    width: 65%;
+}
+
+/* Buttons */
+.footer-btn {
+    font-size: 24px;
+}
+
+
+.color-select {
+    cursor: pointer;
+}
+
+.color-select input[type="radio"] {
+    display: none;
+}
+
+.color-select input[type="radio"]:checked ~ span{
+    /* background: #404040; */
+    transition: 0.5s;
+    box-shadow: 0 0 10px #FF3E51;
+}
+
+.color-select span{
+    background: #979797;
+    padding: 8px 24px;
+    border-radius: 7px;
+    font-weight: bold;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    border-color: #FF3E51 !important;
+    background-color: #FF3E51 !important;
+}
+
+
+a:hover {
+    color: white !important;
+}
+
+a {
+    padding-top: 0 !important;
+    padding-bottom: 1.7rem !important;
+}

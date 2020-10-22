@@ -1,0 +1,5 @@
+2020/06/18-08:52:47.438 b91 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_pikobar.jabarprov.go.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/18-08:57:42.577 9e8 Level-0 table #5: started
+2020/06/18-08:57:42.657 9e8 Level-0 table #5: 132187 bytes OK
+2020/06/18-08:57:42.695 9e8 Delete type=0 #3
+2020/06/18-08:57:42.696 9e8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

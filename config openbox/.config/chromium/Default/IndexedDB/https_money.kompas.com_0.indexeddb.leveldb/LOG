@@ -1,0 +1,5 @@
+2020/05/28-09:42:24.589 367e Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_money.kompas.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/28-09:42:33.145 8ab Level-0 table #5: started
+2020/05/28-09:42:33.524 8ab Level-0 table #5: 342 bytes OK
+2020/05/28-09:42:34.172 8ab Delete type=0 #3
+2020/05/28-09:42:34.172 8ab Manual compaction at level-0 from (begin) .. (end); will stop at (end)

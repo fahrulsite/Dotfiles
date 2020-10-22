@@ -1,0 +1,15 @@
+2020/09/19-10:06:02.287 3374 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/19-10:06:02.288 3374 Recovering log #43
+2020/09/19-10:06:02.288 3374 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/000043.log 
+2020/09/19-10:09:38.666 ff0 Level-0 table #48: started
+2020/09/19-10:09:39.056 ff0 Level-0 table #48: 7904 bytes OK
+2020/09/19-10:09:39.272 ff0 Delete type=0 #43
+2020/09/19-10:09:39.272 ff0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/19-10:09:39.272 ff0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x006\x000\x002\x007\x000\x003\x005\x000' @ 3157 : 1
+2020/09/19-10:09:39.272 ff0 Compacting 1@1 + 1@2 files
+2020/09/19-10:09:39.568 ff0 Generated table #49@1: 27 keys, 1172 bytes
+2020/09/19-10:09:39.568 ff0 Compacted 1@1 + 1@2 files => 1172 bytes
+2020/09/19-10:09:39.995 ff0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/19-10:09:39.995 ff0 Delete type=2 #48
+2020/09/19-10:09:39.996 ff0 Delete type=2 #45
+2020/09/19-10:09:39.996 ff0 Manual compaction at level-1 from '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x006\x000\x002\x007\x000\x003\x005\x000' @ 3157 : 1 .. (end); will stop at (end)

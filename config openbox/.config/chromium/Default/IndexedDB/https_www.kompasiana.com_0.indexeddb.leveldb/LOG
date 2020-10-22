@@ -1,0 +1,15 @@
+2020/06/26-09:14:34.813 3741 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.kompasiana.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/26-09:14:34.814 3741 Recovering log #11
+2020/06/26-09:14:34.814 3741 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.kompasiana.com_0.indexeddb.leveldb/000011.log 
+2020/06/26-09:14:42.724 2b29 Level-0 table #16: started
+2020/06/26-09:14:42.753 2b29 Level-0 table #16: 475 bytes OK
+2020/06/26-09:14:42.793 2b29 Delete type=0 #11
+2020/06/26-09:14:42.794 2b29 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/26-09:14:42.794 2b29 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00I\x00Z\x00C\x00I\x00D' @ 128 : 1
+2020/06/26-09:14:42.794 2b29 Compacting 1@1 + 1@2 files
+2020/06/26-09:14:42.831 2b29 Generated table #17@1: 29 keys, 715 bytes
+2020/06/26-09:14:42.831 2b29 Compacted 1@1 + 1@2 files => 715 bytes
+2020/06/26-09:14:42.871 2b29 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/26-09:14:42.871 2b29 Delete type=2 #16
+2020/06/26-09:14:42.871 2b29 Delete type=2 #13
+2020/06/26-09:14:42.872 2b29 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00I\x00Z\x00C\x00I\x00D' @ 128 : 1 .. (end); will stop at (end)

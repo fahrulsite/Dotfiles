@@ -1,0 +1,8 @@
+2020/09/19-20:21:33.178 dba Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_aax-fe-sin.amazon-adsystem.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/19-20:21:33.179 dba Recovering log #10
+2020/09/19-20:21:33.179 dba Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_aax-fe-sin.amazon-adsystem.com_0.indexeddb.leveldb/000010.log 
+2020/09/19-20:22:34.281 92f Level-0 table #14: started
+2020/09/19-20:22:34.281 92f Level-0 table #14: 0 bytes OK
+2020/09/19-20:22:34.381 92f Delete type=0 #10
+2020/09/19-20:22:34.381 92f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/19-20:22:34.381 92f Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2020/09/19-21:33:57.570 17d5 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_support.hp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/19-21:35:56.382 a08 Level-0 table #5: started
+2020/09/19-21:35:56.422 a08 Level-0 table #5: 984 bytes OK
+2020/09/19-21:35:56.460 a08 Delete type=0 #3
+2020/09/19-21:35:56.460 a08 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

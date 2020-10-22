@@ -1,0 +1,178 @@
+file:///home/fahrul/Documents/FlutterProject/consely/lib/ui/login.dart {"mtime":1597145234736,"ctime":1595827691771,"size":6581,"etag":"35h252c9h6q9","orphaned":false}
+import 'dart:ui';
+
+import 'package:consely/controller/googlesignin.dart';
+import 'package:consely/ui/greeting.dart';
+import 'package:consely/ui/register.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:hexcolor/hexcolor.dart';
+
+class Login extends StatefulWidget {
+  @override
+  _LoginState createState() => _LoginState();
+}
+
+class _LoginState extends State<Login> {
+  TextEditingController _emailController = TextEditingController();
+  TextEditingController _passwordController = TextEditingController();
+  final _key = new GlobalKey<FormState>();
+
+  bool isLoggedIn = false;
+  bool isLoading = false;
+
+  loginGoogle() {
+    this.setState(() {
+      signInWithGoogle();
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        backgroundColor: Hexcolor('#33A2E0'),
+        body: Column(
+          children: <Widget>[
+            Container(
+              height: MediaQuery.of(context).size.height / 4,
+              child: Stack(
+                children: <Widget>[
+                  Positioned(
+                    top: -50,
+                    left: -50,
+                    child: Container(
+                      height: MediaQuery.of(context).size.height / 4,
+                      width: MediaQuery.of(context).size.height / 4,
+                      decoration: BoxDecoration(
+                        border:
+                            Border.all(color: Hexcolor('#2D95CF'), width: 25),
+                        shape: BoxShape.circle,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    child: Container(
+                      margin: EdgeInsets.only(top: 70),
+                      child: Center(
+                        child: Text(
+                          'Consely',
+                          style: TextStyle(fontSize: 36, color: Colors.white),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Expanded(
+              child: Container(
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(25),
+                      topRight: Radius.circular(25)),
+                ),
+                child: Form(
+                  key: _key,
+                  child: ListView(
+                    padding: EdgeInsets.all(32),
+                    children: <Widget>[
+                      Text(
+                        'Masuk',
+                        style: TextStyle(
+                            fontSize: 25, fontWeight: FontWeight.w500),
+                      ),
+                      SizedBox(
+                        height: 24,
+                      ),
+                      TextFormField(
+                        validator: (e) {
+                          if (e.isEmpty) {
+                            return 'Email tidak boleh kosong';
+                          }
+                          ;
+                        },
+                        controller: _emailController,
+                        decoration: InputDecoration(labelText: 'Username'),
+                      ),
+                      TextFormField(
+                        validator: (e) {
+                          if (e.isEmpty) {
+                            return 'Password tidak boleh kosong';
+                          }
+                          ;
+                        },
+                        obscureText: true,
+                        controller: _passwordController,
+                        decoration: InputDecoration(labelText: 'Kata Sandi'),
+                      ),
+                      SizedBox(
+                        height: 24,
+                      ),
+                      Material(
+                        color: Hexcolor('#33A2E0'),
+                        borderRadius: BorderRadius.circular(20),
+                        child: MaterialButton(
+                          onPressed: () => signIn(_emailController.text,
+                                  _passwordController.text)
+                              .whenComplete(() => Navigator.of(context)
+                                  .pushReplacement(MaterialPageRoute(
+                                      builder: (context) => Greeting()))),
+                          child: Text(
+                            'Masuk',
+                            style: TextStyle(color: Colors.white, fontSize: 18),
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 24,
+                      ),
+                      Text(
+                        'Coba dengan social media',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(color: Hexcolor('#676767')),
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      InkWell(
+                        onTap: () => signInWithGoogle().whenComplete(() =>
+                            Navigator.of(context).pushReplacement(
+                                MaterialPageRoute(
+                                    builder: (context) => Greeting()))),
+                        child: Image.asset(
+                          'assets/image/imgGoogle.png',
+                          height: 45,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 24,
+                      ),
+                      InkWell(
+                        onTap: () => Navigator.of(context).push(
+                            MaterialPageRoute(
+                                builder: (context) => Register())),
+                        child: Text(
+                          'Lupa Password ?',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(color: Hexcolor('#676767')),
+                        ),
+                      ),
+                      InkWell(
+                        onTap: null,
+                        child: Text(
+                          'Lupa Password ?',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(color: Hexcolor('#676767')),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            )
+          ],
+        ));
+  }
+}

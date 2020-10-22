@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/coba.java</name>
+			<type>1</type>
+			<location>//home/fahrul/Desktop/CP/coba.java</location>
+		</link>
+		<link>
+			<name>src/soal1.java</name>
+			<type>1</type>
+			<location>/home/fahrul/Desktop/CP/soal1.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

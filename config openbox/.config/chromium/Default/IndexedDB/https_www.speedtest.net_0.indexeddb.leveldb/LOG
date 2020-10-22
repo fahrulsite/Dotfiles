@@ -1,0 +1,5 @@
+2020/05/20-15:55:00.480 4153 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.speedtest.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/20-15:55:05.464 42f7 Level-0 table #5: started
+2020/05/20-15:55:05.850 42f7 Level-0 table #5: 344 bytes OK
+2020/05/20-15:55:06.811 42f7 Delete type=0 #3
+2020/05/20-15:55:06.811 42f7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

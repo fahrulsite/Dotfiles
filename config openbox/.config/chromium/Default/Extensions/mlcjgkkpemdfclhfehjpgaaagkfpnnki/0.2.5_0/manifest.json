@@ -1,0 +1,38 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "icon-128.png",
+      "default_popup": "html/popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "commands": {
+      "activate": {
+         "description": "__MSG_select_color__",
+         "suggested_key": {
+            "default": "Alt+P"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "jquery.js", "averageColor.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://*.googleapis.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "differential_fingerprint": "1.95e182958afcf9f5626254f7e73abc979408068b1c67ee2889c529e276edb37a",
+   "icons": {
+      "128": "icon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo062qUhlY3LPboxgaefyOaNCibWX39I3wZGmXcujS6iSyjyTuvuYYVQ411EeT4tWvc0NbKC9bGc7z/d6gcQXsP98g+I/LC/TvGSY0Up3tLQ73m7zo9bh8zSnEfPmxVw/qBtsAPcjicg6hVjXbFagHDmi8oBnpk2/YA+Y9aDcALiV2Ji3jmRvBH/jVNoJYbHfqFjC/rb/2Yp0EicnvNEyZTMczbHZ2iU9qBwfpV9LF2T62Mqf7CiX8L6gFVnxLhaS7sNSlXMgZYRhZ9UZ6KS5VgqnCqwNzQ++jxH1Qph4b9lR/yaNgjRD60SNRmGvKsMV1TR6lsLXcaw47MTwBJDzFwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "storage", "\u003Call_urls>", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.5",
+   "web_accessible_resources": [ "inc/jquery.scrollstop.js", "colorPicker.js", "inject/anchor-cursor-default.css", "inject/colorPicker.css", "inject/anchor-cursor-crosshair.css" ]
+}

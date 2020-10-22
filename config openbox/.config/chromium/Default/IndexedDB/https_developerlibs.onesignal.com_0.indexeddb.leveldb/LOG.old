@@ -1,0 +1,5 @@
+2020/06/17-15:54:45.329 3385 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_developerlibs.onesignal.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/17-15:54:48.317 1e47 Level-0 table #5: started
+2020/06/17-15:54:48.420 1e47 Level-0 table #5: 6188 bytes OK
+2020/06/17-15:54:48.476 1e47 Delete type=0 #3
+2020/06/17-15:54:48.477 1e47 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

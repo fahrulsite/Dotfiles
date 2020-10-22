@@ -1,0 +1,5 @@
+2020/06/05-21:20:57.200 101a Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.iflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/05-21:25:17.895 a55 Level-0 table #5: started
+2020/06/05-21:25:17.961 a55 Level-0 table #5: 540507 bytes OK
+2020/06/05-21:25:17.996 a55 Delete type=0 #3
+2020/06/05-21:25:17.997 a55 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

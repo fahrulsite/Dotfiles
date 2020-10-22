@@ -1,0 +1,17 @@
+2020/05/23-04:34:06.271 d89e Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_mui.or.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/23-04:34:14.801 d8ec Level-0 table #5: started
+2020/05/23-04:34:15.232 d8ec Level-0 table #5: 5988 bytes OK
+2020/05/23-04:34:15.627 d8ec Delete type=0 #3
+2020/05/23-04:34:15.629 d8ec Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/05/23-04:35:12.717 d8ec Level-0 table #7: started
+2020/05/23-04:35:12.771 d8ec Level-0 table #7: 212 bytes OK
+2020/05/23-04:35:12.805 d8ec Delete type=0 #4
+2020/05/23-04:35:12.805 d8ec Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/23-04:35:12.805 d8ec Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02P\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 379 : 0
+2020/05/23-04:35:12.805 d8ec Compacting 1@1 + 1@2 files
+2020/05/23-04:35:12.849 d8ec Generated table #8@1: 88 keys, 2094 bytes
+2020/05/23-04:35:12.849 d8ec Compacted 1@1 + 1@2 files => 2094 bytes
+2020/05/23-04:35:12.882 d8ec compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/23-04:35:12.883 d8ec Delete type=2 #5
+2020/05/23-04:35:12.883 d8ec Delete type=2 #7
+2020/05/23-04:35:12.883 d8ec Manual compaction at level-1 from '\x00\x00\x00\x002\x02P\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 379 : 0 .. (end); will stop at (end)

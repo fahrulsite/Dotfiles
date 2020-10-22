@@ -1,0 +1,8 @@
+2020/09/12-07:03:07.530 233b Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/12-07:03:07.530 233b Recovering log #47
+2020/09/12-07:03:07.530 233b Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/000047.log 
+2020/09/12-07:03:09.773 e40 Level-0 table #51: started
+2020/09/12-07:03:09.773 e40 Level-0 table #51: 0 bytes OK
+2020/09/12-07:03:09.875 e40 Delete type=0 #47
+2020/09/12-07:03:09.875 e40 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/12-07:03:09.875 e40 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,8 @@
+2020/09/29-10:56:27.267 1bae Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/http_localhost_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/29-10:56:27.267 1bae Recovering log #7
+2020/09/29-10:56:27.274 1bae Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/http_localhost_0.indexeddb.leveldb/000007.log 
+2020/09/29-13:10:37.466 cea Level-0 table #12: started
+2020/09/29-13:10:37.466 cea Level-0 table #12: 0 bytes OK
+2020/09/29-13:10:37.573 cea Delete type=0 #7
+2020/09/29-13:10:37.574 cea Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/29-13:10:37.574 cea Manual compaction at level-1 from (begin) .. (end); will stop at (end)

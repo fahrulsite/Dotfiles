@@ -1,0 +1,20 @@
+{
+   "color_pick_btn": {
+      "message": "Pick color from web page"
+   },
+   "description": {
+      "message": "ഡിഫൈൻ ഉപയോഗിച്ച് പേജിൽ നിന്ന് നിറം തിരഞ്ഞെടുക്കുക പേജുകളിൽ നിന്നുമുള്ള വർണ്ണ പാലറ്റ് നേടുക."
+   },
+   "dominant_color": {
+      "message": "Dominant color"
+   },
+   "name": {
+      "message": "Rainbow Color Picker"
+   },
+   "select_color": {
+      "message": "Select color"
+   },
+   "selected_color": {
+      "message": "Selected color"
+   }
+}

@@ -1,0 +1,28 @@
+2020-08-17 15:27 - root - CRITICAL -   File "/usr/lib/python3.8/site-packages/vidcutter/videocutter.py", line 1246, in addExternalClips
+    self.renderClipIndex()
+  File "/usr/lib/python3.8/site-packages/vidcutter/videocutter.py", line 1304, in renderClipIndex
+    externals = self.cliplist.renderClips(self.clipTimes)
+  File "/usr/lib/python3.8/site-packages/vidcutter/videolist.py", line 76, in renderClips
+    chapterName = clip[4] if clip[4] is not None else 'Chapter {}'.format(index + 1)
+
+2020-08-17 15:27 - root - CRITICAL - <class 'IndexError'>: list index out of range
+2020-08-17 15:27 - root - CRITICAL -   File "/usr/lib/python3.8/site-packages/vidcutter/videolist.py", line 160, in paint
+    if len(chapterName):
+
+2020-08-17 15:27 - root - CRITICAL - <class 'TypeError'>: object of type 'NoneType' has no len()
+2020-08-17 15:27 - root - CRITICAL -   File "/usr/lib/python3.8/site-packages/vidcutter/videolist.py", line 160, in paint
+    if len(chapterName):
+
+2020-08-17 15:27 - root - CRITICAL - <class 'TypeError'>: object of type 'NoneType' has no len()
+2020-08-17 15:52 - vidcutter.libs.mpvwidget - INFO - [ffmpeg] AVHWDeviceContext: Cannot load libcuda.so.1
+2020-08-17 15:52 - vidcutter.libs.mpvwidget - INFO - [ffmpeg] AVHWDeviceContext: Could not dynamically load CUDA
+2020-08-17 15:52 - vidcutter.libs.mpvwidget - INFO - [ffmpeg/video] h264_v4l2m2m: Could not find a valid device
+2020-08-17 15:52 - vidcutter.libs.mpvwidget - INFO - [ffmpeg/video] h264_v4l2m2m: can't configure decoder
+2020-08-17 15:52 - vidcutter.libs.mpvwidget - INFO - [vd] Could not open codec.
+2020-09-06 11:28 - vidcutter.videocutter - ERROR - Could not load media file
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/vidcutter/videocutter.py", line 989, in loadMedia
+    self.videoService.setMedia(self.currentMedia)
+  File "/usr/lib/python3.8/site-packages/vidcutter/libs/videoservice.py", line 98, in setMedia
+    raise InvalidMediaException('Could not load video stream for {}'.format(source))
+vidcutter.libs.config.InvalidMediaException: Could not load video stream for /home/fahrul/Downloads/WhatsApp Audio 2020-08-25 at 19.42.19.mpeg

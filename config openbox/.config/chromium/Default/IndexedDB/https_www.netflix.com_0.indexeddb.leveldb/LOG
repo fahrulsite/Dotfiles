@@ -1,0 +1,8 @@
+2020/07/08-22:29:36.261 5e9 Reusing MANIFEST /home/fahrul/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/08-22:29:36.261 5e9 Recovering log #4
+2020/07/08-22:29:36.261 5e9 Reusing old log /home/fahrul/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000004.log 
+2020/07/08-22:29:39.372 922 Level-0 table #8: started
+2020/07/08-22:29:39.372 922 Level-0 table #8: 0 bytes OK
+2020/07/08-22:29:39.741 922 Delete type=0 #4
+2020/07/08-22:29:39.741 922 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/08-22:29:39.741 922 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "App for Instagram with Direct"
+  },
+  "description": {
+    "message": "DM is fully supported. Enjoy the most beautiful Desktop client for Instagram."
+  },
+  "accept": {
+    "message": "I Agree"
+  },
+  "day": {
+    "message": "day"
+  },
+  "does_not_allowed": {
+    "message": "Not supported"
+  },
+  "empty_inbox": {
+    "message": "Your Inbox is empty"
+  },
+  "hour": {
+    "message": "hour"
+  },
+  "just_now": {
+    "message": "a moment ago"
+  },
+  "lang": {
+    "message": "en"
+  },
+  "min": {
+    "message": "min"
+  },
+  "notAuthorizedMsg": {
+    "message": "You need to Log In into Instagram™ first"
+  },
+  "today": {
+    "message": "Today"
+  },
+  "week": {
+    "message": "week"
+  },
+  "year": {
+    "message": "year"
+  },
+  "yesterday": {
+    "message": "Yesterday"
+  }
+}
